@@ -1,0 +1,47 @@
+[
+  {
+    "Test Case ID": "TC001",
+    "Title": "Verify workflow execution with custom AI agent settings",
+    "Description": "Ensure that a user can configure and execute an AI workflow using the workflow builder interface.\nThis test case covers the process of selecting an agent, adjusting AI engine and model settings, and running the workflow.",
+    "Preconditions": "User is logged in and has access to the workflow builder interface.",
+    "Test Steps": "1. Navigate to the workflow builder page.\n2. Select an agent from the Agent Library (e.g., 'Automated Image Testing and...').\n3. Confirm that the agent appears on the workflow canvas.\n4. In the workflow settings panel, set AI Engine to 'AzureOpenAI'.\n5. Set Model to 'gpt-4-1'.\n6. Set Behavior Preset to 'Custom'.\n7. Adjust Temperature to 0.1.\n8. Adjust Top P to 0.95.\n9. Set Max Iteration to 3.\n10. Set Max RPM to 0.\n11. Set Max Execution Time to 60.\n12. Ensure 'Enable Manager LLM' toggle is ON.\n13. Click the 'Run' button.",
+    "Expected Result": "The workflow executes successfully with the configured settings.\nResults are displayed or logged as per workflow design.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC002",
+    "Title": "Verify agent search functionality in Agent Library",
+    "Description": "Ensure that users can search for agents in the Agent Library using keywords.\nThis test case validates the search bar and the filtering of agent cards.",
+    "Preconditions": "User is logged in and on the workflow builder interface.",
+    "Test Steps": "1. Locate the Agent Library search bar in the left sidebar.\n2. Enter a keyword (e.g., 'image', 'qa', 'generation').\n3. Observe the agent cards displayed below the search bar.",
+    "Expected Result": "Agent cards matching the search keyword are displayed.\nNon-matching agents are hidden.",
+    "Priority": "Medium"
+  },
+  {
+    "Test Case ID": "TC003",
+    "Title": "Verify navigation between main sections using sidebar icons",
+    "Description": "Ensure that users can navigate between different sections (Home, Build, Execute, Approve, Manage, Analytics, Account) using the sidebar icons.",
+    "Preconditions": "User is logged in and on the workflow builder interface.",
+    "Test Steps": "1. Click each navigation icon in the left sidebar sequentially.\n2. Observe the content area updates according to the selected section.",
+    "Expected Result": "Each sidebar icon navigates to the corresponding section.\nContent area updates to reflect the selected section.",
+    "Priority": "Medium"
+  },
+  {
+    "Test Case ID": "TC004",
+    "Title": "Verify toggle functionality for 'Enable Manager LLM'",
+    "Description": "Ensure that the 'Enable Manager LLM' toggle in the workflow settings panel can be switched ON and OFF, and that the workflow settings update accordingly.",
+    "Preconditions": "User is logged in and has a workflow open in the builder.",
+    "Test Steps": "1. Locate the 'Enable Manager LLM' toggle in the workflow settings panel.\n2. Switch the toggle OFF.\n3. Observe any changes in the settings panel.\n4. Switch the toggle ON again.",
+    "Expected Result": "The toggle can be switched ON and OFF.\nSettings panel updates as appropriate for each state.",
+    "Priority": "Low"
+  },
+  {
+    "Test Case ID": "TC005",
+    "Title": "Verify display of legal and version information in footer",
+    "Description": "Ensure that the footer displays user initials, copyright, version, and links to legal documents.",
+    "Preconditions": "User is logged in and on any page of the workflow builder.",
+    "Test Steps": "1. Scroll to the bottom of the page.\n2. Verify the display of user initials (e.g., KM).\n3. Verify the version number (e.g., V-2025.10.0).\n4. Verify the presence of links: AI Notice, Terms and Conditions, Privacy Policy, Cookie Policy.",
+    "Expected Result": "Footer displays all required information and links.\nLinks are clickable and direct to the correct documents.",
+    "Priority": "Low"
+  }
+]
