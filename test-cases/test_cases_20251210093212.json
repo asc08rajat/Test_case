@@ -1,0 +1,47 @@
+[
+  {
+    "Test Case ID": "TC001",
+    "Title": "Verify file upload functionality in workflow builder",
+    "Description": "Ensure that users can successfully upload supported file types (.zip, .ppt, .pptx, .csv, .doc, .docx, .xlsx, .txt, .pdf) in the workflow input panel.\nThis test case covers the file upload process and validation for allowed formats.",
+    "Preconditions": "User is logged into the platform and is on the workflow builder page.",
+    "Test Steps": "1. Navigate to the workflow builder page.\n2. Click on the file upload area in the Workflow Inputs panel.\n3. Select a supported file type (e.g., .pdf) from the local system.\n4. Confirm the upload.",
+    "Expected Result": "The selected file is uploaded successfully and appears in the input panel.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC002",
+    "Title": "Validate input field for layman language entry",
+    "Description": "Ensure that users can enter text into the 'Input for input in Layman Language to Test Case Generation and Validation Agent' field and that the input is accepted for workflow execution.",
+    "Preconditions": "User is logged into the platform and is on the workflow builder page.",
+    "Test Steps": "1. Navigate to the workflow builder page.\n2. Locate the input field labeled for layman language entry.\n3. Enter a sample text (e.g., 'input1') into the field.",
+    "Expected Result": "The entered text is displayed in the input field and is ready for execution.",
+    "Priority": "Medium"
+  },
+  {
+    "Test Case ID": "TC003",
+    "Title": "Verify workflow execution with valid input",
+    "Description": "Ensure that clicking the 'Execute' button initiates the workflow process using the provided input and uploaded files.\nThis test case covers the execution flow and checks for successful processing.",
+    "Preconditions": "User is logged in, a valid file is uploaded, and input text is provided.",
+    "Test Steps": "1. Upload a valid file in the Workflow Inputs panel.\n2. Enter valid text in the input field.\n3. Click the 'Execute' button.",
+    "Expected Result": "The workflow is executed successfully, and the output is generated or displayed as per the workflow logic.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC004",
+    "Title": "Validate workflow diagram node connection",
+    "Description": "Ensure that the workflow diagram correctly displays connected nodes representing the workflow steps (e.g., 'trip' to 'Layman Language to Test Case Generation and Validation Agent').",
+    "Preconditions": "User is logged in and has created a workflow with at least two steps.",
+    "Test Steps": "1. Create a workflow with two steps: 'trip' and 'Layman Language to Test Case Generation and Validation Agent'.\n2. Connect the nodes in the workflow canvas.",
+    "Expected Result": "The nodes are visually connected by a dotted line, indicating the workflow sequence.",
+    "Priority": "Medium"
+  },
+  {
+    "Test Case ID": "TC005",
+    "Title": "Verify navigation through sidebar options",
+    "Description": "Ensure that users can navigate to different sections (Home, Build, Execute, Approve, Manage, Analytics, Account) using the sidebar.",
+    "Preconditions": "User is logged into the platform.",
+    "Test Steps": "1. Click each sidebar option sequentially.\n2. Observe the page content and navigation breadcrumbs.",
+    "Expected Result": "The platform navigates to the selected section, and the breadcrumbs update accordingly.",
+    "Priority": "Low"
+  }
+]
