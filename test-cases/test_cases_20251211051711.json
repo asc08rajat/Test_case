@@ -1,0 +1,56 @@
+[
+  {
+    "Test Case ID": "TC001",
+    "Title": "Verify navigation through main sidebar options",
+    "Description": "Ensure that each navigation option in the left sidebar (Home, Build, Execute, Approve, Manage, Analytics, Account) redirects the user to the correct section of the platform.\nThis test case covers the accessibility and correctness of sidebar navigation.",
+    "Preconditions": "User is logged into the AI workflow builder platform and is on the main dashboard.",
+    "Test Steps": "1. Observe the left sidebar.\n2. Click on each navigation option (Home, Build, Execute, Approve, Manage, Analytics, Account) one by one.\n3. Verify that the corresponding section loads for each option.",
+    "Expected Result": "Each sidebar option redirects to its respective section without errors.\nThe content for each section is displayed correctly.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC002",
+    "Title": "Verify agent search functionality in Agent Library",
+    "Description": "Ensure that the search bar in the Agent Library filters agents based on the entered keyword.\nThis test case validates the search and filter feature for available agents.",
+    "Preconditions": "User is on the Build section with the Agent Library visible.",
+    "Test Steps": "1. Locate the search bar in the Agent Library.\n2. Enter a keyword (e.g., 'test', 'qa', 'image').\n3. Observe the list of agents displayed.",
+    "Expected Result": "The Agent Library displays only agents matching the entered keyword.\nNon-matching agents are hidden from the list.",
+    "Priority": "Medium"
+  },
+  {
+    "Test Case ID": "TC003",
+    "Title": "Verify workflow configuration settings",
+    "Description": "Ensure that users can configure workflow settings such as AI Engine, Model, Behavior Preset, Temperature, Top P, Max Iteration, Max RPM, and Max Execution Time.\nThis test case checks the ability to modify and save workflow settings.",
+    "Preconditions": "User is in the workflow builder with a workflow selected.",
+    "Test Steps": "1. Locate the workflow settings panel in the center of the screen.\n2. Change each setting (e.g., select a different AI Engine, adjust Temperature slider, etc.).\n3. Save or apply the changes.",
+    "Expected Result": "All changes to workflow settings are saved and reflected in the configuration.\nNo errors occur during the update.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC004",
+    "Title": "Verify enabling and disabling Manager LLM toggle",
+    "Description": "Ensure that the 'Enable Manager LLM' toggle switch can be turned ON and OFF, and the workflow responds accordingly.",
+    "Preconditions": "User is in the workflow builder with the workflow settings panel visible.",
+    "Test Steps": "1. Locate the 'Enable Manager LLM' toggle switch.\n2. Toggle the switch OFF and observe the UI response.\n3. Toggle the switch ON and observe the UI response.",
+    "Expected Result": "The toggle switch changes state as expected.\nThe workflow settings or available options update based on the toggle state.",
+    "Priority": "Medium"
+  },
+  {
+    "Test Case ID": "TC005",
+    "Title": "Verify workflow execution using Run button",
+    "Description": "Ensure that clicking the 'Run' button executes the configured workflow and displays the results or status.",
+    "Preconditions": "A valid workflow is configured with all required settings.",
+    "Test Steps": "1. Configure a workflow with valid settings.\n2. Click the 'Run' button at the top right of the screen.\n3. Observe the execution status and results.",
+    "Expected Result": "The workflow executes successfully.\nResults or execution status are displayed to the user.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC006",
+    "Title": "Verify user profile access",
+    "Description": "Ensure that clicking the user icon (labeled 'KM') opens the user profile or account settings.",
+    "Preconditions": "User is logged in and the user icon is visible.",
+    "Test Steps": "1. Locate the user icon at the bottom left of the sidebar.\n2. Click the user icon.",
+    "Expected Result": "The user profile or account settings page is displayed.",
+    "Priority": "Low"
+  }
+]
