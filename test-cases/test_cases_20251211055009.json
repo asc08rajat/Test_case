@@ -1,0 +1,65 @@
+[
+  {
+    "Test Case ID": "TC001",
+    "Title": "Verify navigation through sidebar menu options",
+    "Description": "Ensure that users can navigate to different sections (Home, Build, Execute, Approve, Manage, Analytics) using the left sidebar menu.\nThis test case covers the visibility and functionality of the sidebar navigation.",
+    "Preconditions": "User is logged into the workflow builder application.",
+    "Test Steps": "1. Observe the left sidebar menu.\n2. Click each menu option (Home, Build, Execute, Approve, Manage, Analytics) one by one.",
+    "Expected Result": "The main canvas updates to display the corresponding section for each menu option selected.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC002",
+    "Title": "Verify agent search functionality in Agent Library",
+    "Description": "Ensure that users can search for agents in the Agent Library using the search bar.\nThis test case covers the filtering of agents based on search input.",
+    "Preconditions": "User is on the workflow builder page with the Agent Library visible.",
+    "Test Steps": "1. Locate the search bar in the Agent Library.\n2. Enter a keyword (e.g., 'image', 'test', 'qa').\n3. Observe the list of agents displayed.",
+    "Expected Result": "The Agent Library displays only agents matching the search keyword.",
+    "Priority": "Medium"
+  },
+  {
+    "Test Case ID": "TC003",
+    "Title": "Verify adding an agent to the workflow canvas",
+    "Description": "Ensure that users can add an agent from the Agent Library to the workflow canvas.\nThis test case covers the drag-and-drop or click-to-add functionality.",
+    "Preconditions": "User is on the workflow builder page with the Agent Library and canvas visible.",
+    "Test Steps": "1. Select an agent from the Agent Library.\n2. Drag and drop the agent onto the workflow canvas (or click to add, if supported).",
+    "Expected Result": "The selected agent appears as a node on the workflow canvas.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC004",
+    "Title": "Verify connecting agents on the workflow canvas",
+    "Description": "Ensure that users can connect two agent nodes on the workflow canvas to define a workflow sequence.\nThis test case covers the creation of connections between agents.",
+    "Preconditions": "At least two agent nodes are present on the workflow canvas.",
+    "Test Steps": "1. Click on the output connector of the first agent node.\n2. Drag the connector to the input of the second agent node.\n3. Release to create the connection.",
+    "Expected Result": "A connection (dashed line) is established between the two agent nodes, indicating workflow sequence.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC005",
+    "Title": "Verify enabling and disabling 'Manager LLM' toggle",
+    "Description": "Ensure that users can enable or disable the 'Manager LLM' toggle in the workflow controls.\nThis test case covers the toggle's state change and its effect on the workflow.",
+    "Preconditions": "User is on the workflow builder page with workflow controls visible.",
+    "Test Steps": "1. Locate the 'Enable Manager LLM' toggle in the workflow controls.\n2. Click the toggle to enable it.\n3. Click the toggle again to disable it.",
+    "Expected Result": "The toggle switches between enabled and disabled states, reflecting the user's selection.",
+    "Priority": "Medium"
+  },
+  {
+    "Test Case ID": "TC006",
+    "Title": "Verify 'Run' button activation and workflow execution",
+    "Description": "Ensure that the 'Run' button becomes active when a valid workflow is configured and initiates workflow execution when clicked.\nThis test case covers the activation and execution of workflows.",
+    "Preconditions": "A valid workflow with connected agent nodes is present on the canvas.",
+    "Test Steps": "1. Observe the state of the 'Run' button.\n2. If inactive, configure a valid workflow by connecting agent nodes.\n3. Click the 'Run' button.",
+    "Expected Result": "The 'Run' button becomes active when the workflow is valid and initiates workflow execution upon clicking.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC007",
+    "Title": "Verify zoom in and zoom out functionality on workflow canvas",
+    "Description": "Ensure that users can zoom in and out of the workflow canvas using the zoom controls.\nThis test case covers the visibility and usability of the zoom feature.",
+    "Preconditions": "User is on the workflow builder page with the workflow canvas visible.",
+    "Test Steps": "1. Locate the zoom in (+) and zoom out (-) buttons on the canvas.\n2. Click the zoom in button and observe the canvas.\n3. Click the zoom out button and observe the canvas.",
+    "Expected Result": "The workflow canvas zooms in and out appropriately, adjusting the view of agent nodes and connections.",
+    "Priority": "Low"
+  }
+]
