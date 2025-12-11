@@ -1,0 +1,56 @@
+[
+  {
+    "Test Case ID": "TC001",
+    "Title": "Verify navigation between main sections in sidebar",
+    "Description": "Ensure that users can navigate between Home, Build, Execute, Approve, Manage, Analytics, and Account sections using the left sidebar.\nThis test case covers the basic navigation functionality and UI state changes.",
+    "Preconditions": "User is logged into the platform and on the main dashboard.",
+    "Test Steps": "1. Observe the left sidebar with navigation options.\n2. Click each navigation option (Home, Build, Execute, Approve, Manage, Analytics, Account) one by one.\n3. Observe the main content area for each selection.",
+    "Expected Result": "The main content area updates to reflect the selected section.\nThe selected navigation option is visually highlighted.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC002",
+    "Title": "Verify agent search functionality in Agent Library",
+    "Description": "Ensure that users can search for agents in the Agent Library using the search bar.\nThis test case covers the search and filter functionality for agent discovery.",
+    "Preconditions": "User is in the 'Build' section with the Agent Library visible.",
+    "Test Steps": "1. Locate the search bar in the Agent Library.\n2. Enter a keyword (e.g., 'test', 'qa', 'image').\n3. Observe the list of agents displayed.",
+    "Expected Result": "The Agent Library filters and displays only agents matching the search keyword.",
+    "Priority": "Medium"
+  },
+  {
+    "Test Case ID": "TC003",
+    "Title": "Verify drag-and-drop of agent to workflow canvas",
+    "Description": "Ensure that users can drag an agent from the Agent Library and drop it onto the workflow builder canvas.\nThis test case covers the workflow creation interaction.",
+    "Preconditions": "User is in the 'Build' section with the Agent Library and workflow canvas visible.",
+    "Test Steps": "1. Select an agent from the Agent Library.\n2. Drag the agent onto the main workflow canvas.\n3. Drop the agent onto the canvas.",
+    "Expected Result": "The agent appears as a node on the workflow canvas, ready for configuration.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC004",
+    "Title": "Verify AI Engine settings configuration",
+    "Description": "Ensure that users can configure AI Engine settings such as engine type, model, behavior preset, temperature, Top P, max iteration, max RPM, and max execution time.\nThis test case covers the settings panel interaction and value changes.",
+    "Preconditions": "User is in the 'Build' section with the AI Engine settings panel open.",
+    "Test Steps": "1. Open the AI Engine settings panel.\n2. Change each setting (e.g., select a different model, adjust temperature slider, set max iteration).\n3. Save or apply the settings.",
+    "Expected Result": "The new settings are saved and reflected in the configuration panel.\nThe workflow uses the updated AI Engine settings on execution.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC005",
+    "Title": "Verify workflow execution using Run button",
+    "Description": "Ensure that users can execute the configured workflow by clicking the 'Run' button.\nThis test case covers the workflow execution trigger.",
+    "Preconditions": "A valid workflow is configured on the canvas.",
+    "Test Steps": "1. Review the workflow on the canvas.\n2. Click the blue 'Run' button at the top right.",
+    "Expected Result": "The workflow executes successfully, and the user receives feedback or results of the execution.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC006",
+    "Title": "Verify display of legal and informational links in footer",
+    "Description": "Ensure that the footer displays links to AI Notice, Terms and Conditions, Privacy Policy, and Cookie Policy, and that each link opens the correct document.",
+    "Preconditions": "User is logged in and viewing any main section.",
+    "Test Steps": "1. Scroll to the bottom of the page to view the footer.\n2. Click each link (AI Notice, Terms and Conditions, Privacy Policy, Cookie Policy).",
+    "Expected Result": "Each link opens the corresponding document in a new tab or modal.",
+    "Priority": "Low"
+  }
+]
