@@ -1,0 +1,29 @@
+[
+  {
+    "Test Case ID": "TC_JENKINS_001",
+    "Title": "Verify Jenkins job saves a Windows batch command build step",
+    "Description": "Ensure that a user can add a 'Execute Windows batch command' build step with the command 'mvn test' and successfully save the Jenkins job configuration.\nThis test case covers the addition and persistence of build steps in Jenkins job configuration.",
+    "Preconditions": "User is logged into Jenkins and has access to configure the 'Upload_Test' job.",
+    "Test Steps": "1. Navigate to the Jenkins dashboard.\n2. Select the 'Upload_Test' job.\n3. Click on 'Configure' in the left sidebar.\n4. Scroll to the 'Build Steps' section.\n5. Click 'Add build step' and select 'Execute Windows batch command'.\n6. Enter 'mvn test' in the command field.\n7. Click the 'Save' button at the bottom of the page.",
+    "Expected Result": "The Jenkins job configuration is saved successfully.\nThe 'Build Steps' section displays the 'Execute Windows batch command' with 'mvn test' as the command.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC_JENKINS_002",
+    "Title": "Verify addition of multiple build steps in Jenkins job configuration",
+    "Description": "Ensure that a user can add multiple build steps in the Jenkins job configuration and that all steps are saved and displayed correctly.",
+    "Preconditions": "User is logged into Jenkins and has access to configure the 'Upload_Test' job.",
+    "Test Steps": "1. Navigate to the Jenkins dashboard.\n2. Select the 'Upload_Test' job.\n3. Click on 'Configure' in the left sidebar.\n4. Scroll to the 'Build Steps' section.\n5. Click 'Add build step' and select 'Execute Windows batch command'.\n6. Enter 'mvn test' in the command field.\n7. Click 'Add build step' again and select another build step (e.g., 'Execute shell').\n8. Enter any valid command in the new step.\n9. Click the 'Save' button.",
+    "Expected Result": "All added build steps are saved and displayed in the 'Build Steps' section of the job configuration.",
+    "Priority": "Medium"
+  },
+  {
+    "Test Case ID": "TC_JENKINS_003",
+    "Title": "Verify that 'Apply' button saves changes without leaving configuration page",
+    "Description": "Ensure that clicking the 'Apply' button saves the current configuration changes without navigating away from the configuration page.",
+    "Preconditions": "User is logged into Jenkins and has access to configure the 'Upload_Test' job.",
+    "Test Steps": "1. Navigate to the Jenkins dashboard.\n2. Select the 'Upload_Test' job.\n3. Click on 'Configure' in the left sidebar.\n4. Make any change (e.g., add a build step or modify an existing one).\n5. Click the 'Apply' button at the bottom of the page.",
+    "Expected Result": "Changes are saved successfully.\nThe user remains on the configuration page and a confirmation message is displayed.",
+    "Priority": "Medium"
+  }
+]
