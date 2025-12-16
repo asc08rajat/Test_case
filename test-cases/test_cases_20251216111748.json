@@ -1,0 +1,47 @@
+[
+  {
+    "Test Case ID": "TC001",
+    "Title": "Verify Sprint Burndown Gadget Configuration",
+    "Description": "Ensure that the Sprint Burndown Gadget can be configured by selecting a board, sprint, and refresh interval, and that changes are saved successfully.\nThis test case covers the configuration flow for the gadget.",
+    "Preconditions": "User is logged into Jira and has access to the dashboard.",
+    "Test Steps": "1. Navigate to the dashboard.\n2. Locate the Sprint Burndown Gadget setup panel.\n3. Select a board from the dropdown (e.g., 'TPA board').\n4. (Optional) Check or uncheck the option to show the board name.\n5. Select a sprint from the dropdown (e.g., 'Next Sprint Due (auto)').\n6. (Optional) Check or uncheck the option to show the sprint name.\n7. Set the refresh interval (e.g., 'Every 15 Minutes').\n8. Click the 'Save' button.",
+    "Expected Result": "The gadget is updated with the selected configuration and displays the correct burndown chart for the chosen board and sprint.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC002",
+    "Title": "Verify 'Assigned to Me' Issues Display",
+    "Description": "Ensure that the 'Assigned to Me' panel displays all issues currently assigned to the logged-in user, including issue key, summary, and type.",
+    "Preconditions": "User is logged into Jira and has at least one issue assigned.",
+    "Test Steps": "1. Navigate to the dashboard.\n2. Locate the 'Assigned to Me' panel.\n3. Observe the list of issues displayed.",
+    "Expected Result": "All issues assigned to the user are listed with correct issue key, summary, and type.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC003",
+    "Title": "Verify Activity Streams Display",
+    "Description": "Ensure that the Activity Streams panel displays recent activities in the Jira instance, or shows an appropriate message if no activity is found.",
+    "Preconditions": "User is logged into Jira.",
+    "Test Steps": "1. Navigate to the dashboard.\n2. Locate the Activity Streams panel.",
+    "Expected Result": "Recent activities are displayed if available; otherwise, a message such as 'No activity was found' is shown.",
+    "Priority": "Medium"
+  },
+  {
+    "Test Case ID": "TC004",
+    "Title": "Verify Gadget Search and Addition",
+    "Description": "Ensure that users can search for gadgets using the search bar and add the desired gadget to the dashboard.",
+    "Preconditions": "User is logged into Jira and on the dashboard page.",
+    "Test Steps": "1. Locate the 'Add a Gadget' panel.\n2. Enter a search term (e.g., 'Burn') in the search bar.\n3. Observe the list of matching gadgets.\n4. Click the 'Add' button next to the 'Sprint Burndown Gadget'.",
+    "Expected Result": "The 'Sprint Burndown Gadget' is added to the dashboard and available for configuration.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC005",
+    "Title": "Verify Introduction Panel Visibility",
+    "Description": "Ensure that the Introduction panel is visible on the dashboard and displays introductory information if available.",
+    "Preconditions": "User is logged into Jira.",
+    "Test Steps": "1. Navigate to the dashboard.\n2. Locate the Introduction panel.",
+    "Expected Result": "The Introduction panel is visible and displays relevant information or is empty if no content is set.",
+    "Priority": "Low"
+  }
+]
