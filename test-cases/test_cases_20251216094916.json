@@ -1,0 +1,38 @@
+[
+  {
+    "Test Case ID": "TC_JENKINS_001",
+    "Title": "Verify saving a Windows batch command build step in Jenkins job configuration",
+    "Description": "Ensure that a user can add a 'Execute Windows batch command' build step with the command 'mvn test' and successfully save the Jenkins job configuration.\nThis test case covers the addition and persistence of build steps in the Jenkins job configuration UI.",
+    "Preconditions": "User must be logged into Jenkins with permissions to configure jobs.\nThe 'Upload_Test' job must exist.",
+    "Test Steps": "1. Navigate to the Jenkins dashboard.\n2. Select the 'Upload_Test' job.\n3. Click 'Configure' to open the job configuration screen.\n4. In the left sidebar, select 'Build Steps'.\n5. Click 'Add build step' and choose 'Execute Windows batch command'.\n6. Enter 'mvn test' in the command input field.\n7. Click the 'Save' button at the bottom of the page.",
+    "Expected Result": "The build step 'Execute Windows batch command' with the command 'mvn test' is added and persists in the job configuration.\nNo errors are displayed, and the user is redirected to the job summary page.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC_JENKINS_002",
+    "Title": "Verify applying changes without saving in Jenkins job configuration",
+    "Description": "Ensure that clicking the 'Apply' button saves the current configuration changes without leaving the configuration screen.\nThis test case covers the partial save functionality for Jenkins job configuration.",
+    "Preconditions": "User must be logged into Jenkins with permissions to configure jobs.\nThe 'Upload_Test' job must exist.",
+    "Test Steps": "1. Navigate to the Jenkins dashboard.\n2. Select the 'Upload_Test' job.\n3. Click 'Configure' to open the job configuration screen.\n4. Make any change (e.g., add or modify a build step).\n5. Click the 'Apply' button at the bottom of the page.",
+    "Expected Result": "The changes are saved, a confirmation message is displayed, and the user remains on the configuration screen.",
+    "Priority": "Medium"
+  },
+  {
+    "Test Case ID": "TC_JENKINS_003",
+    "Title": "Verify adding multiple build steps in Jenkins job configuration",
+    "Description": "Ensure that a user can add multiple build steps (e.g., multiple 'Execute Windows batch command' steps) and that all are saved correctly in the Jenkins job configuration.",
+    "Preconditions": "User must be logged into Jenkins with permissions to configure jobs.\nThe 'Upload_Test' job must exist.",
+    "Test Steps": "1. Navigate to the Jenkins dashboard.\n2. Select the 'Upload_Test' job.\n3. Click 'Configure' to open the job configuration screen.\n4. In the 'Build Steps' section, click 'Add build step' and choose 'Execute Windows batch command'.\n5. Enter 'mvn test' in the first command input field.\n6. Click 'Add build step' again and add another command (e.g., 'echo Build Complete').\n7. Click the 'Save' button.",
+    "Expected Result": "Both build steps are saved and displayed in the job configuration.\nNo errors are displayed.",
+    "Priority": "Medium"
+  },
+  {
+    "Test Case ID": "TC_JENKINS_004",
+    "Title": "Verify error handling for empty command in Windows batch build step",
+    "Description": "Ensure that leaving the command field empty in the 'Execute Windows batch command' build step triggers an appropriate error message and prevents saving.",
+    "Preconditions": "User must be logged into Jenkins with permissions to configure jobs.\nThe 'Upload_Test' job must exist.",
+    "Test Steps": "1. Navigate to the Jenkins dashboard.\n2. Select the 'Upload_Test' job.\n3. Click 'Configure' to open the job configuration screen.\n4. In the 'Build Steps' section, click 'Add build step' and choose 'Execute Windows batch command'.\n5. Leave the command input field empty.\n6. Click the 'Save' button.",
+    "Expected Result": "An error message is displayed indicating that the command field cannot be empty.\nThe configuration is not saved.",
+    "Priority": "High"
+  }
+]
