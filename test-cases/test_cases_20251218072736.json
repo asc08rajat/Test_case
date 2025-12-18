@@ -1,0 +1,47 @@
+[
+  {
+    "Test Case ID": "TC001",
+    "Title": "Verify prompt listing and table display",
+    "Description": "Ensure that the Prompts page displays a table listing all available prompts with correct columns: Domain, Category, Prompt Type, Template Name, and Action.\nVerify that each row contains valid data and the Action icon is visible.",
+    "Preconditions": "User is logged into the Ascendion AAVA application and has access to the Prompts section.",
+    "Test Steps": "1. Navigate to the Prompts section from the sidebar.\n2. Observe the table displayed in the main area.\n3. Verify that the columns Domain, Category, Prompt Type, Template Name, and Action are present.\n4. Check that each row contains valid data for each column.\n5. Confirm that the Action icon (eye) is visible for each row.",
+    "Expected Result": "The table displays all prompts with correct columns and valid data.\nThe Action icon is visible for each prompt row.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC002",
+    "Title": "Verify Add New Prompt button functionality",
+    "Description": "Ensure that clicking the '+ Add New' button on the Prompts page initiates the process to add a new prompt.\nVerify that the appropriate form or modal appears for prompt creation.",
+    "Preconditions": "User is logged into the Ascendion AAVA application and is on the Prompts page.",
+    "Test Steps": "1. Navigate to the Prompts section from the sidebar.\n2. Click the '+ Add New' button at the top of the page.",
+    "Expected Result": "A form or modal appears allowing the user to enter details for a new prompt.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC003",
+    "Title": "Verify filtering prompts by Domain and Category",
+    "Description": "Ensure that the Domain and Category dropdown filters work correctly.\nVerify that selecting a value from either filter updates the table to show only matching prompts.",
+    "Preconditions": "User is logged into the Ascendion AAVA application and is on the Prompts page.",
+    "Test Steps": "1. Navigate to the Prompts section from the sidebar.\n2. Select a value from the Domain dropdown filter.\n3. Observe the table updates to show prompts matching the selected domain.\n4. Select a value from the Category dropdown filter.\n5. Observe the table updates to show prompts matching the selected category.",
+    "Expected Result": "The table updates to display only prompts that match the selected Domain and/or Category.",
+    "Priority": "Medium"
+  },
+  {
+    "Test Case ID": "TC004",
+    "Title": "Verify prompt details view via Action icon",
+    "Description": "Ensure that clicking the Action (eye) icon for a prompt row opens the details view for that prompt.\nVerify that the details displayed match the selected prompt.",
+    "Preconditions": "User is logged into the Ascendion AAVA application and is on the Prompts page.",
+    "Test Steps": "1. Navigate to the Prompts section from the sidebar.\n2. In the table, locate a prompt row and click the Action (eye) icon.",
+    "Expected Result": "A details view or modal appears showing information for the selected prompt.",
+    "Priority": "Medium"
+  },
+  {
+    "Test Case ID": "TC005",
+    "Title": "Verify sidebar navigation to Prompts section",
+    "Description": "Ensure that clicking the 'Prompts' option in the sidebar navigates the user to the Prompts page.\nVerify that the Prompts page loads correctly.",
+    "Preconditions": "User is logged into the Ascendion AAVA application.",
+    "Test Steps": "1. Click the 'Prompts' option in the sidebar navigation.",
+    "Expected Result": "The Prompts page loads and displays the prompt management interface.",
+    "Priority": "Low"
+  }
+]
