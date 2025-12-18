@@ -1,0 +1,47 @@
+[
+  {
+    "Test Case ID": "TC001",
+    "Title": "Verify adding a Sprint Burndown Gadget to the dashboard",
+    "Description": "Ensure that the user can search for and add the 'Sprint Burndown Gadget' to the Jira dashboard using the Add Gadget panel.\nThis test case covers the search and add functionality for dashboard gadgets.",
+    "Preconditions": "User must be logged into Jira and have access to the dashboard customization screen.",
+    "Test Steps": "1. Navigate to the dashboard customization screen.\n2. Enter 'Burn' in the gadget search bar.\n3. Locate the 'Sprint Burndown Gadget' in the search results.\n4. Click the 'Add' button next to the gadget.",
+    "Expected Result": "The 'Sprint Burndown Gadget' is successfully added to the dashboard and appears among the configured gadgets.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC002",
+    "Title": "Verify configuration of Sprint Burndown Gadget",
+    "Description": "Ensure that the user can configure the Sprint Burndown Gadget by selecting a board, sprint, refresh interval, and toggling display options.\nThis test case covers the configuration panel and saving changes.",
+    "Preconditions": "Sprint Burndown Gadget must be added to the dashboard.",
+    "Test Steps": "1. Open the configuration panel for the Sprint Burndown Gadget.\n2. Select 'TPA board' from the Board dropdown.\n3. Select 'Next Sprint Due (auto)' from the Sprint dropdown.\n4. Set the Refresh Interval to 'Every 15 Minutes'.\n5. Ensure 'Show board name' and 'Show sprint name' options are unchecked.\n6. Click the 'Save' button.",
+    "Expected Result": "The gadget is updated with the selected configuration and a confirmation message appears indicating the update.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC003",
+    "Title": "Verify Assigned to Me Gadget displays assigned issues",
+    "Description": "Ensure that the 'Assigned to Me' gadget correctly displays issues assigned to the logged-in user.\nThis test case covers the visibility and accuracy of assigned issues.",
+    "Preconditions": "User must have at least one issue assigned in Jira.",
+    "Test Steps": "1. Navigate to the dashboard containing the 'Assigned to Me' gadget.\n2. Observe the list of issues displayed.",
+    "Expected Result": "All issues assigned to the user are listed in the gadget, including issue keys and summaries.",
+    "Priority": "Medium"
+  },
+  {
+    "Test Case ID": "TC004",
+    "Title": "Verify Activity Streams Gadget displays recent activity",
+    "Description": "Ensure that the 'Activity Streams' gadget displays recent activity from the Jira instance.\nThis test case covers the visibility of activity logs.",
+    "Preconditions": "There must be recent activity in the Jira instance.",
+    "Test Steps": "1. Navigate to the dashboard containing the 'Activity Streams' gadget.\n2. Observe the activity feed displayed.",
+    "Expected Result": "Recent activity is listed in the gadget. If no activity is found, a message stating 'No activity was found' is displayed.",
+    "Priority": "Medium"
+  },
+  {
+    "Test Case ID": "TC005",
+    "Title": "Verify dashboard gadget configuration is saved and updated",
+    "Description": "Ensure that changes made to gadget configurations are saved and reflected on the dashboard.\nThis test case covers the save functionality and update confirmation.",
+    "Preconditions": "At least one gadget must be present on the dashboard.",
+    "Test Steps": "1. Make changes to the configuration of any gadget (e.g., Sprint Burndown Gadget).\n2. Click the 'Save' button.\n3. Observe the update confirmation message.",
+    "Expected Result": "Configuration changes are saved and a message indicates the gadget was updated (e.g., 'Updated 30 seconds ago').",
+    "Priority": "High"
+  }
+]
