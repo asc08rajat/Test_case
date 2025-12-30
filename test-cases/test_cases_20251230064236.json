@@ -1,0 +1,56 @@
+[
+  {
+    "Test Case ID": "TC001",
+    "Title": "Verify Sprint Burndown Gadget Board Selection",
+    "Description": "Ensure that the user can select a board from the dropdown in the Sprint Burndown Gadget and the gadget updates accordingly.\nThis test case covers the board selection functionality and its impact on the displayed data.",
+    "Preconditions": "User is logged into Jira and has access to the dashboard with the Sprint Burndown Gadget.",
+    "Test Steps": "1. Navigate to the dashboard containing the Sprint Burndown Gadget.\n2. Click on the board dropdown in the gadget.\n3. Select a different board from the list.\n4. Click the 'Save' button.",
+    "Expected Result": "The Sprint Burndown Gadget updates to display data for the selected board.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC002",
+    "Title": "Verify Sprint Selection in Sprint Burndown Gadget",
+    "Description": "Ensure that the user can select a sprint from the dropdown in the Sprint Burndown Gadget and the gadget updates accordingly.\nThis test case validates the sprint selection and data refresh.",
+    "Preconditions": "User is logged into Jira and has access to the dashboard with the Sprint Burndown Gadget.",
+    "Test Steps": "1. Navigate to the dashboard containing the Sprint Burndown Gadget.\n2. Click on the sprint dropdown in the gadget.\n3. Select a different sprint from the list.\n4. Click the 'Save' button.",
+    "Expected Result": "The Sprint Burndown Gadget updates to display data for the selected sprint.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC003",
+    "Title": "Verify Refresh Interval Setting in Sprint Burndown Gadget",
+    "Description": "Ensure that the user can set the refresh interval for the Sprint Burndown Gadget and the gadget refreshes data at the selected interval.",
+    "Preconditions": "User is logged into Jira and has access to the dashboard with the Sprint Burndown Gadget.",
+    "Test Steps": "1. Navigate to the dashboard containing the Sprint Burndown Gadget.\n2. Click on the refresh interval dropdown.\n3. Select a different interval (e.g., Every 5 Minutes).\n4. Click the 'Save' button.\n5. Wait for the selected interval to pass.",
+    "Expected Result": "The Sprint Burndown Gadget refreshes its data at the newly selected interval.",
+    "Priority": "Medium"
+  },
+  {
+    "Test Case ID": "TC004",
+    "Title": "Verify Issue Assignment Display in 'Assigned to Me' Panel",
+    "Description": "Ensure that issues assigned to the logged-in user are displayed correctly in the 'Assigned to Me' panel.",
+    "Preconditions": "User is logged into Jira and has at least one issue assigned.",
+    "Test Steps": "1. Navigate to the dashboard.\n2. Locate the 'Assigned to Me' panel.\n3. Verify that the panel lists all issues assigned to the user.",
+    "Expected Result": "All issues assigned to the user are displayed in the 'Assigned to Me' panel with correct details.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC005",
+    "Title": "Verify Activity Streams Panel Displays Recent Activity",
+    "Description": "Ensure that the Activity Streams panel displays recent activity in Jira when available.",
+    "Preconditions": "User is logged into Jira and there is recent activity in the system.",
+    "Test Steps": "1. Navigate to the dashboard.\n2. Locate the Activity Streams panel.\n3. Verify that recent activity is listed in the panel.",
+    "Expected Result": "Recent activity is displayed in the Activity Streams panel. If no activity is present, an appropriate message is shown.",
+    "Priority": "Medium"
+  },
+  {
+    "Test Case ID": "TC006",
+    "Title": "Verify Gadget Search and Add Functionality",
+    "Description": "Ensure that the user can search for a gadget using the search bar and add it to the dashboard.",
+    "Preconditions": "User is logged into Jira and is on the dashboard page.",
+    "Test Steps": "1. Click on 'Add a Gadget'.\n2. Enter a search term (e.g., 'Burn') in the search bar.\n3. Locate the desired gadget in the search results.\n4. Click the 'Add' button next to the gadget.",
+    "Expected Result": "The selected gadget is added to the dashboard and is visible to the user.",
+    "Priority": "High"
+  }
+]
