@@ -1,0 +1,47 @@
+[
+  {
+    "Test Case ID": "TC001",
+    "Title": "Verify ticket details display for service request",
+    "Description": "Ensure that the ticket details page displays all relevant information for a service request, including title, ticket number, status, workflow stage, approval status, due date, quantity, and stage.\nThis test case validates the visibility and accuracy of ticket data for users.",
+    "Preconditions": "User must be logged in and have access to a valid service request ticket.",
+    "Test Steps": "1. Navigate to the HPNow ticketing system.\n2. Search for and open a specific service request ticket (e.g., RITM3093710).\n3. Verify that the ticket title, number, status, workflow stage, approval status, due date, quantity, and stage are displayed correctly.",
+    "Expected Result": "All ticket details are visible and accurate as per the ticket data.\nNo missing or incorrect information is shown.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC002",
+    "Title": "Verify workflow stage progression for service request",
+    "Description": "Ensure that the workflow stage section accurately reflects the current progress of the service request, including completed, in-progress, and pending stages.\nThis test case checks the visual indicators and status labels for each workflow step.",
+    "Preconditions": "User must be logged in and viewing a service request ticket with multiple workflow stages.",
+    "Test Steps": "1. Open a service request ticket with a multi-stage workflow.\n2. Observe the workflow stage section.\n3. Verify that completed stages are marked appropriately (e.g., checkmarks, 'Completed' label).\n4. Verify that the current stage is marked as 'In progress'.\n5. Verify that pending stages are marked as 'Pending' or not started.",
+    "Expected Result": "Workflow stages are visually and textually indicated as completed, in progress, or pending according to the ticket's status.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC003",
+    "Title": "Verify cancel request functionality",
+    "Description": "Ensure that the 'Cancel' button allows users to cancel an open service request ticket and updates the ticket status accordingly.\nThis test case covers the cancel action and its impact on ticket status.",
+    "Preconditions": "User must be logged in and viewing an open service request ticket.",
+    "Test Steps": "1. Open an open service request ticket.\n2. Click the 'Cancel' button.\n3. Confirm the cancellation if prompted.\n4. Verify that the ticket status is updated to 'Cancelled'.",
+    "Expected Result": "The ticket is cancelled successfully and the status changes to 'Cancelled'.\nThe workflow stage reflects the cancellation.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC004",
+    "Title": "Verify activity stream displays ticket history",
+    "Description": "Ensure that the activity stream on the ticket details page displays a timeline of ticket-related actions, including creation, updates, and user comments.\nThis test case validates the visibility and accuracy of activity entries.",
+    "Preconditions": "User must be logged in and viewing a service request ticket with activity history.",
+    "Test Steps": "1. Open a service request ticket with activity history.\n2. Observe the activity stream section.\n3. Verify that ticket creation, updates, and user comments are displayed with correct timestamps and user information.",
+    "Expected Result": "All relevant ticket activities are visible in the activity stream with accurate details.",
+    "Priority": "Medium"
+  },
+  {
+    "Test Case ID": "TC005",
+    "Title": "Verify message sending in activity stream",
+    "Description": "Ensure that users can send messages in the activity stream section of the ticket details page and that messages appear in the timeline.\nThis test case covers the message input and display functionality.",
+    "Preconditions": "User must be logged in and viewing a service request ticket.",
+    "Test Steps": "1. Open a service request ticket.\n2. Type a message in the activity stream input box.\n3. Click the send button.\n4. Verify that the message appears in the activity stream with the correct user and timestamp.",
+    "Expected Result": "Message is sent successfully and appears in the activity stream timeline.",
+    "Priority": "Medium"
+  }
+]
