@@ -1,0 +1,102 @@
+{
+  "test_cases": [
+    {
+      "id": "TC_HPNow_TicketDetails_001",
+      "title": "Verify ticket details are displayed correctly for a service request",
+      "description": "Ensure that the ticket details page displays the correct request title, status, workflow stages, ticket number, approval status, due date, quantity, and stage for a given service request.",
+      "preconditions": [
+        "User is logged into the HPNow portal.",
+        "A valid service request (e.g., RITM3093710) exists."
+      ],
+      "steps": [
+        "Navigate to the HPNow portal.",
+        "Go to the 'Tickets' section.",
+        "Select a specific ticket (e.g., RITM3093710) from the list."
+      ],
+      "expected_result": "The ticket details page displays the correct request title, status, workflow stages, ticket number, approval status, due date, quantity, and stage.",
+      "priority": "High"
+    },
+    {
+      "id": "TC_HPNow_TicketDetails_002",
+      "title": "Verify the Cancel button is visible and enabled for an open ticket",
+      "description": "Ensure that the Cancel button is visible and enabled when the ticket status is 'Open'.",
+      "preconditions": [
+        "User is logged into the HPNow portal.",
+        "A service request with status 'Open' exists."
+      ],
+      "steps": [
+        "Navigate to the HPNow portal.",
+        "Go to the 'Tickets' section.",
+        "Select an open ticket."
+      ],
+      "expected_result": "The Cancel button is visible and enabled.",
+      "priority": "High"
+    },
+    {
+      "id": "TC_HPNow_TicketDetails_003",
+      "title": "Verify workflow stages are displayed with correct status indicators",
+      "description": "Ensure that each workflow stage (e.g., Request Approved, Waiting for Approval, Fulfillment, Completed) is displayed with the correct status indicator (e.g., Approved, Completed, In Progress, Pending).",
+      "preconditions": [
+        "User is logged into the HPNow portal.",
+        "A service request with multiple workflow stages exists."
+      ],
+      "steps": [
+        "Navigate to the HPNow portal.",
+        "Go to the 'Tickets' section.",
+        "Select a ticket with multiple workflow stages."
+      ],
+      "expected_result": "All workflow stages are displayed with their respective status indicators.",
+      "priority": "Medium"
+    },
+    {
+      "id": "TC_HPNow_TicketDetails_004",
+      "title": "Verify activity stream displays ticket creation entry",
+      "description": "Ensure that the activity stream on the ticket details page displays an entry for ticket creation, including the creator's name and timestamp.",
+      "preconditions": [
+        "User is logged into the HPNow portal.",
+        "A service request with activity history exists."
+      ],
+      "steps": [
+        "Navigate to the HPNow portal.",
+        "Go to the 'Tickets' section.",
+        "Select a ticket with activity history."
+      ],
+      "expected_result": "The activity stream displays an entry for ticket creation with the correct user and timestamp.",
+      "priority": "Medium"
+    },
+    {
+      "id": "TC_HPNow_TicketDetails_005",
+      "title": "Verify user can enter and send a message in the activity stream",
+      "description": "Ensure that the user can type a message in the activity stream input box and send it.",
+      "preconditions": [
+        "User is logged into the HPNow portal.",
+        "A service request is open."
+      ],
+      "steps": [
+        "Navigate to the HPNow portal.",
+        "Go to the 'Tickets' section.",
+        "Select a ticket.",
+        "Type a message in the activity stream input box.",
+        "Click the send button."
+      ],
+      "expected_result": "The message is sent and appears in the activity stream.",
+      "priority": "Medium"
+    },
+    {
+      "id": "TC_HPNow_TicketDetails_006",
+      "title": "Verify navigation path is displayed correctly on the ticket details page",
+      "description": "Ensure that the navigation path (breadcrumb) is displayed as Home > Tickets > [Ticket Number] on the ticket details page.",
+      "preconditions": [
+        "User is logged into the HPNow portal.",
+        "A service request exists."
+      ],
+      "steps": [
+        "Navigate to the HPNow portal.",
+        "Go to the 'Tickets' section.",
+        "Select a ticket."
+      ],
+      "expected_result": "The navigation path is displayed as Home > Tickets > [Ticket Number].",
+      "priority": "Low"
+    }
+  ]
+}
