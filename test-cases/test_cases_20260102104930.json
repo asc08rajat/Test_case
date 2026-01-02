@@ -1,0 +1,80 @@
+{
+  "test_cases": [
+    {
+      "id": "TC_UI_HPNow_001",
+      "title": "Verify ticket details are displayed correctly for a selected ticket",
+      "description": "Ensure that when a user navigates to a specific ticket (e.g., RITM3093710), all relevant ticket details such as title, status, workflow stages, ticket number, approval status, due date, quantity, and stage are displayed accurately.",
+      "preconditions": [
+        "User is logged into the HPNow system.",
+        "At least one ticket exists in the system."
+      ],
+      "steps": [
+        "Navigate to the 'Tickets' section.",
+        "Select a ticket from the list (e.g., RITM3093710)."
+      ],
+      "expected_result": "The ticket details page is displayed with all relevant information visible and accurate.",
+      "priority": "High"
+    },
+    {
+      "id": "TC_UI_HPNow_002",
+      "title": "Verify the presence and functionality of the 'Cancel' button on an open ticket",
+      "description": "Ensure that the 'Cancel' button is visible and enabled for tickets with 'Open' status, and clicking it initiates the cancellation process.",
+      "preconditions": [
+        "User is logged into the HPNow system.",
+        "A ticket with 'Open' status exists."
+      ],
+      "steps": [
+        "Navigate to the details page of an open ticket.",
+        "Observe the presence of the 'Cancel' button.",
+        "Click the 'Cancel' button."
+      ],
+      "expected_result": "The 'Cancel' button is visible and enabled. Upon clicking, the system initiates the cancellation workflow (e.g., confirmation dialog appears or ticket status changes).",
+      "priority": "High"
+    },
+    {
+      "id": "TC_UI_HPNow_003",
+      "title": "Verify workflow stages and their statuses are displayed for the ticket",
+      "description": "Ensure that all workflow stages (e.g., Request Approved, Waiting for Approval, Fulfillment, Completed) and their respective statuses (Approved, Completed, In progress, Pending) are displayed in the correct order for the selected ticket.",
+      "preconditions": [
+        "User is logged into the HPNow system.",
+        "A ticket with multiple workflow stages exists."
+      ],
+      "steps": [
+        "Navigate to the details page of a ticket with multiple workflow stages.",
+        "Observe the workflow stages and their statuses."
+      ],
+      "expected_result": "All workflow stages and their statuses are displayed in the correct order and with accurate status indicators.",
+      "priority": "Medium"
+    },
+    {
+      "id": "TC_UI_HPNow_004",
+      "title": "Verify activity stream displays ticket creation and allows user comments",
+      "description": "Ensure that the activity stream on the ticket details page shows ticket creation details and allows the user to type and send a message.",
+      "preconditions": [
+        "User is logged into the HPNow system.",
+        "A ticket exists with activity history."
+      ],
+      "steps": [
+        "Navigate to the details page of a ticket.",
+        "Observe the activity stream for ticket creation details.",
+        "Type a message in the provided input box and send it."
+      ],
+      "expected_result": "The activity stream displays ticket creation details and the user can successfully send a message.",
+      "priority": "Medium"
+    },
+    {
+      "id": "TC_UI_HPNow_005",
+      "title": "Verify navigation path is displayed correctly on the ticket details page",
+      "description": "Ensure that the navigation path (breadcrumb) is visible and accurately reflects the user's current location (e.g., Home > Tickets > RITM3093710).",
+      "preconditions": [
+        "User is logged into the HPNow system."
+      ],
+      "steps": [
+        "Navigate to the details page of any ticket.",
+        "Observe the breadcrumb navigation at the top of the page."
+      ],
+      "expected_result": "The breadcrumb navigation is visible and accurately reflects the user's navigation path.",
+      "priority": "Low"
+    }
+  ]
+}
