@@ -1,0 +1,87 @@
+{
+  "test_cases": [
+    {
+      "TestCaseID": "HPNOW_UI_TC_001",
+      "Title": "Verify ticket details are displayed correctly for a service request",
+      "Description": "Ensure that the ticket details such as request number, title, status, due date, approval status, quantity, and stage are displayed accurately on the request details page.",
+      "Preconditions": "User is logged into the HPNow portal and has navigated to a specific service request details page.",
+      "TestSteps": [
+        "Navigate to the HPNow portal.",
+        "Login with valid credentials.",
+        "Select a service request from the list.",
+        "Observe the ticket details section."
+      ],
+      "ExpectedResult": "The request number, title, status, due date, approval status, quantity, and stage are displayed correctly as per the selected request.",
+      "Priority": "High"
+    },
+    {
+      "TestCaseID": "HPNOW_UI_TC_002",
+      "Title": "Verify workflow progress bar displays correct stages and statuses",
+      "Description": "Check that the workflow progress bar shows all relevant stages with their respective statuses (e.g., Approved, Completed, In Progress, Pending) for the selected request.",
+      "Preconditions": "User is on the request details page for a service request with multiple workflow stages.",
+      "TestSteps": [
+        "Navigate to the HPNow portal.",
+        "Login with valid credentials.",
+        "Open a service request with workflow stages.",
+        "Observe the workflow progress bar."
+      ],
+      "ExpectedResult": "All workflow stages are displayed with correct labels and statuses (e.g., checkmarks for completed, in progress, pending).",
+      "Priority": "Medium"
+    },
+    {
+      "TestCaseID": "HPNOW_UI_TC_003",
+      "Title": "Verify Cancel button is visible and enabled for open requests",
+      "Description": "Ensure that the Cancel button is displayed and enabled when the request status is 'Open'.",
+      "Preconditions": "User is viewing a service request with status 'Open'.",
+      "TestSteps": [
+        "Navigate to the HPNow portal.",
+        "Login with valid credentials.",
+        "Open a service request with status 'Open'.",
+        "Check for the presence and state of the Cancel button."
+      ],
+      "ExpectedResult": "The Cancel button is visible and enabled for open requests.",
+      "Priority": "High"
+    },
+    {
+      "TestCaseID": "HPNOW_UI_TC_004",
+      "Title": "Verify activity stream displays request creation event",
+      "Description": "Check that the activity stream shows the creation event of the request with the correct user and timestamp.",
+      "Preconditions": "User is on the request details page.",
+      "TestSteps": [
+        "Navigate to the HPNow portal.",
+        "Login with valid credentials.",
+        "Open a service request.",
+        "Scroll to the activity stream section."
+      ],
+      "ExpectedResult": "The activity stream displays the request creation event with the correct user and timestamp.",
+      "Priority": "Low"
+    },
+    {
+      "TestCaseID": "HPNOW_UI_TC_005",
+      "Title": "Verify navigation sidebar is present with all expected icons",
+      "Description": "Ensure that the left navigation sidebar is visible and contains icons for home, tickets, search, and other expected navigation options.",
+      "Preconditions": "User is logged into the HPNow portal.",
+      "TestSteps": [
+        "Navigate to the HPNow portal.",
+        "Login with valid credentials.",
+        "Observe the left navigation sidebar."
+      ],
+      "ExpectedResult": "The navigation sidebar is present and displays all expected navigation icons.",
+      "Priority": "Medium"
+    },
+    {
+      "TestCaseID": "HPNOW_UI_TC_006",
+      "Title": "Verify top bar displays search, My Items, My Favorites, and user profile options",
+      "Description": "Check that the top bar contains the search field, My Items, My Favorites, and user profile options.",
+      "Preconditions": "User is logged into the HPNow portal.",
+      "TestSteps": [
+        "Navigate to the HPNow portal.",
+        "Login with valid credentials.",
+        "Observe the top bar.",
+        "Verify the presence of search, My Items, My Favorites, and user profile options."
+      ],
+      "ExpectedResult": "The top bar displays search, My Items, My Favorites, and user profile options.",
+      "Priority": "Low"
+    }
+  ]
+}
