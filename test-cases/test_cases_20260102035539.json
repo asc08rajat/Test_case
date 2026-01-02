@@ -1,0 +1,47 @@
+[
+  {
+    "Test Case ID": "TC001",
+    "Title": "Verify request details are displayed correctly",
+    "Description": "Ensure that the request details page displays all relevant information for a service request, including request number, status, approval, due date, quantity, stage, and workflow progress.\nThis test case covers the visibility and accuracy of request data.",
+    "Preconditions": "User must be logged in and have access to at least one service request.",
+    "Test Steps": "1. Navigate to the HPNow portal.\n2. Locate and open an existing service request (e.g., RITM3093710).\n3. Verify that the request number, status, approval, due date, quantity, and stage are displayed.\n4. Verify that the workflow stages are shown with correct statuses (Approved, Completed, In Progress, Pending).",
+    "Expected Result": "All request details and workflow stages are displayed accurately and match the backend data.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC002",
+    "Title": "Verify Cancel button functionality",
+    "Description": "Ensure that the Cancel button is visible and functional for open service requests.\nThis test case covers the ability to cancel a request and the resulting status update.",
+    "Preconditions": "User must be logged in and viewing an open service request.",
+    "Test Steps": "1. Navigate to the HPNow portal.\n2. Open an open service request.\n3. Locate the Cancel button.\n4. Click the Cancel button.\n5. Confirm the cancellation if prompted.",
+    "Expected Result": "The request status changes to 'Cancelled' and the workflow is updated accordingly.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC003",
+    "Title": "Verify activity stream displays request history",
+    "Description": "Ensure that the Activity Stream tab displays the chronological history of actions taken on the request, including creation and status changes.\nThis test case covers the visibility and accuracy of activity logs.",
+    "Preconditions": "User must be logged in and viewing a service request with activity history.",
+    "Test Steps": "1. Navigate to the HPNow portal.\n2. Open a service request with activity history.\n3. Click on the Activity Stream tab.\n4. Verify that all relevant actions (e.g., request creation, approval, status changes) are listed with correct timestamps and user information.",
+    "Expected Result": "The Activity Stream displays a complete and accurate history of the request's actions.",
+    "Priority": "Medium"
+  },
+  {
+    "Test Case ID": "TC004",
+    "Title": "Verify navigation between tabs (Activity Stream and Attachments)",
+    "Description": "Ensure that users can switch between the Activity Stream and Attachments tabs without losing context or data.\nThis test case covers tab navigation and data persistence.",
+    "Preconditions": "User must be logged in and viewing a service request.",
+    "Test Steps": "1. Navigate to the HPNow portal.\n2. Open a service request.\n3. Click on the Activity Stream tab and verify its contents.\n4. Click on the Attachments tab and verify its contents.\n5. Switch back to the Activity Stream tab and verify that the data is still present.",
+    "Expected Result": "Tab navigation works smoothly and all data is displayed correctly after switching.",
+    "Priority": "Low"
+  },
+  {
+    "Test Case ID": "TC005",
+    "Title": "Verify workflow stage progression",
+    "Description": "Ensure that the workflow stages for a service request progress correctly based on backend updates and user actions.\nThis test case covers the correct display and update of workflow stages.",
+    "Preconditions": "User must be logged in and viewing a service request with multiple workflow stages.",
+    "Test Steps": "1. Navigate to the HPNow portal.\n2. Open a service request with multiple workflow stages.\n3. Verify the current stage and status of each workflow step.\n4. Perform actions (e.g., approve, fulfill, complete) as required to progress the workflow.\n5. Verify that the workflow stages update accordingly.",
+    "Expected Result": "Workflow stages progress and update correctly based on actions and backend status.",
+    "Priority": "High"
+  }
+]
