@@ -1,0 +1,78 @@
+[
+  {
+    "Test Case ID": "TC_001",
+    "Title": "Verify ticket details are displayed for selected request",
+    "Description": "Ensure that all relevant ticket details are displayed when a user selects a specific ticket from the tickets list.",
+    "Preconditions": "User is logged into the HPNow portal and has at least one ticket available.",
+    "Test Steps": [
+      "Navigate to the Tickets section from the left navigation menu.",
+      "Select a ticket from the list (e.g., RITM3093710)."
+    ],
+    "Expected Result": "Ticket details such as number, status, approval, due date, quantity, and stage are displayed in the main section.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC_002",
+    "Title": "Verify workflow stages are displayed for the ticket",
+    "Description": "Ensure that the workflow stages and their statuses are visible for the selected ticket.",
+    "Preconditions": "User is viewing the details of a ticket.",
+    "Test Steps": [
+      "Navigate to the Tickets section.",
+      "Select a ticket from the list.",
+      "Observe the workflow stages section."
+    ],
+    "Expected Result": "Workflow stages such as Request Approved, Waiting for Approval, Fulfillment, and Completed are displayed with their respective statuses.",
+    "Priority": "Medium"
+  },
+  {
+    "Test Case ID": "TC_003",
+    "Title": "Verify Cancel button is displayed for open tickets",
+    "Description": "Ensure that the Cancel button is visible for tickets that are in an open state.",
+    "Preconditions": "User is viewing a ticket with status 'Open'.",
+    "Test Steps": [
+      "Navigate to the Tickets section.",
+      "Select a ticket with status 'Open'."
+    ],
+    "Expected Result": "A red Cancel button is displayed in the ticket details section.",
+    "Priority": "High"
+  },
+  {
+    "Test Case ID": "TC_004",
+    "Title": "Verify activity stream displays ticket history",
+    "Description": "Ensure that the activity stream on the right displays the ticket's history and user actions.",
+    "Preconditions": "User is viewing the details of a ticket.",
+    "Test Steps": [
+      "Navigate to the Tickets section.",
+      "Select a ticket from the list.",
+      "Observe the activity stream on the right side."
+    ],
+    "Expected Result": "Activity stream displays ticket creation and any user comments or actions.",
+    "Priority": "Medium"
+  },
+  {
+    "Test Case ID": "TC_005",
+    "Title": "Verify user can add a comment in the activity stream",
+    "Description": "Ensure that the user can type and send a message in the activity stream for the selected ticket.",
+    "Preconditions": "User is viewing the details of a ticket.",
+    "Test Steps": [
+      "Navigate to the Tickets section.",
+      "Select a ticket from the list.",
+      "Type a message in the activity stream input box.",
+      "Click the send button."
+    ],
+    "Expected Result": "The new message appears in the activity stream timeline.",
+    "Priority": "Medium"
+  },
+  {
+    "Test Case ID": "TC_006",
+    "Title": "Verify navigation path is displayed for ticket details",
+    "Description": "Ensure that the navigation path (breadcrumb) is visible at the top of the ticket details page.",
+    "Preconditions": "User is viewing the details of a ticket.",
+    "Test Steps": [
+      "Navigate to the Tickets section.",
+      "Select a ticket from the list."
+    ],
+    "Expected Result": "Navigation path (e.g., Home > Tickets > RITM3093710) is displayed at the top of the page.",
+    "Priority": "Low"
+  }
+]
