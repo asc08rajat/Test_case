@@ -1,0 +1,21 @@
+Test Case Name : TC302_Test_Case_302
+Module         : Profile
+Timestamp      : 2026-01-20 10:06:17
+Build Number   : Jenkins-Build-537
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : JSONValidationException
+Error Message  : JSONValidationException while calling GET /api/v1/profile/302 -> HTTP 403
+
+Stack Trace
+-----------
+JSONValidationException: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:370)
+	at com.company.profile.Class2.method2(Class2.java:40)
+	at com.company.profile.Class3.method3(Class3.java:175)
+
+HTTP Request (b64)
+------------------
+3A1r4EMcxdplTzA8iLZltkxqvqSx09IbuZW9wZd=wIL13Ql+OaLjzIfnfzdPcrv9slIJjYwuO=Gz==6FJi0Y+FlCfNu/Rqmwxe=Fj3JMvdFPpZEfzP/XkENXtSbstNYVXsgr=Y+7HeiGuB67V+tE50RTLJi7=IbAUTNsrJ=uh8TlLqe=Ht4lxNYieiQpxSLImj0Ik2b2Vd/lPl3cX6jPGABOIUc8
