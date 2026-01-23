@@ -1,0 +1,21 @@
+Test Case Name : TC450_Test_Case_450
+Module         : Payments
+Timestamp      : 2026-01-20 10:32:28
+Build Number   : Jenkins-Build-470
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : JSONValidationException
+Error Message  : JSONValidationException while calling GET /api/v1/payments/450 -> HTTP 504
+
+Stack Trace
+-----------
+JSONValidationException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:413)
+	at com.company.payments.Class2.method2(Class2.java:68)
+	at com.company.payments.Class3.method3(Class3.java:250)
+
+HTTP Request (b64)
+------------------
+tzbmhcyKzKXpxxDvyzOjqi+1QXN5zJFW+RVMasE5FZ+6WWMsG6t7heusALFzvDJHoe7ZHsdUfThQsc2q3KAmcNUbmcIg6k4Bjh3famLjWGoXDlM+G2+nWUXFj5MWv=UtP=dZnXZsQVqMmd0Xg6OEFh2ZIwlivW07mFm=FsJ1FIBu71BR7EobRI7squCnANONGhZYiTFzTeOXZAyP81Qbiw3M9Fx+
