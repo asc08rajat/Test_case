@@ -1,0 +1,21 @@
+Test Case Name : TC240_Test_Case_240
+Module         : Checkout
+Timestamp      : 2026-01-20 10:37:27
+Build Number   : Jenkins-Build-595
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : NoSuchElementException
+Error Message  : NoSuchElementException while calling GET /api/v1/checkout/240 -> HTTP 403
+
+Stack Trace
+-----------
+NoSuchElementException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:429)
+	at com.company.checkout.Class2.method2(Class2.java:91)
+	at com.company.checkout.Class3.method3(Class3.java:474)
+
+HTTP Request (b64)
+------------------
+A4KEOQPnhjcNZcpMOvRSDRiU6YHNn2uzJiRZsxMoCVl+j7NbwURfl+niaBs3PSRfVxbIJmbcNjKVohyc7cGaXfSSJbYVrIhCJzsd8FHvSo6Vzw0/Z8=h97kepisFyb9Ya+wmWUfRuKfRRHROV1+haHHZA3IGfZ4wh+G6/iC4US2yzL=d1Dzt00Ti5n+LSUkTl+wXyGEMwI=QLOHhm6K71aDiG=jo
