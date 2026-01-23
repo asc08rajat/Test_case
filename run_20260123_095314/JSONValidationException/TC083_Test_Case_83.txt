@@ -1,0 +1,21 @@
+Test Case Name : TC083_Test_Case_83
+Module         : Login
+Timestamp      : 2026-01-20 10:06:13
+Build Number   : Jenkins-Build-471
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : JSONValidationException
+Error Message  : JSONValidationException while calling GET /api/v1/login/83 -> HTTP 504
+
+Stack Trace
+-----------
+JSONValidationException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:185)
+	at com.company.login.Class2.method2(Class2.java:32)
+	at com.company.login.Class3.method3(Class3.java:237)
+
+HTTP Request (b64)
+------------------
+T1s8xHCNgjew/AtTYj+Gw15RThcp1s4jhWQg3/PCqCc5mhEFbQEKKVpI/jldtluJxUNmWWFgV/cffT=Xdo6QuOvXwEp6SasR226esXkwLFWKeyl5QTS5AXR9lPNHUeYc38gc7DnWX/5mm2VMWi=UYQ+=HpLTmAteeu4dIg8bO=bnTVW1HpvPz3VyiAjuuvTOP=ipx=YWK4/gxZ9auPaJPYO+xvO6
