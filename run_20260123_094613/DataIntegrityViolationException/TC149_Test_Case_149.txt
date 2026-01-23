@@ -1,0 +1,21 @@
+Test Case Name : TC149_Test_Case_149
+Module         : Notifications
+Timestamp      : 2026-01-20 10:51:42
+Build Number   : Jenkins-Build-600
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : DataIntegrityViolationException
+Error Message  : DataIntegrityViolationException while calling GET /api/v1/notifications/149 -> HTTP 401
+
+Stack Trace
+-----------
+DataIntegrityViolationException: failure in Notifications
+	at com.company.notifications.Class1.method1(Class1.java:280)
+	at com.company.notifications.Class2.method2(Class2.java:476)
+	at com.company.notifications.Class3.method3(Class3.java:396)
+
+HTTP Request (b64)
+------------------
+5H1yoD36UOvBxZ0H4ewxDLXryoOOXMSeNPLXMUpYmB=2EA6bk=pOlwH26Y3D5a+VIOLrjXUAy9Uh07CJfxJ3oqRvbmYJNhjrte0SQNE5=l/Bzrucvhs5b6c=5lrZ1OM0oESuO31R+AWTdQG7GGfjH19cOMMPcd0eZzVDp6oiLHwn7aI/srqJS7roprjWwHyqlRisADFuSNeeumEpZS2jRLT6l5A=
