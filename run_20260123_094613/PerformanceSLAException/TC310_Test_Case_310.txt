@@ -1,0 +1,21 @@
+Test Case Name : TC310_Test_Case_310
+Module         : Shipping
+Timestamp      : 2026-01-20 10:47:14
+Build Number   : Jenkins-Build-417
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : PerformanceSLAException
+Error Message  : PerformanceSLAException while calling GET /api/v1/shipping/310 -> HTTP 500
+
+Stack Trace
+-----------
+PerformanceSLAException: failure in Shipping
+	at com.company.shipping.Class1.method1(Class1.java:225)
+	at com.company.shipping.Class2.method2(Class2.java:263)
+	at com.company.shipping.Class3.method3(Class3.java:133)
+
+HTTP Request (b64)
+------------------
+hpIgQsB2oNn7Q/zl+kVld+EN4d0UHBv2MxpBO=c+NcQ1lqgb+jQQlWuZSWIq9/0vg3Ve3gf9aYKM8+Rhq/qfl2CLfLMSfG0wPgQyEEE+ZWUGTSUXQPvaTAB6l4Pq/M4JCEoTGPVwaUB0ETdeBnnYxpufy+YQ0KHlGNu/449vgN+2=fg0giXIPEggMoYk2H2Ps9OuHmIq/fJiiCbokQo=JPgG6WuR
