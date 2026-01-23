@@ -1,0 +1,21 @@
+Test Case Name : TC182_Test_Case_182
+Module         : Inventory
+Timestamp      : 2026-01-20 10:57:28
+Build Number   : Jenkins-Build-435
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : NullPointerException
+Error Message  : NullPointerException while calling GET /api/v1/inventory/182 -> HTTP 400
+
+Stack Trace
+-----------
+NullPointerException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:331)
+	at com.company.inventory.Class2.method2(Class2.java:453)
+	at com.company.inventory.Class3.method3(Class3.java:466)
+
+HTTP Request (b64)
+------------------
+ZmoJvDK9/sRD4ZAA4M+5SKAlpPw1jZeEn2MBhcSU/LtEXt0gmkT6q70rogOTHCztkixrVlOqx+UMVu=Uzkq5tO/GtdzTgyvVoHlIq1l7gZJ0U2sXEIou+tPLrnfQvkth0of3YcLp/s2Rlz3QC=RrQDw4U6RXBU+qjzfmT9eilONrCnTquiF3XtSev7h6jzsZfMMTwX2AOFyM97AS=fJUJDW=OScv
