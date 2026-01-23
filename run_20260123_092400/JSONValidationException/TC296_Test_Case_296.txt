@@ -1,0 +1,21 @@
+Test Case Name : TC296_Test_Case_296
+Module         : Orders
+Timestamp      : 2026-01-20 10:08:07
+Build Number   : Jenkins-Build-566
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : JSONValidationException
+Error Message  : JSONValidationException while calling GET /api/v1/orders/296 -> HTTP 404
+
+Stack Trace
+-----------
+JSONValidationException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:430)
+	at com.company.orders.Class2.method2(Class2.java:482)
+	at com.company.orders.Class3.method3(Class3.java:213)
+
+HTTP Request (b64)
+------------------
+m7T/m8gcliCT4dYJvkaI4QRWef61wSk30OQKQJIW=q=iEHUxNJAIR0xpA4cMN+T5niwXx9QCzX1sLbjq0cdkm+L26UlUruTWsLdhobtjaJyKFNnZ=4IZL/=1wwXugMIQv/j/sVlJAxV9TCt1/r9/xZOmReytl4gG9ZT+hoQk+UGpsEmRyMWbKdYFE8GpbZNUWhVl2cB==5Z0iqsW8UHQEgAx148A
