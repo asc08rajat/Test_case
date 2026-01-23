@@ -1,0 +1,21 @@
+Test Case Name : TC104_Test_Case_104
+Module         : Login
+Timestamp      : 2026-01-20 10:50:06
+Build Number   : Jenkins-Build-547
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : NoSuchElementException
+Error Message  : NoSuchElementException while calling GET /api/v1/login/104 -> HTTP 504
+
+Stack Trace
+-----------
+NoSuchElementException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:309)
+	at com.company.login.Class2.method2(Class2.java:473)
+	at com.company.login.Class3.method3(Class3.java:353)
+
+HTTP Request (b64)
+------------------
+8VJAjJWYQvRXaEzj0U=lKZSrpW9GcFkAd+D22LnhNR=VeIzi/0Dz1DY6QDRUzwPKkUXfubicf=xjEM8NwdHV/sF0ZtzMGPBZ+cBLmsU6PP3E6qBGYjVBrH1tYN23Q5DG8j=6P/MEcppNqw+=x+cvmatiqyK5jamcTb3zqHCAMh/oHW+NTkgKAYA/OTokZc1uAoox95=PB71oF1p0aDrj8NV3cOIw
