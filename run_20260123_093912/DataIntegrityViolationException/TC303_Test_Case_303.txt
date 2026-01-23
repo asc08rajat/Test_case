@@ -1,0 +1,21 @@
+Test Case Name : TC303_Test_Case_303
+Module         : Payments
+Timestamp      : 2026-01-20 10:55:06
+Build Number   : Jenkins-Build-569
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : DataIntegrityViolationException
+Error Message  : DataIntegrityViolationException while calling GET /api/v1/payments/303 -> HTTP 401
+
+Stack Trace
+-----------
+DataIntegrityViolationException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:469)
+	at com.company.payments.Class2.method2(Class2.java:491)
+	at com.company.payments.Class3.method3(Class3.java:193)
+
+HTTP Request (b64)
+------------------
++8ROkI8dqRIPFstVWpLPrhv2HXI6k5trSNmGTFZeZFFOkTU6m//glv6vcnYmVwv36MXo6DFAeNpD=0Aaa9/RmWGxr4fUe5pLfeUh1FHyjUBapbv=K7PcIubAfjM68quzqoebovfNjd+xkdyw5leWkCFhF5mE=SB5oN56/2fDan5z9+xlNcEjI+PENlASgUigW/D/dnidyiicOODfPpzcWCaDlj=1
