@@ -1,0 +1,21 @@
+Test Case Name : TC242_Test_Case_242
+Module         : Login
+Timestamp      : 2026-01-20 10:24:46
+Build Number   : Jenkins-Build-472
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ConstraintViolationException
+Error Message  : ConstraintViolationException while calling GET /api/v1/login/242 -> HTTP 503
+
+Stack Trace
+-----------
+ConstraintViolationException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:19)
+	at com.company.login.Class2.method2(Class2.java:42)
+	at com.company.login.Class3.method3(Class3.java:90)
+
+HTTP Request (b64)
+------------------
+6vXY5IrVp5MwgbLeR2=Ynbn6UIElvKI8ENe6CQz/gDyMeE7OlYPf5sJVeOx9hlOpv=XUBF8PQhkjIELlH===XqjgY/uN3RLDgYHZY5ga+BfWJek8r+Gc0tthhf+NB8NCTPOg1JV56pt/CJ1EBNZJk3VKH1cAvVN3UTlMnXwve0CWEAnXDqAJ6jvdLNmzQWRbsa4PQfLJS8VG/s9n/=8XMSy09hH9
