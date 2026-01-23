@@ -1,0 +1,21 @@
+Test Case Name : TC070_Test_Case_70
+Module         : Shipping
+Timestamp      : 2026-01-20 10:09:12
+Build Number   : Jenkins-Build-557
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ConcurrentModificationException
+Error Message  : ConcurrentModificationException while calling GET /api/v1/shipping/70 -> HTTP 401
+
+Stack Trace
+-----------
+ConcurrentModificationException: failure in Shipping
+	at com.company.shipping.Class1.method1(Class1.java:100)
+	at com.company.shipping.Class2.method2(Class2.java:334)
+	at com.company.shipping.Class3.method3(Class3.java:80)
+
+HTTP Request (b64)
+------------------
+3z4VbPdcR3oqm=frgn=G7b9N2gP+AzRvfSJQ9jvW6dWYzHj=dS0RPZHiG69B3NBg=H3hL0pLDgVIKw9dmaqVZSvTRsRir6N2L8lA/QSuUvgbaosqJbkMbpIDPt9y899CYoVlc8r=OCVH67K2vsOhzy/3OKto5OJQYhEWJXLoIeSXqnldOeHbxiuJXQTx1Y0wpvRZkH7Df9BwETq69QHgLPebU9cp
