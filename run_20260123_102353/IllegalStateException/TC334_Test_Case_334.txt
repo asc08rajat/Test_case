@@ -1,0 +1,21 @@
+Test Case Name : TC334_Test_Case_334
+Module         : Cart
+Timestamp      : 2026-01-20 10:13:41
+Build Number   : Jenkins-Build-517
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : IllegalStateException
+Error Message  : IllegalStateException while calling GET /api/v1/cart/334 -> HTTP 503
+
+Stack Trace
+-----------
+IllegalStateException: failure in Cart
+	at com.company.cart.Class1.method1(Class1.java:167)
+	at com.company.cart.Class2.method2(Class2.java:364)
+	at com.company.cart.Class3.method3(Class3.java:295)
+
+HTTP Request (b64)
+------------------
+gDl3yTRHtwO5ANZpN=ehq/NUX7H7mJ79mJFHzoBahtQM=PFe2WI8TI59ec9MTvQCohjy9FesMmW0B+D80BNnngotGzHvXFocIb8igjO=KBPX4aJRD8dQQE7mckBKkmVLBElzZ6hn42m6TCeb4+0w97HGS7BaQfp5j7n7dQeRk6WIxWht0suri3T5Qge4A2oKAsW1q2Uu4w8urHk6H1rKmZMnmVAw
