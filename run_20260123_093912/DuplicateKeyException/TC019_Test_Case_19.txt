@@ -1,0 +1,21 @@
+Test Case Name : TC019_Test_Case_19
+Module         : Profile
+Timestamp      : 2026-01-20 10:26:20
+Build Number   : Jenkins-Build-566
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : DuplicateKeyException
+Error Message  : DuplicateKeyException while calling GET /api/v1/profile/19 -> HTTP 504
+
+Stack Trace
+-----------
+DuplicateKeyException: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:260)
+	at com.company.profile.Class2.method2(Class2.java:345)
+	at com.company.profile.Class3.method3(Class3.java:60)
+
+HTTP Request (b64)
+------------------
+cbNL5IROxt0+iawQba0zLYAx/uthEoCHJc95KmBQLiUmMycPH+dHhgBZMRbpw4iisR0fkM3+0nZbe5hVx3IJoNQQeEbCmi7kHTiIAbagMMavxEBzSSHryF2Y0zdhVEZB7QtfGqNGiqDfpWTAs/FkRWi4rfgOTGDgPLB3i=lL/yzLeAqVSmFb=pbgBNlXxQW0UU73d6qJlDjxLeSz2UmLXj1lWJ2f
