@@ -1,0 +1,21 @@
+Test Case Name : TC278_Test_Case_278
+Module         : Profile
+Timestamp      : 2026-01-20 10:30:52
+Build Number   : Jenkins-Build-471
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ConstraintViolationException
+Error Message  : ConstraintViolationException while calling GET /api/v1/profile/278 -> HTTP 400
+
+Stack Trace
+-----------
+ConstraintViolationException: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:171)
+	at com.company.profile.Class2.method2(Class2.java:12)
+	at com.company.profile.Class3.method3(Class3.java:272)
+
+HTTP Request (b64)
+------------------
+Y/aOcy0CEvo9Bld5JZbA6wAjWc0tEmo680IjEhNaBO=CdArxvjc8k9Mt3xNWkQ/Go6fvB6BYQdf4ZJZuvTbLkxEEUIZQdAEjJTVbtk=vjmG0Abz5LH/2nIDISzksQdV7KvVftRMri2+EsfZ7lRv6fVx5+qpzHxLehps3D6b8p=niAxWe=I/3DTSqTtgqnQvhTj2oViavxiHeZKdtPh2Sn5FsPG42
