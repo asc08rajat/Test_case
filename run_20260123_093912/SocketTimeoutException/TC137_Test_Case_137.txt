@@ -1,0 +1,21 @@
+Test Case Name : TC137_Test_Case_137
+Module         : Login
+Timestamp      : 2026-01-20 10:54:24
+Build Number   : Jenkins-Build-524
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : SocketTimeoutException
+Error Message  : SocketTimeoutException while calling GET /api/v1/login/137 -> HTTP 400
+
+Stack Trace
+-----------
+SocketTimeoutException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:233)
+	at com.company.login.Class2.method2(Class2.java:352)
+	at com.company.login.Class3.method3(Class3.java:72)
+
+HTTP Request (b64)
+------------------
+r7YNrQj5VGRXQpmnN6xGY2z53yte8FlDJJaa1uEyHcGauDb41XMsVDTR1=QbvYbo+ek+sSGmDTCUcnwdl=BjSBGcHsR3YdBtxbA5DqZUj/mtO2+mYqiFtT8cPtsjJa6PinhNuFHuaPIkzytLO9pTcD2klgHi0SUAJXFpog/d7+O08HNlyKpoXPFKuBW4wfmY5uZCESsRXGQOd1REjO28zmWYQC69
