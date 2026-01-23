@@ -1,0 +1,21 @@
+Test Case Name : TC178_Test_Case_178
+Module         : Profile
+Timestamp      : 2026-01-20 10:48:13
+Build Number   : Jenkins-Build-586
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : ConcurrentModificationException
+Error Message  : ConcurrentModificationException while calling GET /api/v1/profile/178 -> HTTP 403
+
+Stack Trace
+-----------
+ConcurrentModificationException: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:488)
+	at com.company.profile.Class2.method2(Class2.java:348)
+	at com.company.profile.Class3.method3(Class3.java:355)
+
+HTTP Request (b64)
+------------------
+A13YoQhyc8qvCkCeidFQLIll7mhZ/nmx2u9kbeLfRlBL5tcPrrgQjEk1oMehP4TWCyLBQtKA3tvHHXm2BZal/gbdD0J1ulvR=wsEnCuEWofQV0rDTtfOzUbm=ul6oPmFBDGg7L9irqAPJNKMtRVu2bE0AMsjxW4KgOMkclP5g3ML/yxxQZYB+tKDsxIUnn+XaE6aSMiLYbySJp8r4GVQ+mnXv6KC
