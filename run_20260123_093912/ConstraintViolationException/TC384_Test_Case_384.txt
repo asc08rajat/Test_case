@@ -1,0 +1,21 @@
+Test Case Name : TC384_Test_Case_384
+Module         : Checkout
+Timestamp      : 2026-01-20 10:24:02
+Build Number   : Jenkins-Build-581
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ConstraintViolationException
+Error Message  : ConstraintViolationException while calling GET /api/v1/checkout/384 -> HTTP 504
+
+Stack Trace
+-----------
+ConstraintViolationException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:204)
+	at com.company.checkout.Class2.method2(Class2.java:71)
+	at com.company.checkout.Class3.method3(Class3.java:346)
+
+HTTP Request (b64)
+------------------
+MSzsiQZ6/CTHg/4yUc/J6jAZO4a4VDTEA+WEkyKfu4xzkvYHoYkT=Ww3ZfklLDOfVx68aNLf=q1fSczO6oLy0m/92W82OT3//S5KaU+NX8pC0Zj4Pr15REmd4e/WNKpeG47CP1tQjyCEXHr0LHEgebHbXxBZGlZzBJNXUTD4m9V3SWp46IFCRdsM4rC2XYL6tDgoi/d=U/Ln=kQ+wwlp76hqg+VL
