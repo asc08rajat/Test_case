@@ -1,0 +1,21 @@
+Test Case Name : TC029_Test_Case_29
+Module         : Shipping
+Timestamp      : 2026-01-20 10:36:53
+Build Number   : Jenkins-Build-567
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : ServiceUnavailableException
+Error Message  : ServiceUnavailableException while calling GET /api/v1/shipping/29 -> HTTP 504
+
+Stack Trace
+-----------
+ServiceUnavailableException: failure in Shipping
+	at com.company.shipping.Class1.method1(Class1.java:41)
+	at com.company.shipping.Class2.method2(Class2.java:204)
+	at com.company.shipping.Class3.method3(Class3.java:12)
+
+HTTP Request (b64)
+------------------
+blitCv9eUi/qnkogPq+rPaykT8vfhA+LdiaMxuVtsD46tWs=+0RnmBLxo08oKLuWIzB=LltqY/LOI9hXqCfFbMxbVuEPAnX7YO37bvwXXY91QRV6snIqRySZ2rAwswMk3KE4xLDAIH0IR/ZZddd7N1W6ANv2lqW7DR7xcn2UtZTQeUOlXsQVOvw/fXjMp2rmDAd6pXEM0lV+9wjUwrSwhbuwp+1c
