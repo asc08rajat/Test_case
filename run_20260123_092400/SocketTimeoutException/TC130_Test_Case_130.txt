@@ -1,0 +1,21 @@
+Test Case Name : TC130_Test_Case_130
+Module         : Orders
+Timestamp      : 2026-01-20 10:45:56
+Build Number   : Jenkins-Build-551
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : SocketTimeoutException
+Error Message  : SocketTimeoutException while calling GET /api/v1/orders/130 -> HTTP 401
+
+Stack Trace
+-----------
+SocketTimeoutException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:105)
+	at com.company.orders.Class2.method2(Class2.java:497)
+	at com.company.orders.Class3.method3(Class3.java:132)
+
+HTTP Request (b64)
+------------------
+q5/pivvgn5tu5FDLs8xpNz9+JyZS8lnE30CZ=QEDjQqO/THogKRZBoXMVUfI+yDru4Q0F2PVlLxoV2+t0e5BGYYCqo/N/gTaW5D3i/Den+gKSqJ8jC8P1C6WevYV68vgOYs/UUk+TTTVdteeH69sLM8EzhJeTX1s723t7DVyZjuur64m3ODhy0eUFR/PjW6+XJ+fmoms73hx6n9P0tdXzMaG0SLt
