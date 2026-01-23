@@ -1,0 +1,21 @@
+Test Case Name : TC405_Test_Case_405
+Module         : Orders
+Timestamp      : 2026-01-20 10:32:25
+Build Number   : Jenkins-Build-533
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : IllegalStateException
+Error Message  : IllegalStateException while calling GET /api/v1/orders/405 -> HTTP 404
+
+Stack Trace
+-----------
+IllegalStateException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:170)
+	at com.company.orders.Class2.method2(Class2.java:165)
+	at com.company.orders.Class3.method3(Class3.java:216)
+
+HTTP Request (b64)
+------------------
+SXYujj9fRH0MoJ7VPHmnxKJW4MrEF0J=VOuotlC2tdMgk7nXNPN8TvKsZc9FNnX2r8YmI=LJJflSD7kKRyqFigONNlhJ7i5NY2p+zxL4yLr=ykECKNGpGzu+3md40h+JxXv+0Gr8OGisD1IABNdwVG7dtCO2jMihKZmsPXMRFeNCo8tn1QQbEck1LQnL/47UH/y+FnQMgepBceHu2=+pAFVFWFiT
