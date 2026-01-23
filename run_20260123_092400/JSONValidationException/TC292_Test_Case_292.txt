@@ -1,0 +1,21 @@
+Test Case Name : TC292_Test_Case_292
+Module         : Checkout
+Timestamp      : 2026-01-20 10:13:21
+Build Number   : Jenkins-Build-529
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : JSONValidationException
+Error Message  : JSONValidationException while calling GET /api/v1/checkout/292 -> HTTP 504
+
+Stack Trace
+-----------
+JSONValidationException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:427)
+	at com.company.checkout.Class2.method2(Class2.java:241)
+	at com.company.checkout.Class3.method3(Class3.java:281)
+
+HTTP Request (b64)
+------------------
+=+6/q06W=2OKbIOfWJnBI6nOhPx7At6g+5JvwpPZJX6lYAVm=qN+QZvczCN1QgPn0BR+BEcpZsb0ckCtV+KZ0UXgjTvWTp6tGGYmEn7/FgWKMAKuv5zWh=TjzLiqYBH=fJZ5ICxCt/Ous133k+84DK5s72bAQIa0icfZQjZbCj7kkmURTXdDh9FD3bbu7IKGE0fYFkRF+ArR+8gCBwD4nUU=2/w+
