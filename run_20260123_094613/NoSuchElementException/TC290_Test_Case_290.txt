@@ -1,0 +1,21 @@
+Test Case Name : TC290_Test_Case_290
+Module         : Shipping
+Timestamp      : 2026-01-20 10:29:24
+Build Number   : Jenkins-Build-498
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : NoSuchElementException
+Error Message  : NoSuchElementException while calling GET /api/v1/shipping/290 -> HTTP 404
+
+Stack Trace
+-----------
+NoSuchElementException: failure in Shipping
+	at com.company.shipping.Class1.method1(Class1.java:178)
+	at com.company.shipping.Class2.method2(Class2.java:19)
+	at com.company.shipping.Class3.method3(Class3.java:14)
+
+HTTP Request (b64)
+------------------
+7HsjYjReIxbPIJSYlscpH5rywktDxBCIW+WZ7PmjyNHWx9Hleg2Wun8NcC7OQpqafwk55QA4Bc36hf3jQTpUdUTdsOdpwCZwhZM+C107aOCX9xo5HNDoS/=vOP/gWGXohaxCtx0r/rEHVYhRn8ZAyZRDZmgqyShZAJkRn8srb7f3=C1+NiptPIrAPMb3c2HiY+DaJk1Osa1FxK8TtPJsOrJWJ+nf
