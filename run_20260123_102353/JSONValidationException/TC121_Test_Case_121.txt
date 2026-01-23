@@ -1,0 +1,21 @@
+Test Case Name : TC121_Test_Case_121
+Module         : Shipping
+Timestamp      : 2026-01-20 10:27:35
+Build Number   : Jenkins-Build-429
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : JSONValidationException
+Error Message  : JSONValidationException while calling GET /api/v1/shipping/121 -> HTTP 403
+
+Stack Trace
+-----------
+JSONValidationException: failure in Shipping
+	at com.company.shipping.Class1.method1(Class1.java:240)
+	at com.company.shipping.Class2.method2(Class2.java:302)
+	at com.company.shipping.Class3.method3(Class3.java:419)
+
+HTTP Request (b64)
+------------------
+y=SjG0rqdmavDPFB+SzUL0ezV1zgWx3gZ5mFU7c6eppY+sf1Aq=SVL/+5wU=NXXSww=U8CaYgrbGoi4EoFK8m7spUoC9QGmTkbJ3QfjLF2Dv0=/wrPBX9ls=kIwUKjpRTAt80p7jhpT5kDDBPrqznL0M/03BeIIz4K2GTZ70dgZSZDjzn8ujAnT99s7yiWMcV+HFGsRCAMeM1quYT9wfzCI/QNuN
