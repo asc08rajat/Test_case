@@ -1,0 +1,21 @@
+Test Case Name : TC404_Test_Case_404
+Module         : Inventory
+Timestamp      : 2026-01-20 10:28:54
+Build Number   : Jenkins-Build-427
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : SocketTimeoutException
+Error Message  : SocketTimeoutException while calling GET /api/v1/inventory/404 -> HTTP 502
+
+Stack Trace
+-----------
+SocketTimeoutException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:456)
+	at com.company.inventory.Class2.method2(Class2.java:485)
+	at com.company.inventory.Class3.method3(Class3.java:258)
+
+HTTP Request (b64)
+------------------
+RIas2ITt7nMTt=KOTyZiBK6UwTbMfwwPIDQ4ry/udeLFYAIR/qtd1Lw5c=TYUTcs0U5iJOO9n5MCGrMpsZFSrQLns6VUH0mNGIv8gwXr=X6S2OCS7J+mC0wWMVG0jo6CO1YXeao4oM1lYo2Cse3GwWtFjICjOKGT0JnsbY=j4VWJb/F4hOQLQeO52INW=63lv1ic9wsfAzyJMkdYddoxc8P+vfg5
