@@ -1,0 +1,21 @@
+Test Case Name : TC088_Test_Case_88
+Module         : Checkout
+Timestamp      : 2026-01-20 10:46:38
+Build Number   : Jenkins-Build-486
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : NullPointerException
+Error Message  : NullPointerException while calling GET /api/v1/checkout/88 -> HTTP 400
+
+Stack Trace
+-----------
+NullPointerException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:60)
+	at com.company.checkout.Class2.method2(Class2.java:238)
+	at com.company.checkout.Class3.method3(Class3.java:37)
+
+HTTP Request (b64)
+------------------
+ddWSRPWb2DgfXYeHLDxP9GIkIBr96PdvpQbkBzUH5kWRv=bVvXVij5tbe9WjKA8UWoaCsEJrHnjg9sjgeA6nlU4BvmVBWAnLMn8pn9Lbr4YiKuVsJqGesz5T0wuB+2cKkENwKwhU=mzDcI5DvwIvIgYz0dBZQ9VMhWAI3n5JtjTDKfActrgs8+vViqRHNZOy78KV8Ns=QhxjFf0O4C/P=n/6EgC8
