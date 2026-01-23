@@ -1,0 +1,21 @@
+Test Case Name : TC455_Test_Case_455
+Module         : Checkout
+Timestamp      : 2026-01-20 10:10:15
+Build Number   : Jenkins-Build-481
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : AssertionError
+Error Message  : AssertionError while calling GET /api/v1/checkout/455 -> HTTP 504
+
+Stack Trace
+-----------
+AssertionError: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:485)
+	at com.company.checkout.Class2.method2(Class2.java:304)
+	at com.company.checkout.Class3.method3(Class3.java:400)
+
+HTTP Request (b64)
+------------------
+l6yg7RQLyv/4UPfVLIUFvyOEYYoI9vAN2uqmeiXYL7CusXXbzqtWZ2Y122R1WkZqlknNjdmwvNtjVSdDzm8qyTviuZv45FCaU2aHN94u/YzjvTipj3kPXjvTCc5eU7lTyUahH6sO3bHoMHcgt+U9wlMiVN0Kbm5NeZhAisma1ihadh+5FwkZpuHdAf1R9ZGrV4qkxE2VYYRxtyJH5j9JAPCWfoo5
