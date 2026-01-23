@@ -1,0 +1,21 @@
+Test Case Name : TC406_Test_Case_406
+Module         : Inventory
+Timestamp      : 2026-01-20 10:10:20
+Build Number   : Jenkins-Build-409
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : ConcurrentModificationException
+Error Message  : ConcurrentModificationException while calling GET /api/v1/inventory/406 -> HTTP 503
+
+Stack Trace
+-----------
+ConcurrentModificationException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:45)
+	at com.company.inventory.Class2.method2(Class2.java:27)
+	at com.company.inventory.Class3.method3(Class3.java:447)
+
+HTTP Request (b64)
+------------------
+iSEI5mDUdLLnNnvI6clmgMH9QmWI33ZQAM5jbcte1so0/FBECu0dK/zgwqz/l33pZwqexAZoj/KP7=F6LPkOOM7Y1clGKA=oFHgKThGL0gTBK9SquXB6gkZBbSbIGHsrfSNPD9vc389YFnhKkYekrEzjeXP0eu+bTu2CoCcPwhwns5vJk2o+hVNkF+4PUwUZDkaSl3JXVA7kNMDGY5BhVU34Rl5F
