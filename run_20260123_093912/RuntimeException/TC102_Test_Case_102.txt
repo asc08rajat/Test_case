@@ -1,0 +1,21 @@
+Test Case Name : TC102_Test_Case_102
+Module         : Shipping
+Timestamp      : 2026-01-20 10:17:42
+Build Number   : Jenkins-Build-414
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : RuntimeException
+Error Message  : RuntimeException while calling GET /api/v1/shipping/102 -> HTTP 404
+
+Stack Trace
+-----------
+RuntimeException: failure in Shipping
+	at com.company.shipping.Class1.method1(Class1.java:70)
+	at com.company.shipping.Class2.method2(Class2.java:23)
+	at com.company.shipping.Class3.method3(Class3.java:371)
+
+HTTP Request (b64)
+------------------
+zZN+EF32t11i0QFOrC2BBk=CBy+QmTDueDFa6+/QmXd9BqyU1l8b3tJf6ILwmlY6N79wRArKV=HRRNOpo/DUOrkkP30V4=iWbjgtypykCxxb2WCcld+y7prRcWEtT=BRb48iKpObHFrrd5f+9XYzYyUPuQUBpLTiIomvFsSwGg6GUUf=WRgj/46Nos4eCPNr8o740d5BP/M9z6Dqeh0ylHRnwK47
