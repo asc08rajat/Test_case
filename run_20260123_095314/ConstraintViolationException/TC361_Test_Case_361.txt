@@ -1,0 +1,21 @@
+Test Case Name : TC361_Test_Case_361
+Module         : Search
+Timestamp      : 2026-01-20 10:29:21
+Build Number   : Jenkins-Build-516
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ConstraintViolationException
+Error Message  : ConstraintViolationException while calling GET /api/v1/search/361 -> HTTP 502
+
+Stack Trace
+-----------
+ConstraintViolationException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:14)
+	at com.company.search.Class2.method2(Class2.java:196)
+	at com.company.search.Class3.method3(Class3.java:171)
+
+HTTP Request (b64)
+------------------
+diINT0mgt3ymdcuHtfk7vfFREhUt=bYydqL/qHdbSTQEaZqGZkz08/JuO9+VH+Nk2CjQKhchlk+uYVmYTvOriAbdF4L2JZXMG1mMGeD1cGqnfJz3GEe1/B+BjwWrLpSqgCLzrnL4WdP1jlVGretHxiDVpoK8XzqhlIi+dLhCNhHVD3UNdXXCTm15QVZtAt1Vdu7yjJFCmKjgwdfGFl9hmELHlofu
