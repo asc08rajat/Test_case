@@ -1,0 +1,21 @@
+Test Case Name : TC485_Test_Case_485
+Module         : Checkout
+Timestamp      : 2026-01-20 10:15:26
+Build Number   : Jenkins-Build-444
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : NullPointerException
+Error Message  : NullPointerException while calling GET /api/v1/checkout/485 -> HTTP 500
+
+Stack Trace
+-----------
+NullPointerException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:46)
+	at com.company.checkout.Class2.method2(Class2.java:165)
+	at com.company.checkout.Class3.method3(Class3.java:340)
+
+HTTP Request (b64)
+------------------
+xaqHBFIQKF/GNEXPe49IUIfEbW+yIdAmySxaaN1Zz25l7OfSiTPJWtBLe6FSiquN4UxqgSu3ZED9Sq0lDWHB2SgxM2YKOxZLdPaX=BuCbKMfRh1y4TWcdvW1LxTLHZIUBXP/N3OI76zE/CxORvu/MvG7zxhqmaKYlNFn2P4v5aRKDJOZbcwRXQmNHQzmZA+XMNGVYSpwd3Kzmp8wXWSbG5S0GT5g
