@@ -1,0 +1,21 @@
+Test Case Name : TC431_Test_Case_431
+Module         : Login
+Timestamp      : 2026-01-20 10:02:11
+Build Number   : Jenkins-Build-475
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ConnectException
+Error Message  : ConnectException while calling GET /api/v1/login/431 -> HTTP 401
+
+Stack Trace
+-----------
+ConnectException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:433)
+	at com.company.login.Class2.method2(Class2.java:361)
+	at com.company.login.Class3.method3(Class3.java:126)
+
+HTTP Request (b64)
+------------------
+bqB7oqeYBPxnTBBmwLJc9MS1yFU6yD8Q7vspl7KcC=MdZCgLe3yw+hDC6IdN/CzWXG4LPAvtFacPNjU9L+QOLSCcIo3IWZhWj7qXcjBDQGbF7mc+B3ZxiuPFd=0rZ6vCqT4EIErbj+Sn=LW9NPjLlwPHGMPByAzmePbU3R9G/NSCQUIv695UaCProl38Ej/rF0bDqfiRpkBeYMDNCRKlc=Crmfem
