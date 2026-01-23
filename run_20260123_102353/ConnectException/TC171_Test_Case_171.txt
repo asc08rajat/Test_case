@@ -1,0 +1,21 @@
+Test Case Name : TC171_Test_Case_171
+Module         : Payments
+Timestamp      : 2026-01-20 10:19:52
+Build Number   : Jenkins-Build-593
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ConnectException
+Error Message  : ConnectException while calling GET /api/v1/payments/171 -> HTTP 500
+
+Stack Trace
+-----------
+ConnectException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:439)
+	at com.company.payments.Class2.method2(Class2.java:227)
+	at com.company.payments.Class3.method3(Class3.java:281)
+
+HTTP Request (b64)
+------------------
+7LIq27IBKGaamADkU5892sk9f+J+c7WAQsOojav2BcE0yIEzktvV/YvDs0ZV/qu6L=1=CydlbjX9F5VIuEetf5AfmqwnrUIIiAwq/zZ0H9=r/5UdLfhuvmx6apDJxhfeMmCYcPsriA4LoZmbhhRX+Ohq9uuUXnuivuGN+YqqpjmiM3mi4cisgddDaP7dCRc=ZuHQBADEyfnhbxlT6/5OMJz5WPNB
