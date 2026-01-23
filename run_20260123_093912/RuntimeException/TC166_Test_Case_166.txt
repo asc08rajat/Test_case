@@ -1,0 +1,21 @@
+Test Case Name : TC166_Test_Case_166
+Module         : Profile
+Timestamp      : 2026-01-20 10:13:19
+Build Number   : Jenkins-Build-509
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : RuntimeException
+Error Message  : RuntimeException while calling GET /api/v1/profile/166 -> HTTP 401
+
+Stack Trace
+-----------
+RuntimeException: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:409)
+	at com.company.profile.Class2.method2(Class2.java:161)
+	at com.company.profile.Class3.method3(Class3.java:14)
+
+HTTP Request (b64)
+------------------
++yEgrdYN=+LBo+WdHeUpKzTOR+UBTnTfqrbPmx1K7wILTMTJ/zxtCUwsuZG61OxHscHTbX5uNX5Y=cnmx12PovdauQitmJweYEWw9cj51R07E=4tEa=7O9+nG7uW0F3wURUkUWhqH03RWYI46mpjjL7f6jH1MCeabojXw4H+xCp01qgXkF=dbE8rI2XASqlo8RfqPEzwXZC9BjzA6zRIpTKQ9Lxi
