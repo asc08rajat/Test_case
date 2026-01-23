@@ -1,0 +1,21 @@
+Test Case Name : TC156_Test_Case_156
+Module         : Search
+Timestamp      : 2026-01-20 10:36:39
+Build Number   : Jenkins-Build-415
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : DuplicateKeyException
+Error Message  : DuplicateKeyException while calling GET /api/v1/search/156 -> HTTP 404
+
+Stack Trace
+-----------
+DuplicateKeyException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:71)
+	at com.company.search.Class2.method2(Class2.java:210)
+	at com.company.search.Class3.method3(Class3.java:285)
+
+HTTP Request (b64)
+------------------
+Sc5+czNSvh1+cXyq1Thg7YvEAWPORwQ11T8DsjbiwW0M0X68zrTQU6xPmpR54jy48Vp5p81vU9MkKz8e0sTpRBY1=1PveuQ0wOGjnHvu9oYyRn6syrPNICzEq/LasDFA1xi/1tJexJyVCTc9XATjNVIHsPtHDjF7EPNHf6UVcBFjcOD/=LQxAKt3Ud/qRIxllwJEfy=IKTSopEu7BsKN4GO/ewaw
