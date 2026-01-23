@@ -1,0 +1,21 @@
+Test Case Name : TC234_Test_Case_234
+Module         : Orders
+Timestamp      : 2026-01-20 10:09:03
+Build Number   : Jenkins-Build-449
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : DataIntegrityViolationException
+Error Message  : DataIntegrityViolationException while calling GET /api/v1/orders/234 -> HTTP 504
+
+Stack Trace
+-----------
+DataIntegrityViolationException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:317)
+	at com.company.orders.Class2.method2(Class2.java:381)
+	at com.company.orders.Class3.method3(Class3.java:374)
+
+HTTP Request (b64)
+------------------
+c1PA1DcGzUKWoqtsu4oBn84Hxj0Z2WegE1XHx1mogYc2X+ua+sIxXCsVa3qwPj+EgjQ0kpmY63bT3BM6dhQA74/4=ztl=md4Zt38zUBN+2wXvDt4O+JlveBJZ3ualsC/FxFmrVIUcLIuWaVZroFM5VkvO45pzNhagASKMjxqkmSt4N3YYXk7e8kcck=GDkXxQJ=/Jb3ENfu9H187xj1kFeZa7cTq
