@@ -1,0 +1,21 @@
+Test Case Name : TC420_Test_Case_420
+Module         : Notifications
+Timestamp      : 2026-01-20 10:09:43
+Build Number   : Jenkins-Build-442
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : SocketTimeoutException
+Error Message  : SocketTimeoutException while calling GET /api/v1/notifications/420 -> HTTP 403
+
+Stack Trace
+-----------
+SocketTimeoutException: failure in Notifications
+	at com.company.notifications.Class1.method1(Class1.java:417)
+	at com.company.notifications.Class2.method2(Class2.java:176)
+	at com.company.notifications.Class3.method3(Class3.java:472)
+
+HTTP Request (b64)
+------------------
+YISJ3p=Dt59sWgqWgsBFglzHXpa8famzlV5dVlHtQL3jEq5/JQ+nVPRebbd23G92CNdU75NOUaYbLhyYaxg0QY2mag51Am2fPUDJGLhqMkT2wvAyCLZaB1Uh0RuVRYtYVackWal=scCNI5VBAttPiAlR4o9TyeQA7d/moRTkd2FSxFDdn8yj8wM2e3T1NOCBn=aO3XuBeE=5ptE2aVS0qrU579DH
