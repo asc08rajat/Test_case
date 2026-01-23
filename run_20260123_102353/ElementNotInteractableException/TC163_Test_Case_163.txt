@@ -1,0 +1,21 @@
+Test Case Name : TC163_Test_Case_163
+Module         : Profile
+Timestamp      : 2026-01-20 10:19:16
+Build Number   : Jenkins-Build-527
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ElementNotInteractableException
+Error Message  : ElementNotInteractableException while calling GET /api/v1/profile/163 -> HTTP 400
+
+Stack Trace
+-----------
+ElementNotInteractableException: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:113)
+	at com.company.profile.Class2.method2(Class2.java:142)
+	at com.company.profile.Class3.method3(Class3.java:420)
+
+HTTP Request (b64)
+------------------
+lyJdDHiS2IK45ZQZZRoYLEJTcPoro1GutEmmfvU7PtsMn/UKaS2nCuy5nUyYQKISUr0gNUQ3gE49XR=3nI/Uvx+25w+c2aCxu3MY+q96DR8H7/8ftl7ed45cVh6iqsji1dGrJxqTB75COfYrlmNYOZOX1VwL=L8j2gYcgVUXfy6HBUTTY68A3rypbgfHqKHjMLXnVU9o47L40A+nhbETFOL6nHQw
