@@ -1,0 +1,21 @@
+Test Case Name : TC326_Test_Case_326
+Module         : Payments
+Timestamp      : 2026-01-20 10:14:17
+Build Number   : Jenkins-Build-447
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : IllegalArgumentException
+Error Message  : IllegalArgumentException while calling GET /api/v1/payments/326 -> HTTP 504
+
+Stack Trace
+-----------
+IllegalArgumentException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:186)
+	at com.company.payments.Class2.method2(Class2.java:22)
+	at com.company.payments.Class3.method3(Class3.java:493)
+
+HTTP Request (b64)
+------------------
+TBuM0IcimRl+oWZKDuaVD1zJZu9qssLdP=FEfHaVvMUC4Ip0dfMepi89eFmdWuhIMjTv1rOdiIziWabbxfCCFRxnCwXCvFHF6xAgrp1Jx4JIeP8J42wIrynVIrqWn4E8qoTmGReTfMEQtAOEuueVnO0l4+Pu2SleJVJNegY1Pm51+fv0i/dziK=fADnALhBVVrvTuxgbCbpIyPLfdLoR/0xHp=IE
