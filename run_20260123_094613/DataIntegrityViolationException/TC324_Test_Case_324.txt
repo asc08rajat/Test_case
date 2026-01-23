@@ -1,0 +1,21 @@
+Test Case Name : TC324_Test_Case_324
+Module         : Shipping
+Timestamp      : 2026-01-20 10:20:44
+Build Number   : Jenkins-Build-433
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : DataIntegrityViolationException
+Error Message  : DataIntegrityViolationException while calling GET /api/v1/shipping/324 -> HTTP 502
+
+Stack Trace
+-----------
+DataIntegrityViolationException: failure in Shipping
+	at com.company.shipping.Class1.method1(Class1.java:335)
+	at com.company.shipping.Class2.method2(Class2.java:181)
+	at com.company.shipping.Class3.method3(Class3.java:16)
+
+HTTP Request (b64)
+------------------
+wxkI0z13SToA=rJ0DpInF3OjLomGadLlHb8E38zR/OjNDK7hbzVSxjooC6tYxVHGhR0unDcXziW=VkIL1wl=40bQAYMOJGBCrMuwdbXMpnjP0p9ZMwJhqWgKrISqPzQdYCfAe8+pkiLtDoHaDvkqZ7FSw4PNhhDDyKaKF4n5q=8reFLTkUBelHaSeLlc=vvh9J95a/MAkwRf7ZEitW8fvdWjsmWG
