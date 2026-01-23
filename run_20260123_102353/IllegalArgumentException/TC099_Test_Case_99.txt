@@ -1,0 +1,21 @@
+Test Case Name : TC099_Test_Case_99
+Module         : Checkout
+Timestamp      : 2026-01-20 10:23:06
+Build Number   : Jenkins-Build-485
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : IllegalArgumentException
+Error Message  : IllegalArgumentException while calling GET /api/v1/checkout/99 -> HTTP 400
+
+Stack Trace
+-----------
+IllegalArgumentException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:473)
+	at com.company.checkout.Class2.method2(Class2.java:321)
+	at com.company.checkout.Class3.method3(Class3.java:322)
+
+HTTP Request (b64)
+------------------
+nEK9C8hSxQNEBZVwDNNpy5QjBsHrGJZUQIM9natA8eS9+RNrmQErpCmkNXiOOIPtz3iI5uMl+d8ERbCr038Sn0ZQdYvVG+7FVLc9/ZRLgVmQ6eKtL=UTy7luh/9r+j6XCt8n9zmZmL7r9W/v0IYB8DjvvTu5Rr8DBEuShJJrvDX+LfOzhRqzb1cuGFTKRuViBiPhLigPsNfa7Z65O86NF0Q8FoyG
