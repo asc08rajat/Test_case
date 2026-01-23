@@ -1,0 +1,21 @@
+Test Case Name : TC322_Test_Case_322
+Module         : Payments
+Timestamp      : 2026-01-20 10:41:45
+Build Number   : Jenkins-Build-574
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : HttpResponseException
+Error Message  : HttpResponseException while calling GET /api/v1/payments/322 -> HTTP 403
+
+Stack Trace
+-----------
+HttpResponseException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:116)
+	at com.company.payments.Class2.method2(Class2.java:443)
+	at com.company.payments.Class3.method3(Class3.java:286)
+
+HTTP Request (b64)
+------------------
+Sn4aLHc3HL+TfxTt8CzADuuvaAP/YcJQSdvutAFgO8301j9MYrDb4s7PsNvMK9f8RKqMr6orx9z1nU3lm2jLLkNTGws9HoTLF0JZJ/Ve+6u9JogL=6l=+Q50B//iE32reHL=ilJ2Wj3aPfFlksEerG+djDpPfX=LvWgWcZNO2KIjBHDdMAVZHuumD=+oL8SlNuVxyq49ZTRFnhKles9fiEMFwCTk
