@@ -1,0 +1,21 @@
+Test Case Name : TC203_Test_Case_203
+Module         : Login
+Timestamp      : 2026-01-20 10:51:21
+Build Number   : Jenkins-Build-520
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : HttpResponseException
+Error Message  : HttpResponseException while calling GET /api/v1/login/203 -> HTTP 504
+
+Stack Trace
+-----------
+HttpResponseException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:156)
+	at com.company.login.Class2.method2(Class2.java:409)
+	at com.company.login.Class3.method3(Class3.java:397)
+
+HTTP Request (b64)
+------------------
+a3Tay=D2NOj4MOP51vKCBNcNjuW3mxDxFzI7Ztk6QZ/h7iIDbhWNNhXflUWTklf+J762AYxSGbuarGtg9Hz08oyZKvmY+rEWMpvfZ7DeyH40xXjgFF7aUS3vgfgqdcnX0pARYU/hxgd=85ecjYMQ19ahCKXJ8pknrY5Fzg+dNjgwHDmt=kSBv/MA=RRAsfQuGMzSXsfF+D2FYsR2xSRQLsHQwkOw
