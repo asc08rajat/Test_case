@@ -1,0 +1,21 @@
+Test Case Name : TC258_Test_Case_258
+Module         : Search
+Timestamp      : 2026-01-20 10:39:17
+Build Number   : Jenkins-Build-496
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : DataIntegrityViolationException
+Error Message  : DataIntegrityViolationException while calling GET /api/v1/search/258 -> HTTP 404
+
+Stack Trace
+-----------
+DataIntegrityViolationException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:356)
+	at com.company.search.Class2.method2(Class2.java:93)
+	at com.company.search.Class3.method3(Class3.java:19)
+
+HTTP Request (b64)
+------------------
+BUfryFeakDoECsIHCkWKOYeh+fX3FqMLv9BfUEyAOa9WQQwK=eaLCLyKk7zhf=7fZfiKoO4QmJxSenYrhuLF5EyqXbDHJGJ9pxaIv4du1ALqIOrfgLWfRiqMj2f6DleWp91IqT5MjAD5agNm5wBiMxkt4yMhjUrm31Dw3PZmD/z4aQLUgRo3odghd59OSP75qO0EAE35+2ARq2BWS+upT=jo+2PN
