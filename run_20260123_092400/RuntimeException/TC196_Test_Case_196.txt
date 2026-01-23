@@ -1,0 +1,21 @@
+Test Case Name : TC196_Test_Case_196
+Module         : Profile
+Timestamp      : 2026-01-20 10:24:32
+Build Number   : Jenkins-Build-511
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : RuntimeException
+Error Message  : RuntimeException while calling GET /api/v1/profile/196 -> HTTP 503
+
+Stack Trace
+-----------
+RuntimeException: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:391)
+	at com.company.profile.Class2.method2(Class2.java:342)
+	at com.company.profile.Class3.method3(Class3.java:496)
+
+HTTP Request (b64)
+------------------
+L2HL7pUW7tc1=9rCRuCdSeAQp1964Z6E7sH4wn3T2=ok8HIPm8jMkAPNsBkxv=cmp0bK091wpCs8n39chz3zFlYpFYVZT+iPSEKVUHbFBOF/tI6oMl6LFHXeQsRosXi8AFKGWqTdOPQDoum+H88Ie/6USW2q8xDOBS=tjm9hHrAxiGPsY4c7b5ia4nWvFOOHWoMP6Pp+=XQFu7Ffk9PUcXa5ZZL0
