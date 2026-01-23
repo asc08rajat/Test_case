@@ -1,0 +1,21 @@
+Test Case Name : TC237_Test_Case_237
+Module         : Inventory
+Timestamp      : 2026-01-20 10:21:49
+Build Number   : Jenkins-Build-419
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : ConnectException
+Error Message  : ConnectException while calling GET /api/v1/inventory/237 -> HTTP 504
+
+Stack Trace
+-----------
+ConnectException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:261)
+	at com.company.inventory.Class2.method2(Class2.java:495)
+	at com.company.inventory.Class3.method3(Class3.java:242)
+
+HTTP Request (b64)
+------------------
+rpbSVQWRXwbvOTiyqpArZHoDRHQPN3XMcCj0djP8EqRlADbQ067C2yA6QhBuV1OC6QDH=4vtc/GifEGbot2mxPd3L1ykRtNe=GJ479WQs=Ppf7WdsExP8j0Q/S8tvA1oymBNawZpftPBWS9zDDHn4MDY7P1fUL4mu949e3qXdDuR9zuUEvH0ncySoAiIO=gDb2TAL6nNLpDjkYtgSGt8qsXgsC7t
