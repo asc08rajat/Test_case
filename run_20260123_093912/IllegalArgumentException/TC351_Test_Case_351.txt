@@ -1,0 +1,21 @@
+Test Case Name : TC351_Test_Case_351
+Module         : Notifications
+Timestamp      : 2026-01-20 10:33:43
+Build Number   : Jenkins-Build-556
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : IllegalArgumentException
+Error Message  : IllegalArgumentException while calling GET /api/v1/notifications/351 -> HTTP 403
+
+Stack Trace
+-----------
+IllegalArgumentException: failure in Notifications
+	at com.company.notifications.Class1.method1(Class1.java:40)
+	at com.company.notifications.Class2.method2(Class2.java:460)
+	at com.company.notifications.Class3.method3(Class3.java:125)
+
+HTTP Request (b64)
+------------------
+Gk3j8MMVU0gfFVVZwNfjOVJc=q6ssxhRdl7WOfczXxErVd9nWEQUi4FQz1IbbF06cxPMz3BqD+Xh=0HpKdR88VyBEtLWM9ByZDBH9l0Niidx0aJ/3QLxSr8+38v5v+FM/S8tN/OrRsxH9YNklvcIk=3YS14owHadAGsaklOT8HhKbYJ/lFHwmIhvlrK1wOZD=aDBhJ4abBXMpKqAS=gWDwRFoT0E
