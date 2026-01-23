@@ -1,0 +1,21 @@
+Test Case Name : TC068_Test_Case_68
+Module         : Payments
+Timestamp      : 2026-01-20 10:55:55
+Build Number   : Jenkins-Build-479
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : RuntimeException
+Error Message  : RuntimeException while calling GET /api/v1/payments/68 -> HTTP 502
+
+Stack Trace
+-----------
+RuntimeException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:191)
+	at com.company.payments.Class2.method2(Class2.java:107)
+	at com.company.payments.Class3.method3(Class3.java:245)
+
+HTTP Request (b64)
+------------------
+PfRfwF=BNrbiWzEK94IOiP1dPHYTspCaUa2b9A7SA7C7FxJ/Xjo1oQ4DTiNlJ62HO+SQsSnNMob3Yqqe39m8V6XZruHgIiUUZQzW=S1rZe2MR+/aNRtnf2BFuo61Z1CeT0lVFIjVzPKAKWiICyukm9TvS4SmhAwNDBnsEeYW7rhEtqm/Og7VqnfFQ442k9WN93SbIzsBbcU4adeKova=gIFNo4Ye
