@@ -1,0 +1,21 @@
+Test Case Name : TC445_Test_Case_445
+Module         : Shipping
+Timestamp      : 2026-01-20 10:57:55
+Build Number   : Jenkins-Build-521
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : IllegalArgumentException
+Error Message  : IllegalArgumentException while calling GET /api/v1/shipping/445 -> HTTP 502
+
+Stack Trace
+-----------
+IllegalArgumentException: failure in Shipping
+	at com.company.shipping.Class1.method1(Class1.java:95)
+	at com.company.shipping.Class2.method2(Class2.java:100)
+	at com.company.shipping.Class3.method3(Class3.java:199)
+
+HTTP Request (b64)
+------------------
+xAdhUZNsmebEUks=nWWBowvO3cvJvBrOwKOKc4KeNl1SD=ZLl+AfutSn09QfDBfK3SetTKugH30X2TGVuS2G/RV3FV4n1oESfhVo+dNEYC/fUTBhTAe1sCASYMMuIHUsJnEttlHEXnfm9e3mvMWmDqsnt1PG6WHLIM+gqBoJFW=PMfRnAZI2vVtC/OXdTnMP2=zGvXS75fS3rbawovImWDNkKcsA
