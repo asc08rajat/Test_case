@@ -1,0 +1,21 @@
+Test Case Name : TC224_Test_Case_224
+Module         : Search
+Timestamp      : 2026-01-20 10:30:58
+Build Number   : Jenkins-Build-450
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : ConcurrentModificationException
+Error Message  : ConcurrentModificationException while calling GET /api/v1/search/224 -> HTTP 404
+
+Stack Trace
+-----------
+ConcurrentModificationException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:327)
+	at com.company.search.Class2.method2(Class2.java:416)
+	at com.company.search.Class3.method3(Class3.java:49)
+
+HTTP Request (b64)
+------------------
+6ayt8E8a6m21Y7UjJ1fQfFKqiKO7tz7lTVffPk0gBA0=PfSiXVUbIjhq1Nf0l9MZJGPkQeXdNyBF=i8dLJPxDP5bgkLIiMRQtm6w77MM7QNd2QyNBIXGv08rrjrERiKini86P=H1VB2chEF+3PncMLXai9twNM7dunz9c9AflzaVLLMeeZfKvxIzhysdlM2OlShAes2nj00JvL7p5CwX4/cTVndk
