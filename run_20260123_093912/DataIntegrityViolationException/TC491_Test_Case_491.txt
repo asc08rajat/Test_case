@@ -1,0 +1,21 @@
+Test Case Name : TC491_Test_Case_491
+Module         : Search
+Timestamp      : 2026-01-20 10:21:03
+Build Number   : Jenkins-Build-490
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : DataIntegrityViolationException
+Error Message  : DataIntegrityViolationException while calling GET /api/v1/search/491 -> HTTP 401
+
+Stack Trace
+-----------
+DataIntegrityViolationException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:347)
+	at com.company.search.Class2.method2(Class2.java:50)
+	at com.company.search.Class3.method3(Class3.java:382)
+
+HTTP Request (b64)
+------------------
+IEnBvZAl8dmutbvdcEzQ52IBkDztWmrcOXQBgvkr9RjoTUH0YbXUBVy+PJwPHbCAS2i+Akgnr/z9qBV60NPFL70VHxrI3tDOz1G/+QCkbZWxfvcrcELBmii+NzqUAL5bnm=Stqq4I1ocQP=80Mj3Npcj4LLfAfZRPjcP8MJB3/ALeoWTyBvoijQ/5FWhE22aoK3kuARt=UPQLAutoGVAvY2SbzZ8
