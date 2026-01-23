@@ -1,0 +1,21 @@
+Test Case Name : TC360_Test_Case_360
+Module         : Inventory
+Timestamp      : 2026-01-20 10:23:42
+Build Number   : Jenkins-Build-405
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : ConcurrentModificationException
+Error Message  : ConcurrentModificationException while calling GET /api/v1/inventory/360 -> HTTP 404
+
+Stack Trace
+-----------
+ConcurrentModificationException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:173)
+	at com.company.inventory.Class2.method2(Class2.java:209)
+	at com.company.inventory.Class3.method3(Class3.java:477)
+
+HTTP Request (b64)
+------------------
+dn9tOk9CT+yXZp5rtjlUo9EtAtcRcKH6b8KnmQhdQUmi/ZcPTztAtcJYFgV93JG5VEeA4gZUQm6kODhMPTcC=70kKRPTvEV3WmHwQCIYe6gU0fc55o8NnrdcheIGLDSTJhHWFt/IYKhdw/SxUgy9zZ3BekNHRfQx0AYwHIqemKEecN2CKTvLhfO8QAk3Cadsgq0LPQkSjCEC52e7ouXkNh7b9Sp+
