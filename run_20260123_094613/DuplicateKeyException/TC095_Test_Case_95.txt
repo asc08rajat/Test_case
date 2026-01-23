@@ -1,0 +1,21 @@
+Test Case Name : TC095_Test_Case_95
+Module         : Checkout
+Timestamp      : 2026-01-20 10:35:31
+Build Number   : Jenkins-Build-548
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : DuplicateKeyException
+Error Message  : DuplicateKeyException while calling GET /api/v1/checkout/95 -> HTTP 403
+
+Stack Trace
+-----------
+DuplicateKeyException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:127)
+	at com.company.checkout.Class2.method2(Class2.java:41)
+	at com.company.checkout.Class3.method3(Class3.java:143)
+
+HTTP Request (b64)
+------------------
+WbU88hfUlLm=VkU+ASGHlmW=+ZlFzlEB09xbrm1TYDOw0XRbB=GUXgxxbYi/oL7l52M6ZekhpA1xZEehA2jahm9mbvlS461+AjOhwYrdenJ6g+Z2XUOe8aPU2pr/CmP=qGkHfh5GoEF/+roUHai/+KYvjJRU2Nq7vQvcaW1ALgSHol+fg7MW2FJ6oEhje2Tl0zUtDuQzpN6Mwxa3HVCu4VzIOfdT
