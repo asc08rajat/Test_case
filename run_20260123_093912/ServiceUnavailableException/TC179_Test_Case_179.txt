@@ -1,0 +1,21 @@
+Test Case Name : TC179_Test_Case_179
+Module         : Payments
+Timestamp      : 2026-01-20 10:36:57
+Build Number   : Jenkins-Build-567
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : ServiceUnavailableException
+Error Message  : ServiceUnavailableException while calling GET /api/v1/payments/179 -> HTTP 500
+
+Stack Trace
+-----------
+ServiceUnavailableException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:196)
+	at com.company.payments.Class2.method2(Class2.java:333)
+	at com.company.payments.Class3.method3(Class3.java:355)
+
+HTTP Request (b64)
+------------------
+Y4850gOO75rqbtXmYmz9qOza8bAio1=0xurgBTYcoejUoJiMjLClLCOu/icxUgOs=wKBRpRNp3Mr5Mrb=ozu3vmckcO6a=968+klU7heiEGbHm0AdY23ixKS9snzyOGSxVyDLucCtwCRUXRpAu72cMpBU07DHn8ZxRJx1J3aEnjmUeKKdOmGqu76EEXW/mRRX/lzcMsFaErwpulaUU6KUVenQ25V
