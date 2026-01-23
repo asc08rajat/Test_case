@@ -1,0 +1,21 @@
+Test Case Name : TC347_Test_Case_347
+Module         : Shipping
+Timestamp      : 2026-01-20 10:42:02
+Build Number   : Jenkins-Build-462
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : RuntimeException
+Error Message  : RuntimeException while calling GET /api/v1/shipping/347 -> HTTP 401
+
+Stack Trace
+-----------
+RuntimeException: failure in Shipping
+	at com.company.shipping.Class1.method1(Class1.java:186)
+	at com.company.shipping.Class2.method2(Class2.java:364)
+	at com.company.shipping.Class3.method3(Class3.java:155)
+
+HTTP Request (b64)
+------------------
+7kH2DloVLZz7svzwcMRiENGkHLyRRVV4V5pgr1u9yj8SJ+qHFjZl2xrOYDu3i/6a/kU7HQp/4tOgKisICfHMYazTvrLApVcNL8oiNZSTCMVfI8zIgt+TKA8IZatj7ttSdowdwr1lvjZM0J6dx7Vb/Zf5dy0re8FXkcRO2WO03MpjWnt0fsVJenIuik1/=qqywd+qrZShXVajgzVvuxAfj6X/cHZj
