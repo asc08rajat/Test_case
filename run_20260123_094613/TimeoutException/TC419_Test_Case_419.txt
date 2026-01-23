@@ -1,0 +1,21 @@
+Test Case Name : TC419_Test_Case_419
+Module         : Search
+Timestamp      : 2026-01-20 10:44:20
+Build Number   : Jenkins-Build-423
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : TimeoutException
+Error Message  : TimeoutException while calling GET /api/v1/search/419 -> HTTP 502
+
+Stack Trace
+-----------
+TimeoutException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:241)
+	at com.company.search.Class2.method2(Class2.java:245)
+	at com.company.search.Class3.method3(Class3.java:272)
+
+HTTP Request (b64)
+------------------
+QMHyxRlt4QpbmL=seKsc/YnGczjqxKOuWXP+WR1NOe8N2C/28ypDxKdsuEGLdhD+Mwhx+qTBzIWU7zqFbicJnIJzyw9Ib1hJvAdmRVnrAVDv389nCoj+vlh6fz605SWWAwesJRJVuO7RmzmAnspXESgcs+dzYV4qkxr0jiyZO2kpDOT8i+=fmZwCqWBraKKSYRtWwR/q1CCZgt6Bp6oKP2aZbqEL
