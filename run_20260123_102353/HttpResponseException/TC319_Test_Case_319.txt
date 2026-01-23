@@ -1,0 +1,21 @@
+Test Case Name : TC319_Test_Case_319
+Module         : Login
+Timestamp      : 2026-01-20 10:04:58
+Build Number   : Jenkins-Build-416
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : HttpResponseException
+Error Message  : HttpResponseException while calling GET /api/v1/login/319 -> HTTP 500
+
+Stack Trace
+-----------
+HttpResponseException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:365)
+	at com.company.login.Class2.method2(Class2.java:355)
+	at com.company.login.Class3.method3(Class3.java:369)
+
+HTTP Request (b64)
+------------------
+/MvF3oRwwIm7Jt1LwOTdiFcHOFIvp14A0DFUVLUcePqKUXL3c6s5ZPeGrTTK0NiAR7wCTQ+R8lO04LRKQlf=IM/pEXQ4pp2Umoxz/XAQr9UTn096=5FlBInSdNnncfwRGhVr=m48YTHhlCJTy9mOFXaTpVmlQFsNWW7=963ZjLXNMjJuQIHyjwWrDuRcpLW1szo10GeHxmB2LAvdnv3C/EbOp+=y
