@@ -1,0 +1,21 @@
+Test Case Name : TC081_Test_Case_81
+Module         : Orders
+Timestamp      : 2026-01-20 10:26:37
+Build Number   : Jenkins-Build-461
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : ElementNotInteractableException
+Error Message  : ElementNotInteractableException while calling GET /api/v1/orders/81 -> HTTP 500
+
+Stack Trace
+-----------
+ElementNotInteractableException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:449)
+	at com.company.orders.Class2.method2(Class2.java:123)
+	at com.company.orders.Class3.method3(Class3.java:433)
+
+HTTP Request (b64)
+------------------
+ZKn=RUBekepGppzB1cHSXuzLWh9IcrlhoE0nnOlLmMdRTl3wx9icEyjpKitUCZT/phkndceHCrKZzpGj/JGMVxc1VJpcIDv6Nnjg/kyLuQVTod+/1Yaa=fGTdoEUNRoJxrGbhxlZ8h1mnHTfGCbw82dH3StJYIPH+J30A=Hs1+TZy39=F8ffr4RS1m+oQdHD43zLtsc9v=ywhjsX/rNE5atHz+Ba
