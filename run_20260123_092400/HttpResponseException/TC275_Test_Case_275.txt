@@ -1,0 +1,21 @@
+Test Case Name : TC275_Test_Case_275
+Module         : Orders
+Timestamp      : 2026-01-20 10:33:26
+Build Number   : Jenkins-Build-457
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : HttpResponseException
+Error Message  : HttpResponseException while calling GET /api/v1/orders/275 -> HTTP 502
+
+Stack Trace
+-----------
+HttpResponseException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:497)
+	at com.company.orders.Class2.method2(Class2.java:459)
+	at com.company.orders.Class3.method3(Class3.java:381)
+
+HTTP Request (b64)
+------------------
+Yj7P=EmjPVMY97pC3gxbky6YLxxPbAmewk49h8EwfZZNS2=M=AzOl9GouDV5gCfr33YGGtzG5hnajkolBP1I2GrrKL=YNGT0QNhcO6YcryqiISW5gX9sO1oc=kXG+VUAQ7hE4gRPWWu7KvPhSeIDx975GCEnnvanWORBRQITye4SrLuf5LGOs7Oh44KPn0T7e0gd+jtoCPmmQgEJ=AB83zy5in=s
