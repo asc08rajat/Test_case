@@ -1,0 +1,21 @@
+Test Case Name : TC076_Test_Case_76
+Module         : Inventory
+Timestamp      : 2026-01-20 10:24:32
+Build Number   : Jenkins-Build-567
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : NoSuchElementException
+Error Message  : NoSuchElementException while calling GET /api/v1/inventory/76 -> HTTP 503
+
+Stack Trace
+-----------
+NoSuchElementException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:422)
+	at com.company.inventory.Class2.method2(Class2.java:11)
+	at com.company.inventory.Class3.method3(Class3.java:471)
+
+HTTP Request (b64)
+------------------
+14D=YS6gZRbUOlatjL24vj7u4uFzqn3LokME74A517lpqMiK3fUvwSHxLe7gytR75x3WoaBSI9FaIoUctQo06NS83iujYVzPjSttJ7UC4TxQzc6qYFGzcwmD/c9o3iWamu0pz7/xWb0=X1VWwzPNYudvpVPjiAWS4eYbc2Uj2NP0ORUwRONP4WjdFC6S9aZVsisMcoVGJ/cR7Tu053fXBX+a1A47
