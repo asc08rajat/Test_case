@@ -1,0 +1,21 @@
+Test Case Name : TC462_Test_Case_462
+Module         : Checkout
+Timestamp      : 2026-01-20 10:28:53
+Build Number   : Jenkins-Build-575
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : AuthenticationException
+Error Message  : AuthenticationException while calling GET /api/v1/checkout/462 -> HTTP 500
+
+Stack Trace
+-----------
+AuthenticationException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:31)
+	at com.company.checkout.Class2.method2(Class2.java:483)
+	at com.company.checkout.Class3.method3(Class3.java:89)
+
+HTTP Request (b64)
+------------------
+3SeNCRBXayaT0aVbzVlBhvW/UMQ22Eha=/LqGx6cF06gdpKmYEXA7BXHiqN4uOhfknFsuATXkEzbH+kKfpHo=8XHWtzhgG/7s7D54kRCloo89R2t6unQw19PEUMO0vdtvjXcTH9TS=JzqzUspudLNKsUSb0ZvRkgyDrlRf3YoAWiHvIbGpV44mwkK/wrr3RKvaEhZg87YrnADkf8u8G52pzMk2u1
