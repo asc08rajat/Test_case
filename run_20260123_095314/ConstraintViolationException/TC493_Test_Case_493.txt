@@ -1,0 +1,21 @@
+Test Case Name : TC493_Test_Case_493
+Module         : Profile
+Timestamp      : 2026-01-20 10:10:29
+Build Number   : Jenkins-Build-450
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : ConstraintViolationException
+Error Message  : ConstraintViolationException while calling GET /api/v1/profile/493 -> HTTP 503
+
+Stack Trace
+-----------
+ConstraintViolationException: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:372)
+	at com.company.profile.Class2.method2(Class2.java:57)
+	at com.company.profile.Class3.method3(Class3.java:326)
+
+HTTP Request (b64)
+------------------
+U0/CNn97OC+a4LF8KV2lRk+h5bS68gUcjze0liWyEe5cfVllED3EPFJtTbNuF/gchCexykkWMSkfL4K8KYekkBWBMhmhRiTDNdIDlyLGgMILZeE3ZToKhq6grfy=z5/7DQMqiwyLz+eWgaktMRHJlKuWWoxhtNRP18LxzK3jQ1osr7jqEW7TaTbOLI+g3V8db=csezVzA8bL82v6fdaYHoNF1lEe
