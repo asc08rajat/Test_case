@@ -1,0 +1,21 @@
+Test Case Name : TC496_Test_Case_496
+Module         : Search
+Timestamp      : 2026-01-20 10:42:45
+Build Number   : Jenkins-Build-453
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : JSONValidationException
+Error Message  : JSONValidationException while calling GET /api/v1/search/496 -> HTTP 502
+
+Stack Trace
+-----------
+JSONValidationException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:118)
+	at com.company.search.Class2.method2(Class2.java:59)
+	at com.company.search.Class3.method3(Class3.java:230)
+
+HTTP Request (b64)
+------------------
+EUYqehbldndFQl8VqXhl8tQ6WE=w=5nW3M30Rp+yn=O68VlEe7JeebhrFPH7BSe+QfDExxMh0wKJFplmTWEZKfowQCkKn=+KM5pujPhZzFMHyQNTd3XOEg8Ff5k31aisulGxRYlVS/Sk=N01SB0axXrhg+6tWnTzoXX6raSWvHrC1E=/QCuCIG/3nQGisk/LO8hA3tWj4ndxFHFkKwCe+9f0a8s0
