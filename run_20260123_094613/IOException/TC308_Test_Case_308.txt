@@ -1,0 +1,21 @@
+Test Case Name : TC308_Test_Case_308
+Module         : Login
+Timestamp      : 2026-01-20 10:03:52
+Build Number   : Jenkins-Build-540
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : IOException
+Error Message  : IOException while calling GET /api/v1/login/308 -> HTTP 401
+
+Stack Trace
+-----------
+IOException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:183)
+	at com.company.login.Class2.method2(Class2.java:391)
+	at com.company.login.Class3.method3(Class3.java:52)
+
+HTTP Request (b64)
+------------------
+ReKB+rVDUmi5rNX590A9HOi/XIPLDobst30uGddYSygaKIlwsFGlR9BLXLmxDPmC2Cus7pS8PCUYkPi+FtH/pngteeTkwPSv1uapUag2HJ0qpD1f78EpMA6y7vlLZZnamA+PhmDpttprs96LjTOp/G8irW2bbyHrJqBqFgybeowmBitU8TY2kH4ANKlu6woQkbd2WuLroKnfmqC3SXR7rrvAWE1B
