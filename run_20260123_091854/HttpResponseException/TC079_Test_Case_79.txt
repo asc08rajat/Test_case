@@ -1,0 +1,21 @@
+Test Case Name : TC079_Test_Case_79
+Module         : Notifications
+Timestamp      : 2026-01-20 10:51:56
+Build Number   : Jenkins-Build-516
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : HttpResponseException
+Error Message  : HttpResponseException while calling GET /api/v1/notifications/79 -> HTTP 503
+
+Stack Trace
+-----------
+HttpResponseException: failure in Notifications
+	at com.company.notifications.Class1.method1(Class1.java:243)
+	at com.company.notifications.Class2.method2(Class2.java:75)
+	at com.company.notifications.Class3.method3(Class3.java:474)
+
+HTTP Request (b64)
+------------------
+PW2aPv7XLrJi6smC2u5k5sHzPHZ+H2CkCjaHwRhxQRfA4IdK2W+sbji2ZTpm/Ce0hXFavkqzXLcjbr=gVGtl4xvstWQx9qHglb81nYil86SgWKky=Mb5k/aCJNfwQ0FRVTu9BzF4tixhD90c2o1f2=nOMNFHhFcUffS1PXpo00kh4yU2HMyJdBDDIhe3aCBE0Je=zj7KGcMqAMcJqIkaIw53uEfJ
