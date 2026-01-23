@@ -1,0 +1,21 @@
+Test Case Name : TC348_Test_Case_348
+Module         : Notifications
+Timestamp      : 2026-01-20 10:46:46
+Build Number   : Jenkins-Build-567
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : HttpResponseException
+Error Message  : HttpResponseException while calling GET /api/v1/notifications/348 -> HTTP 403
+
+Stack Trace
+-----------
+HttpResponseException: failure in Notifications
+	at com.company.notifications.Class1.method1(Class1.java:465)
+	at com.company.notifications.Class2.method2(Class2.java:358)
+	at com.company.notifications.Class3.method3(Class3.java:462)
+
+HTTP Request (b64)
+------------------
+TeA=FfUgF7SnNghtWfZDAs/QurWMK3kaxoT0EGn3k/xFaumIaPlboyiFhE=QfQx4Br+Hzii88GhC2rdToXaZ0vb2DkW0Tm8vrII1DTuhomoBmtxL3AVuoACW9YyitBxfwX6/dUHmPxTULFSkA/YsCp3YeMwxVTykvIXrF1gnKAKs7rkY6luy56adKrLwb9aeNnPscERnhGcQRi2g6M2mCYmAFYif
