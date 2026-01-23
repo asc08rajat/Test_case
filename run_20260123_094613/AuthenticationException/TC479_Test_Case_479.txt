@@ -1,0 +1,21 @@
+Test Case Name : TC479_Test_Case_479
+Module         : Payments
+Timestamp      : 2026-01-20 10:03:46
+Build Number   : Jenkins-Build-446
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : AuthenticationException
+Error Message  : AuthenticationException while calling GET /api/v1/payments/479 -> HTTP 503
+
+Stack Trace
+-----------
+AuthenticationException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:231)
+	at com.company.payments.Class2.method2(Class2.java:426)
+	at com.company.payments.Class3.method3(Class3.java:242)
+
+HTTP Request (b64)
+------------------
+Wk1l/n=8VBKqN25z9Y7deV=RxbBnu6ujEKmwhK/fO4JzItMDHV7MwH56Qh9ctio7J4/fOPNyt+rN6A2HjtzL0vzd+KV=sQlTkgFUr8rYU=KTEv+VL5Icw9sFieVA2qv/63zaimlSI=Sqtf7ZaByAPtejbeHG5T3HPZJ/YovYFgr3SwLMpRn9jSg4uilKMcxFebOLAi+VV3FkRq=tvgDucf+=jaub
