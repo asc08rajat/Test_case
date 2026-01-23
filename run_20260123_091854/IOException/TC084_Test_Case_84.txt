@@ -1,0 +1,21 @@
+Test Case Name : TC084_Test_Case_84
+Module         : Shipping
+Timestamp      : 2026-01-20 10:18:58
+Build Number   : Jenkins-Build-599
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : IOException
+Error Message  : IOException while calling GET /api/v1/shipping/84 -> HTTP 403
+
+Stack Trace
+-----------
+IOException: failure in Shipping
+	at com.company.shipping.Class1.method1(Class1.java:46)
+	at com.company.shipping.Class2.method2(Class2.java:225)
+	at com.company.shipping.Class3.method3(Class3.java:334)
+
+HTTP Request (b64)
+------------------
+xShTS+qvJO7mYKdQElZ9SjkoTLma7ZrCjM57+Z6/voaMoa4UugWKm1b1vXq=Hn1QAF9TL7VPMtrgMJob+SwEhusyy64aagvIrEQqcRmD2TzUBqW+2hwB/EV9fE3E4lmwORghVIKUS2GZGYsGM8J08cKcPF5RNthnRP1E=59r2GDKb/Q2TkLcqlzVjxEIXs4tJ1f6KOxfW8rO2VS2xyT1p+qbvr63
