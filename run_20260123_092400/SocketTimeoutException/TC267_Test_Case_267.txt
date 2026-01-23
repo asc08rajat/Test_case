@@ -1,0 +1,21 @@
+Test Case Name : TC267_Test_Case_267
+Module         : Checkout
+Timestamp      : 2026-01-20 10:30:45
+Build Number   : Jenkins-Build-530
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : SocketTimeoutException
+Error Message  : SocketTimeoutException while calling GET /api/v1/checkout/267 -> HTTP 503
+
+Stack Trace
+-----------
+SocketTimeoutException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:341)
+	at com.company.checkout.Class2.method2(Class2.java:148)
+	at com.company.checkout.Class3.method3(Class3.java:194)
+
+HTTP Request (b64)
+------------------
+93raaJrsXLjoV3Lpne9=wYwXoVyQNLnnm/HyYiPySOJKzz3c=LvYe8KV=ziUrUtLzXnQ/dcbLvFWVTFSe5MnT40T04Hi0LfZuaZSZc+5DJy=gwvoNJN3OEEmj0pnAiTXFpJMqa3W=Q0q2Fzqk+kHehbhPuX+lLsSJ==8McwdLy5M4nIEOiABoAr2FRdHuh0yvscUTWD+R7iId73lzvZxcT/OWSZJ
