@@ -1,0 +1,21 @@
+Test Case Name : TC373_Test_Case_373
+Module         : Search
+Timestamp      : 2026-01-20 10:36:07
+Build Number   : Jenkins-Build-413
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ElementNotInteractableException
+Error Message  : ElementNotInteractableException while calling GET /api/v1/search/373 -> HTTP 500
+
+Stack Trace
+-----------
+ElementNotInteractableException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:339)
+	at com.company.search.Class2.method2(Class2.java:71)
+	at com.company.search.Class3.method3(Class3.java:228)
+
+HTTP Request (b64)
+------------------
+uHqX78EcGUgc0+uxESLLcfEDig0+g9Cqc163Vssk235o2c5M4fYq8nXbw2Mo64nSucE1HCvcpjjQx4Ly7=F8pqJtie/WXJqCn5/=/i+Jxt7sIuS+lYxMBCXQr=5CKisaMUYk9P0iaKuUxY5dBitnd4IP5dzNWMyxZsKDe8s5wpynqboOF=mkpHAg+jOR8DiAWTBz0rEDVytT34qG32VvSpnkYyK/
