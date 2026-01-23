@@ -1,0 +1,21 @@
+Test Case Name : TC087_Test_Case_87
+Module         : Notifications
+Timestamp      : 2026-01-20 10:28:50
+Build Number   : Jenkins-Build-476
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : PerformanceSLAException
+Error Message  : PerformanceSLAException while calling GET /api/v1/notifications/87 -> HTTP 504
+
+Stack Trace
+-----------
+PerformanceSLAException: failure in Notifications
+	at com.company.notifications.Class1.method1(Class1.java:470)
+	at com.company.notifications.Class2.method2(Class2.java:129)
+	at com.company.notifications.Class3.method3(Class3.java:343)
+
+HTTP Request (b64)
+------------------
+x46OU8kBoLEJ35PV1x1qMp57PEghJUnGFS/cbYh0lr4ni76mE+LVlmwASBTV+h2Y0YMCy6aDgMTyQ+AWSBXj5DeQTZqyrn4hgzT1bMZf4uJl+aulxbdTEK1PoBSMB/J2pN16=bD0OEE3u8D70y=yvOvX2fbMYKF9i0Dd4N4ijtSs8PnQcS1FdHwRRuhfKSXC=qmcakcyK4gqByy5=NsRr5xHXjAe
