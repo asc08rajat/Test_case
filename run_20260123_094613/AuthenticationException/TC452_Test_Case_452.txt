@@ -1,0 +1,21 @@
+Test Case Name : TC452_Test_Case_452
+Module         : Inventory
+Timestamp      : 2026-01-20 10:36:49
+Build Number   : Jenkins-Build-468
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : AuthenticationException
+Error Message  : AuthenticationException while calling GET /api/v1/inventory/452 -> HTTP 504
+
+Stack Trace
+-----------
+AuthenticationException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:325)
+	at com.company.inventory.Class2.method2(Class2.java:376)
+	at com.company.inventory.Class3.method3(Class3.java:314)
+
+HTTP Request (b64)
+------------------
+hlX2t6j=xLG9zcAxJzk9dBPogZdUhhHXlJAtwicfJcd3qJtzsDknDzJHJ5k7A+EQPaCv=xXZxEwhQ7QZP/4dvb6mq4UlZhLKExlZB7uuk3l5rgzS+yyXtyZ4Vz7E3=dn6E2SvQd=g/cc0u=PJzR/cUx5RHYaQD==W7Wnphb=KKx/P=P09JbP4fOple=DjKZ48mzGb0NePSkRW2mv7fNwqxTvoYBm
