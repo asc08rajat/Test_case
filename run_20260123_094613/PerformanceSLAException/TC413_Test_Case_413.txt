@@ -1,0 +1,21 @@
+Test Case Name : TC413_Test_Case_413
+Module         : Login
+Timestamp      : 2026-01-20 10:35:32
+Build Number   : Jenkins-Build-559
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : PerformanceSLAException
+Error Message  : PerformanceSLAException while calling GET /api/v1/login/413 -> HTTP 403
+
+Stack Trace
+-----------
+PerformanceSLAException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:443)
+	at com.company.login.Class2.method2(Class2.java:125)
+	at com.company.login.Class3.method3(Class3.java:41)
+
+HTTP Request (b64)
+------------------
+RwPtOT0I56tBY6Fbv1NKHqE70FQYp01qBT=MavG3U5E0gjLT7xEW72MK/gRhMK1bqi/PSOITK0eMlD2tU=nppBUtM7gA1grU/JsrhsBM2qp9O44K/HlRvBG3zH+C=+5lJslr9HSqrRUOjzzCn3LcmQOKlGKGAvNKjzxGdfFrAfYuKb/k47yXXusN6=ZoNrVEER68+fmFdYRH4QHBicWO7w8Nr/Gm
