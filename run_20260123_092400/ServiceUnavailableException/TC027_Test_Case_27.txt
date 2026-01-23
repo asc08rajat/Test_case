@@ -1,0 +1,21 @@
+Test Case Name : TC027_Test_Case_27
+Module         : Login
+Timestamp      : 2026-01-20 10:15:50
+Build Number   : Jenkins-Build-467
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ServiceUnavailableException
+Error Message  : ServiceUnavailableException while calling GET /api/v1/login/27 -> HTTP 504
+
+Stack Trace
+-----------
+ServiceUnavailableException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:347)
+	at com.company.login.Class2.method2(Class2.java:423)
+	at com.company.login.Class3.method3(Class3.java:309)
+
+HTTP Request (b64)
+------------------
+R0P5f3QHvqmjB7pMcTkWbOf4EUdZvENvo6pOzyPjudGK/RrC54MRlb3lDNY67rwpnm=4Dx6N49V8ciEWe13VE3j6jUEOpSlW6zapMdttFbFVaDQAmBdSxJgpHx/cvwt=wti/4KJj8JTUEPMRoxumY34JP83U2/ibNnlYoRvRnheuXnGSg9dfKZ7mSjdKxQ2uJ3OK+8M41TXW7Degdm1x4igHb5bV
