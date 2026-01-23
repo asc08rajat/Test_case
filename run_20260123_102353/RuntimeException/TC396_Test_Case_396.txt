@@ -1,0 +1,21 @@
+Test Case Name : TC396_Test_Case_396
+Module         : Shipping
+Timestamp      : 2026-01-20 10:40:53
+Build Number   : Jenkins-Build-510
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : RuntimeException
+Error Message  : RuntimeException while calling GET /api/v1/shipping/396 -> HTTP 502
+
+Stack Trace
+-----------
+RuntimeException: failure in Shipping
+	at com.company.shipping.Class1.method1(Class1.java:315)
+	at com.company.shipping.Class2.method2(Class2.java:143)
+	at com.company.shipping.Class3.method3(Class3.java:184)
+
+HTTP Request (b64)
+------------------
+sT8bqP9xacp8RjyUs2ODzIZ60U6EXorJS/g2tJFdM+K5EvGDl4g5MZz3oImKIwvAgaNYWFpUQNQ9fJDflZCqnO0JuUCSH/j4jm6y/DJs+xsPXidt34ZWm+AhmDpFAvT8WrMijfu6D6Z=vMDR4c2Bg=qLVhU=R2ryp8ZX1l4cFt/cNNZWLoV=vvqp4wWjGbdgkKxUTIxZdmUIMwudx9nq0alfMopV
