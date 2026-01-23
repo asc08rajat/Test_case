@@ -1,0 +1,21 @@
+Test Case Name : TC122_Test_Case_122
+Module         : Payments
+Timestamp      : 2026-01-20 10:16:11
+Build Number   : Jenkins-Build-426
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : ConcurrentModificationException
+Error Message  : ConcurrentModificationException while calling GET /api/v1/payments/122 -> HTTP 503
+
+Stack Trace
+-----------
+ConcurrentModificationException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:399)
+	at com.company.payments.Class2.method2(Class2.java:359)
+	at com.company.payments.Class3.method3(Class3.java:480)
+
+HTTP Request (b64)
+------------------
+A1Ltrl050fd5lS7F9shVQ9kDfEZCzrdCiZQapW01S7B/u5uYpbxPiBPxI0+IGHJs+7ZX6HC8xsXP+2GI5p5IMyYF7xmjlsY3zOVNJ8Y/lxfmqT7kJ1Oi+EWPHsHDCxzCAQ0r24nQrG5izMQ25NoZXlk47F8huRFEcbsJ6vKqwp9SrEeQ2vlnKwB0BA8LZ0QoNg=7dyGpDCKPvqzMUgeWOAduqM5q
