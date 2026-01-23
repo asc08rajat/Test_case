@@ -1,0 +1,21 @@
+Test Case Name : TC451_Test_Case_451
+Module         : Inventory
+Timestamp      : 2026-01-20 10:09:33
+Build Number   : Jenkins-Build-442
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : HttpResponseException
+Error Message  : HttpResponseException while calling GET /api/v1/inventory/451 -> HTTP 502
+
+Stack Trace
+-----------
+HttpResponseException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:388)
+	at com.company.inventory.Class2.method2(Class2.java:294)
+	at com.company.inventory.Class3.method3(Class3.java:264)
+
+HTTP Request (b64)
+------------------
+5ZQqkE+RPgnFlwFK7ooZn/TcjAfKQkR7rzzgyDa7ZZ1kjD0hrm4dzxiUrr4n=xdFC8zPvm3V8nYlVmkw2Xpk/RKt1ye04HJpp2PF0/4VIR=d40n58HC9RS+IgG6e2AN7FQevVpD=CF1sMVDtmGEz5Z+vwjdTSDB4HZJce1Q2QA5rFx0xCM127w2pvwxT72PuPdyS6LEjZqa9cyRP51YU1bUvTtyj
