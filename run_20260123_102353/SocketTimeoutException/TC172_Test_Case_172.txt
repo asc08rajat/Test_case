@@ -1,0 +1,21 @@
+Test Case Name : TC172_Test_Case_172
+Module         : Login
+Timestamp      : 2026-01-20 10:03:02
+Build Number   : Jenkins-Build-401
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : SocketTimeoutException
+Error Message  : SocketTimeoutException while calling GET /api/v1/login/172 -> HTTP 401
+
+Stack Trace
+-----------
+SocketTimeoutException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:364)
+	at com.company.login.Class2.method2(Class2.java:304)
+	at com.company.login.Class3.method3(Class3.java:255)
+
+HTTP Request (b64)
+------------------
+zSwi59ns41EYpwxrR2hNVihH8=qZKF6BpAl0YO+Gh6g708RJYDiGKTNqMrZZFv=NoEBBh+nuVv0dfBv99JzMyq8pRGrBG=r7oqUSBPZyubL6BN15pEXyzZDlqhKtAMvYTkODbdxnHXPkhlhbvfyR9ZX15N==tAQ91NeDSNNDKdutbznh8p3j4juNoM7a3D+Cb7Vjlb+ADDfQYChqGxGO3okwZ4n5
