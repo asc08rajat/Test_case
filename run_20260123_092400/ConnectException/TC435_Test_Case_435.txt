@@ -1,0 +1,21 @@
+Test Case Name : TC435_Test_Case_435
+Module         : Shipping
+Timestamp      : 2026-01-20 10:31:06
+Build Number   : Jenkins-Build-486
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ConnectException
+Error Message  : ConnectException while calling GET /api/v1/shipping/435 -> HTTP 403
+
+Stack Trace
+-----------
+ConnectException: failure in Shipping
+	at com.company.shipping.Class1.method1(Class1.java:298)
+	at com.company.shipping.Class2.method2(Class2.java:236)
+	at com.company.shipping.Class3.method3(Class3.java:349)
+
+HTTP Request (b64)
+------------------
+OEiVJ1DTsQoujUEVWyffx6oyA2mxvuaDUdl6a8L5e8=yDnOCuJ3Wzkj2uq/ZH9QvxcsPX6zc6t7oVmMy5AJYynvwQ97TcnPq4LdnNYFJpI8TV8pekBmbEhwVzhkSOb+CWfz67bLXCVmhb4XhUgaQu6MuWzSUBf2Ccg6eb4ud2=poapWwqa9BZmNB9C8RPeJv7US+iIslR17yH2TSAKa54NdUgZ2K
