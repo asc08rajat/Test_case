@@ -1,0 +1,21 @@
+Test Case Name : TC407_Test_Case_407
+Module         : Inventory
+Timestamp      : 2026-01-20 10:05:40
+Build Number   : Jenkins-Build-504
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : IllegalArgumentException
+Error Message  : IllegalArgumentException while calling GET /api/v1/inventory/407 -> HTTP 401
+
+Stack Trace
+-----------
+IllegalArgumentException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:64)
+	at com.company.inventory.Class2.method2(Class2.java:272)
+	at com.company.inventory.Class3.method3(Class3.java:268)
+
+HTTP Request (b64)
+------------------
+8fUgOMOL5pcefyQNbguUsRAI4kj/3PjjWX+iRSFsFQhppE5ezDO78PEVooXgvB+YEo4oZtvaJEuwJmV4OJbLh8F6praafT=rUjF9o2DerNVDTcEUBoLEJJaltEtn+G5jbUDwfXieHLi9s/IY0wZjWdgNT50cnG8VYv=vSR5J=2Ay2s7L=Mg=Y54r/UZPGynRnEnRa4Lz9ZAGpB2x4fQPkgkm1eB=
