@@ -1,0 +1,21 @@
+Test Case Name : TC470_Test_Case_470
+Module         : Login
+Timestamp      : 2026-01-20 10:14:40
+Build Number   : Jenkins-Build-499
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : ConcurrentModificationException
+Error Message  : ConcurrentModificationException while calling GET /api/v1/login/470 -> HTTP 504
+
+Stack Trace
+-----------
+ConcurrentModificationException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:390)
+	at com.company.login.Class2.method2(Class2.java:217)
+	at com.company.login.Class3.method3(Class3.java:320)
+
+HTTP Request (b64)
+------------------
+7hycrclWubBLLnrri35=lYTiQN62KuQvzQS2r3cvYG7LLjsYhFfn3knp75N/W4crcnNKONf/V1VIJaU+3usEKHFGo0HkzjRXLcyEgyO4N1frmDV/rIr179/PIQwVhYIu9m42Sj+1Nxd6/ePwOAGOn=0K0WGBJ9YpSv6WPa2m2VK4BoSmTqssoiS=/npmi=6mj09aNDXr/esADU3CM3iPMrrSTC6p
