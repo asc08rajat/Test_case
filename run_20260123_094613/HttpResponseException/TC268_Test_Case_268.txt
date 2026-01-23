@@ -1,0 +1,21 @@
+Test Case Name : TC268_Test_Case_268
+Module         : Search
+Timestamp      : 2026-01-20 10:01:53
+Build Number   : Jenkins-Build-567
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : HttpResponseException
+Error Message  : HttpResponseException while calling GET /api/v1/search/268 -> HTTP 403
+
+Stack Trace
+-----------
+HttpResponseException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:415)
+	at com.company.search.Class2.method2(Class2.java:103)
+	at com.company.search.Class3.method3(Class3.java:188)
+
+HTTP Request (b64)
+------------------
+r0yhJmbLNwo2Azj4dl0PtKvlkhvwaIC=PgVAvKd9P3VxwvLo+rvTxF=hPFlVbyi2sr3u7KndaR65q=4VTS0T8xmfdpJRzxo/pIS2SmaPLGhLQvDAllph4UHd7UDGXUg1dT05+pd5bJ=TIbor3a0OaQGpk5X74Q03n9kpfg0/6UwGFx7WAL+35=NtYroO2gpzfXal1MafM/JdD1uLgHquzg6rWqGj
