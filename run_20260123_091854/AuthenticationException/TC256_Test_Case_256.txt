@@ -1,0 +1,21 @@
+Test Case Name : TC256_Test_Case_256
+Module         : Login
+Timestamp      : 2026-01-20 10:06:22
+Build Number   : Jenkins-Build-567
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : AuthenticationException
+Error Message  : AuthenticationException while calling GET /api/v1/login/256 -> HTTP 502
+
+Stack Trace
+-----------
+AuthenticationException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:39)
+	at com.company.login.Class2.method2(Class2.java:130)
+	at com.company.login.Class3.method3(Class3.java:95)
+
+HTTP Request (b64)
+------------------
+Ibuok89fb9OdHFRhrfdprzQCeB7VsiOeYFb1rlK/KJSjvVIiy1PPYixiziASCv2D3zadjLI7thtZeLGNPn6euuu5PDI6QcSi+Ebnt039mDqoGdwaymI=jR1hV6jkWCy6PgeER39BruDS3oiVB2mL=LS/rt+N1k07qOxnY18I+2BKhOTH=Dc=BauR/eHjw4o67/yDyAfdkmUXffLLtD1V0mpQQPL1
