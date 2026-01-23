@@ -1,0 +1,21 @@
+Test Case Name : TC280_Test_Case_280
+Module         : Checkout
+Timestamp      : 2026-01-20 10:56:17
+Build Number   : Jenkins-Build-562
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : ServiceUnavailableException
+Error Message  : ServiceUnavailableException while calling GET /api/v1/checkout/280 -> HTTP 500
+
+Stack Trace
+-----------
+ServiceUnavailableException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:83)
+	at com.company.checkout.Class2.method2(Class2.java:420)
+	at com.company.checkout.Class3.method3(Class3.java:151)
+
+HTTP Request (b64)
+------------------
+KJQ4WkaymAz7DXSIRDP0yE+g1W2KQzua7/AgYvdwpralhkA/XOcVhxlK/S2goiHMUk3NM9HHCa5i6PpGFRvJ3Uy3BTV0aYlly2cqTNhsCWoabO+vyKdn623U9valIvVBlBt4oDAHub55oP9vIzkNcqGeMR96js0QlYKda5XehtK2B9OHZG8gh+1SWk9Vb9i=OKAP7uGW7vjp6cMl44egDpRAM9fb
