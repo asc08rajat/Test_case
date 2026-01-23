@@ -1,0 +1,21 @@
+Test Case Name : TC131_Test_Case_131
+Module         : Search
+Timestamp      : 2026-01-20 10:01:59
+Build Number   : Jenkins-Build-582
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : RuntimeException
+Error Message  : RuntimeException while calling GET /api/v1/search/131 -> HTTP 503
+
+Stack Trace
+-----------
+RuntimeException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:56)
+	at com.company.search.Class2.method2(Class2.java:388)
+	at com.company.search.Class3.method3(Class3.java:482)
+
+HTTP Request (b64)
+------------------
+7Mkgi47v4=caeQdK6o2QZOkgfFY=2SDDuCkm7dE4r0QvJoQFGVWA49iUUqN6WuI8mHxRroNl+WqVDYO22A6AQwkiOqfmiOFdkMM=fhRG7W4q84uHhfGpqMgOkJyViUEnSjDpT2oA7Qp09rMocciaw1lQs6UcIkrLajOl93Yp=HSW87+zyw0eaqRFs04BMGkztqIR27hYzVK0UDYJ2yUIDfkwg=Vu
