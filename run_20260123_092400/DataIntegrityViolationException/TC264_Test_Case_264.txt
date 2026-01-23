@@ -1,0 +1,21 @@
+Test Case Name : TC264_Test_Case_264
+Module         : Cart
+Timestamp      : 2026-01-20 10:55:46
+Build Number   : Jenkins-Build-415
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : DataIntegrityViolationException
+Error Message  : DataIntegrityViolationException while calling GET /api/v1/cart/264 -> HTTP 400
+
+Stack Trace
+-----------
+DataIntegrityViolationException: failure in Cart
+	at com.company.cart.Class1.method1(Class1.java:490)
+	at com.company.cart.Class2.method2(Class2.java:416)
+	at com.company.cart.Class3.method3(Class3.java:487)
+
+HTTP Request (b64)
+------------------
+rLwXT2FbRM8XL/uFGJyUkPgiF9j+SsMNfOFqNU/gx/XE5U=KHO10kJqW/jKD17UXghqfiVtP/ukK3AhMQfDeVoX3qWUXb7UvpSZLyZl8m6+f+ZmLUu2S+3cq4TXk7b3SEcRGvQnmp98EracUuKBQMCWJiNxwWT+KpHC/LsLj6y9mH/dTGXe4+CKmLu=WN=QjlaO/FFAsYNnGb7Is++zKZ7VgH9ZK
