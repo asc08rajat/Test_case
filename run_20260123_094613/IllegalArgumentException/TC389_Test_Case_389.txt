@@ -1,0 +1,21 @@
+Test Case Name : TC389_Test_Case_389
+Module         : Orders
+Timestamp      : 2026-01-20 10:13:37
+Build Number   : Jenkins-Build-416
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : IllegalArgumentException
+Error Message  : IllegalArgumentException while calling GET /api/v1/orders/389 -> HTTP 500
+
+Stack Trace
+-----------
+IllegalArgumentException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:421)
+	at com.company.orders.Class2.method2(Class2.java:414)
+	at com.company.orders.Class3.method3(Class3.java:169)
+
+HTTP Request (b64)
+------------------
+LccTjCH9oBpQjrGq4tMXVuaH8lVdkNrTlzJJYipNZA68bxL7og94hc8NRRl0m3s5M=j9Ef1iI3OdvtCy7huFn6E2/ulqflQKEj/o4GfoIbPeBsb9Q1l1BNhyyHuyxjdhn6ytqCCGZEtWzhbPQAiHCZLf8e2xvigOAhaYZYVZu18FfWtL=sqAliUHskuZOUsnU4KpiBlQp7kOFXm=6cINRs+LNlr7
