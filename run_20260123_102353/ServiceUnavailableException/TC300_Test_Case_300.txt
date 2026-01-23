@@ -1,0 +1,21 @@
+Test Case Name : TC300_Test_Case_300
+Module         : Shipping
+Timestamp      : 2026-01-20 10:38:25
+Build Number   : Jenkins-Build-568
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : ServiceUnavailableException
+Error Message  : ServiceUnavailableException while calling GET /api/v1/shipping/300 -> HTTP 401
+
+Stack Trace
+-----------
+ServiceUnavailableException: failure in Shipping
+	at com.company.shipping.Class1.method1(Class1.java:429)
+	at com.company.shipping.Class2.method2(Class2.java:58)
+	at com.company.shipping.Class3.method3(Class3.java:78)
+
+HTTP Request (b64)
+------------------
+eXrpmnT080As3HswAHne3DYM=pk/J=mESBvDv9LNia8oC9mNt5GC40b0An7EP1FIeFefcm0R4EoNagxKpxQYMHkP0NCGNjcZkEq74abmTfkxn6ulGqMunNLUZDXEVvg5nEvE84l++JiL0zvWPbYyo57IJBOjXlMMImZ4q5OaBprnV/nKcG/qzMNEMOwRQ9imlE9m5wmb07CR3Ch6M4YWZDON6Ow1
