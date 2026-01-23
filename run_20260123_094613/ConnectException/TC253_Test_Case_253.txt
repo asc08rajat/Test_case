@@ -1,0 +1,21 @@
+Test Case Name : TC253_Test_Case_253
+Module         : Search
+Timestamp      : 2026-01-20 10:54:15
+Build Number   : Jenkins-Build-454
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : ConnectException
+Error Message  : ConnectException while calling GET /api/v1/search/253 -> HTTP 403
+
+Stack Trace
+-----------
+ConnectException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:233)
+	at com.company.search.Class2.method2(Class2.java:400)
+	at com.company.search.Class3.method3(Class3.java:43)
+
+HTTP Request (b64)
+------------------
+rtEeTVQ0Ve/AH5lIzZpDYzPLK6kQJ5teZO8/Z/t2eqcLXjKdgQBHJh6LWdpMm3hv9DM9C9TNRoWmPSamhprjDqQkHv6+asFGQvf3DdEv9YE6KeqaYNMH32nDe0j7ScTidHxlZp7NSMad7trr2s9S=fZPuC5exz8xScZoQ4bz8O8T4QnjJGqnqPPUyh4ef6LxiXmWC4yP75LTmTLgR2y3NAWEiLGc
