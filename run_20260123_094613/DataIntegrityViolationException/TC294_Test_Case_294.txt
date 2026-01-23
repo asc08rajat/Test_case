@@ -1,0 +1,21 @@
+Test Case Name : TC294_Test_Case_294
+Module         : Inventory
+Timestamp      : 2026-01-20 10:43:46
+Build Number   : Jenkins-Build-571
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : DataIntegrityViolationException
+Error Message  : DataIntegrityViolationException while calling GET /api/v1/inventory/294 -> HTTP 400
+
+Stack Trace
+-----------
+DataIntegrityViolationException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:191)
+	at com.company.inventory.Class2.method2(Class2.java:98)
+	at com.company.inventory.Class3.method3(Class3.java:53)
+
+HTTP Request (b64)
+------------------
+YoNHkYaxqJmt5nrryHbthudyAADzL66gYFuX/jf=p7eJoCHresU9G/8TH2GCGjBrOiOPhHhYp0i29NNWr8ZS0yqHjdXygoE8pn8aqZSHHvh5lmg2E=PhUMxRXSjU92GcgU2JR5ZhkHL6QDGFZ2=jj7o4YRewhBnDKZ0Iw7yqG+dMx19uPZajr1WZtYceCsG2Bl19AT7/ss2oPV+qI2aXflScTG/Q
