@@ -1,0 +1,21 @@
+Test Case Name : TC072_Test_Case_72
+Module         : Notifications
+Timestamp      : 2026-01-20 10:48:19
+Build Number   : Jenkins-Build-591
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : NoSuchElementException
+Error Message  : NoSuchElementException while calling GET /api/v1/notifications/72 -> HTTP 401
+
+Stack Trace
+-----------
+NoSuchElementException: failure in Notifications
+	at com.company.notifications.Class1.method1(Class1.java:230)
+	at com.company.notifications.Class2.method2(Class2.java:301)
+	at com.company.notifications.Class3.method3(Class3.java:436)
+
+HTTP Request (b64)
+------------------
+3Jx63rDIPCcAvyPJSJQlP0b+BfcqgA/QY5yfP1Dr+EsZ+eSECj2QggAvEIMRPCgzDJxJrQff3rYP7czb=LoeKumB6/GvwoASnoQfe/xGM7GvZ8zGhMC+2GB+TV9QUafel4QAfsCKuzXnoEvz+bVG8wYu=kLHvDQ+ux+fyt+Ohhzna71ohSopvTKChHf0qt65io/=ZOD2szbyaOEcVQwGDw6zuUgj
