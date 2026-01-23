@@ -1,0 +1,21 @@
+Test Case Name : TC492_Test_Case_492
+Module         : Checkout
+Timestamp      : 2026-01-20 10:15:56
+Build Number   : Jenkins-Build-466
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : ConcurrentModificationException
+Error Message  : ConcurrentModificationException while calling GET /api/v1/checkout/492 -> HTTP 503
+
+Stack Trace
+-----------
+ConcurrentModificationException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:350)
+	at com.company.checkout.Class2.method2(Class2.java:283)
+	at com.company.checkout.Class3.method3(Class3.java:387)
+
+HTTP Request (b64)
+------------------
+Zgca5xmkPw0EGpbHEZS2wcDr0sOiTN7CiH7qkFP3mLJIr6c21FcKp6XRXH7tey11I4o=Cn7QlFaQ5kWE/CrqS6JtNbEEbOy0TgeEdlSv95Y1YY7EfPdIXLeE9NdIpcbLBcwbJORlG3Oqf=qyP4grPaCvlB9Az/mIu0r/xrpLoyc8AFLspVSHtpFlwQ+0LM6DHZWowe37K6xg2E31KRIQhu4JlmDf
