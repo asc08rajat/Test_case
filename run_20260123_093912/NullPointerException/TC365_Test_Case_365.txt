@@ -1,0 +1,21 @@
+Test Case Name : TC365_Test_Case_365
+Module         : Checkout
+Timestamp      : 2026-01-20 10:32:22
+Build Number   : Jenkins-Build-514
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : NullPointerException
+Error Message  : NullPointerException while calling GET /api/v1/checkout/365 -> HTTP 502
+
+Stack Trace
+-----------
+NullPointerException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:178)
+	at com.company.checkout.Class2.method2(Class2.java:474)
+	at com.company.checkout.Class3.method3(Class3.java:341)
+
+HTTP Request (b64)
+------------------
+=7I0bhbtXvRJV8OYEK=1jl3v9YPvZHrdMIRQbzHdV=w/LwPLrtm6AGdJTp/92yPXpMND01Fe/HbQb1pcWoaZ2766m1rqvj+sAPZ3bT4y4gVrSi9g6JvyF=8F7GN9=rBmVTYENRVh+gDBLu5OMiHifHEWnqXTgYeRf=WWRBQ=+/k7xzEOksDtiE2bSUngKzh4=J7Ypb/bkFt7lQY15WbmNf4hz14Y
