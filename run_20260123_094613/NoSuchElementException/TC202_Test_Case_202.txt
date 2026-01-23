@@ -1,0 +1,21 @@
+Test Case Name : TC202_Test_Case_202
+Module         : Payments
+Timestamp      : 2026-01-20 10:52:59
+Build Number   : Jenkins-Build-486
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : NoSuchElementException
+Error Message  : NoSuchElementException while calling GET /api/v1/payments/202 -> HTTP 404
+
+Stack Trace
+-----------
+NoSuchElementException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:348)
+	at com.company.payments.Class2.method2(Class2.java:403)
+	at com.company.payments.Class3.method3(Class3.java:78)
+
+HTTP Request (b64)
+------------------
+HO2tIUb8KteabfGKrVHs4sNpexqN2GU9FX3B=kAI5zGjsR7B1vS0O8wJoHx3iAWeYJuYgHzCCQpRfe89onFaKAm9AN4rY97ks3I4MAUTzSNB77GsZZum+c31lWkC8Fkk1KfauQAtI7tMRl5zzEsVZ4O3elJbw5kf5jq4d9MyyUicBywzO=W1QAm+=0To=ofpuqNt24CkIS3GOS3QsjNSlL/qmpED
