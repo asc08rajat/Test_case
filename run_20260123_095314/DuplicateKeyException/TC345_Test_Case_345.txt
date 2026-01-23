@@ -1,0 +1,21 @@
+Test Case Name : TC345_Test_Case_345
+Module         : Login
+Timestamp      : 2026-01-20 10:31:55
+Build Number   : Jenkins-Build-514
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : DuplicateKeyException
+Error Message  : DuplicateKeyException while calling GET /api/v1/login/345 -> HTTP 502
+
+Stack Trace
+-----------
+DuplicateKeyException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:339)
+	at com.company.login.Class2.method2(Class2.java:406)
+	at com.company.login.Class3.method3(Class3.java:354)
+
+HTTP Request (b64)
+------------------
+EjlbNpcA8ouj4OJrc04bRc9se5lANmwPgcF0oy+inCLlsMNHd4hKxM/Qj8BCNCdNzDEf9Vjbfj=V8B5Gd=DEnhH5+WDMBPYUk+zV/HwkenjaTXWsu4E0NqRgiXJEz/sc6VBb6oks3UNJ4aHmhUON3QOD0GbeMo2rCIgc9TboXcqzaK1dqksWNIQCp9/o/H1iHGFlaSLCYuVoHenwwDFLAyxR52Wy
