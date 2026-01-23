@@ -1,0 +1,21 @@
+Test Case Name : TC336_Test_Case_336
+Module         : Payments
+Timestamp      : 2026-01-20 10:32:46
+Build Number   : Jenkins-Build-491
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : ConnectException
+Error Message  : ConnectException while calling GET /api/v1/payments/336 -> HTTP 503
+
+Stack Trace
+-----------
+ConnectException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:368)
+	at com.company.payments.Class2.method2(Class2.java:160)
+	at com.company.payments.Class3.method3(Class3.java:226)
+
+HTTP Request (b64)
+------------------
+SyoZxDzY/tswT3ZAawu4trpZzcS6FzabiIxYULb0LgZ/+b/helLXgtbQ5lTo609r/z/O=tBOZd0zJpcB92NCZCKshuplYuW/2ZwxtOUz9zQR3=vxNJTBvLU1+wRjoHAXCC7BbgjRmUlR292aFQjOQEb3msCJQlBouITYVUJe1VMK8+t6Gk1IsPaEn0ma3BQD127gXaGqXhFwdSPGdu6D06KiY2Qz
