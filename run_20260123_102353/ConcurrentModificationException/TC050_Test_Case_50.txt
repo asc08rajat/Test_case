@@ -1,0 +1,21 @@
+Test Case Name : TC050_Test_Case_50
+Module         : Inventory
+Timestamp      : 2026-01-20 10:18:39
+Build Number   : Jenkins-Build-501
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : ConcurrentModificationException
+Error Message  : ConcurrentModificationException while calling GET /api/v1/inventory/50 -> HTTP 504
+
+Stack Trace
+-----------
+ConcurrentModificationException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:48)
+	at com.company.inventory.Class2.method2(Class2.java:355)
+	at com.company.inventory.Class3.method3(Class3.java:229)
+
+HTTP Request (b64)
+------------------
+dxWAf4r8TuI9QNHgDj9=0pFhS1T7wty2HfohTSMJUWTOpX+lllCuISB0R4R/cZfo=RnyCrfVpJNjoLhxAysD=wk4TcHkSG0eADYYA4ZXlxDvNRo9e4qkpaSPqzVfid=PWvdtiarZEciIWvWdS4Kcm2sblHAFt/15znZn/K=isBLiRZdOevGYqIUr6ADB5tlxLFkz9F/Hi8zDshuCtnR6JHzfuSLv
