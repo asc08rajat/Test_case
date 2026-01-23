@@ -1,0 +1,21 @@
+Test Case Name : TC463_Test_Case_463
+Module         : Checkout
+Timestamp      : 2026-01-20 10:34:30
+Build Number   : Jenkins-Build-469
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : AssertionError
+Error Message  : AssertionError while calling GET /api/v1/checkout/463 -> HTTP 403
+
+Stack Trace
+-----------
+AssertionError: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:102)
+	at com.company.checkout.Class2.method2(Class2.java:287)
+	at com.company.checkout.Class3.method3(Class3.java:248)
+
+HTTP Request (b64)
+------------------
+9n1ktyrJ8WaptxzMVy+sAF3Vzhhd24yLyWtdnOKfALp+ERiwngb+li6n/piF0SSJAJc/NLvee8Yh0W/GD60u=Kv/PwtzIrdA1FK2XYGyzej6Z9U3iQCMTfcndJgFM+uEVx/lYF4NVeYNTBpDPIjeF02gRy+dBz4YEBF2arXfuVhEq1ZItGGtsjVI9PV7+aqCRmMv6q7w3qryKydOPYV4+tD04KWw
