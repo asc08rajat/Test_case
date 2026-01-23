@@ -1,0 +1,21 @@
+Test Case Name : TC040_Test_Case_40
+Module         : Payments
+Timestamp      : 2026-01-20 10:18:23
+Build Number   : Jenkins-Build-576
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : NoSuchElementException
+Error Message  : NoSuchElementException while calling GET /api/v1/payments/40 -> HTTP 500
+
+Stack Trace
+-----------
+NoSuchElementException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:463)
+	at com.company.payments.Class2.method2(Class2.java:381)
+	at com.company.payments.Class3.method3(Class3.java:144)
+
+HTTP Request (b64)
+------------------
++e04YwnmWKp5s/z3TxkDr58Qjr2jBn6SFOLp3Xpomp3spH1+=W=195uUSN096oONber0Zvex=YsI2uVJpTGa0CRjtMOwWP3cTggRxHLvkRtkzTRSdpiZ3NyejEdae9ncZTfBbVild5y5Qfo8Lce3WuU2yDQXs9h8gf53WSWCjFR7QDHezYM2BbQ2eCKSyk606tjRGYmu8yAilYkn4EmBDsPKGd+m
