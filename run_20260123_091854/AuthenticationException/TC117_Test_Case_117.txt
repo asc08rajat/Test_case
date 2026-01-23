@@ -1,0 +1,21 @@
+Test Case Name : TC117_Test_Case_117
+Module         : Payments
+Timestamp      : 2026-01-20 10:25:41
+Build Number   : Jenkins-Build-415
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : AuthenticationException
+Error Message  : AuthenticationException while calling GET /api/v1/payments/117 -> HTTP 504
+
+Stack Trace
+-----------
+AuthenticationException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:333)
+	at com.company.payments.Class2.method2(Class2.java:256)
+	at com.company.payments.Class3.method3(Class3.java:357)
+
+HTTP Request (b64)
+------------------
+kNAIgXkUiMZQR05VxUKOnqIROzJMcYNvzZnb3LxqyRa3sLKZPCB4wHwLWxCE77uf3Gk1AWK2Dzn4b6aokp3Zth3BWyxCbIDQHgZoD+GABRr+grw5Dz8rfRpb7Z3/nWbX3iqyXT=5+cJOR4ASXZo8oeYBaripqBRB71+epbunqaCwTDJcRZfNiKVK=I2cY4zV3C=PeeDG3yzvYAI47m8p0ipSNXqs
