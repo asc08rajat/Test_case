@@ -1,0 +1,21 @@
+Test Case Name : TC105_Test_Case_105
+Module         : Checkout
+Timestamp      : 2026-01-20 10:44:43
+Build Number   : Jenkins-Build-549
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : IOException
+Error Message  : IOException while calling GET /api/v1/checkout/105 -> HTTP 400
+
+Stack Trace
+-----------
+IOException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:168)
+	at com.company.checkout.Class2.method2(Class2.java:210)
+	at com.company.checkout.Class3.method3(Class3.java:372)
+
+HTTP Request (b64)
+------------------
+3/tqx++iP=GoRl9UMm0kFy6l5neD7XWkiXQbj0rD8nRW5OaXnMQCrupbSVZQK5cJxJi0n7IQeczywz5BI81dcPjCAstz7gHbprcPU1KGdgF/NojWF5DKLP+qX82sfJPhTdF3zrlvfvuqoY37pVIBzBxiX=W7hd3gzKPrP0rs//XwmdGHR4RfEIYM0n/um/J10D7oDnwxJ03y=O2FbH5TeYbBMtO2
