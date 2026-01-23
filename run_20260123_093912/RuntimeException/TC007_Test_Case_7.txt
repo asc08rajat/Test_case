@@ -1,0 +1,21 @@
+Test Case Name : TC007_Test_Case_7
+Module         : Profile
+Timestamp      : 2026-01-20 10:19:23
+Build Number   : Jenkins-Build-407
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : RuntimeException
+Error Message  : RuntimeException while calling GET /api/v1/profile/7 -> HTTP 504
+
+Stack Trace
+-----------
+RuntimeException: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:359)
+	at com.company.profile.Class2.method2(Class2.java:56)
+	at com.company.profile.Class3.method3(Class3.java:253)
+
+HTTP Request (b64)
+------------------
+gscXT06GKsX=/ZQE2BY297fzV3eMJFBuaDiJOMZt253PzODuve8fb2/tplA+untJ/iZc3lqiyFJdyXkN0dswkSHsX8DSHXddMu42fLX+by7n0yqp8LiL9EYkPdkdY0ft/nJ1lCLFXU9I47UbhfRPbzwjnDj6ml6e4Y0u5hmULvE0t=GXE=yH6Sol9bBI=SXg0dAkAbE/AGQysmw0gE5u8G/YgN/3
