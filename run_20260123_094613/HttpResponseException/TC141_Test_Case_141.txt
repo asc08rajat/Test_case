@@ -1,0 +1,21 @@
+Test Case Name : TC141_Test_Case_141
+Module         : Shipping
+Timestamp      : 2026-01-20 10:16:34
+Build Number   : Jenkins-Build-443
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : HttpResponseException
+Error Message  : HttpResponseException while calling GET /api/v1/shipping/141 -> HTTP 401
+
+Stack Trace
+-----------
+HttpResponseException: failure in Shipping
+	at com.company.shipping.Class1.method1(Class1.java:482)
+	at com.company.shipping.Class2.method2(Class2.java:39)
+	at com.company.shipping.Class3.method3(Class3.java:87)
+
+HTTP Request (b64)
+------------------
+iQPT/vk2lJ/J7D0e3JRCz/r8swilQJjo7RQ0E1sT3iZH8mAhHSPeZEMgCTtE1HrMclA0kaCWqY3WLxYPHuvix+36etqesiawjF9LrL9bhmMXrhcA/SkiJKz3ZhJJbHz4F7sJN3Dk5qbFBMnUe7VvFxzWO7jg7wSUqVBXu9IVQcDcGA401rYiSZ+oIN1/cn1D2YYjvjGZeLRsqm3lvv7IvG/WvfAP
