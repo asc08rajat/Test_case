@@ -1,0 +1,21 @@
+Test Case Name : TC466_Test_Case_466
+Module         : Search
+Timestamp      : 2026-01-20 10:50:40
+Build Number   : Jenkins-Build-508
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : PerformanceSLAException
+Error Message  : PerformanceSLAException while calling GET /api/v1/search/466 -> HTTP 500
+
+Stack Trace
+-----------
+PerformanceSLAException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:322)
+	at com.company.search.Class2.method2(Class2.java:493)
+	at com.company.search.Class3.method3(Class3.java:483)
+
+HTTP Request (b64)
+------------------
+fGiPXrxUg8ecC7KcYie99JqYBuuehpwiymVD2GEkr+ZuaW5=EDHa88y=ROYME9Qd1e1/ZFA7trxT=xZ35HVBrUQsD=txQFeO9EGqIVAmOyxRqH5Rm6e+ovA8F8s28sns/gpOtA6xHLozZuPS6DIGSZmBTr1ARJPGO=nBS5OhQdxSr/xDja5NcStNF8fBKQg=J=KUbH+SrMzIqHqSv57U/8Uq299q
