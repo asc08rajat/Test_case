@@ -1,0 +1,21 @@
+Test Case Name : TC024_Test_Case_24
+Module         : Login
+Timestamp      : 2026-01-20 10:22:26
+Build Number   : Jenkins-Build-428
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : JSONValidationException
+Error Message  : JSONValidationException while calling GET /api/v1/login/24 -> HTTP 401
+
+Stack Trace
+-----------
+JSONValidationException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:173)
+	at com.company.login.Class2.method2(Class2.java:10)
+	at com.company.login.Class3.method3(Class3.java:39)
+
+HTTP Request (b64)
+------------------
+IIrYeDJ4O1Y97bB8O5+mObOrt/LCbNvpX9kl6fCpKfSbuf8Cjx7hq0ZE5LoA7+CVElUYYPiPYw2uPNYmY8Zoyg1JfXjvs5gl8Mgt0Uzi=3qWTSx8K3FJgocins+GKjqDYSPLHrQGGE+E1ChM2S9jpD9FGrRU81TzvK+L=Eb=857JMKdAg4zBo4+/wRq8ois5IGvfEtvqXY4thQKuZ7UpDd+vehlX
