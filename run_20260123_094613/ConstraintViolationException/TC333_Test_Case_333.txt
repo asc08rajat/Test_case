@@ -1,0 +1,21 @@
+Test Case Name : TC333_Test_Case_333
+Module         : Orders
+Timestamp      : 2026-01-20 10:24:55
+Build Number   : Jenkins-Build-557
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ConstraintViolationException
+Error Message  : ConstraintViolationException while calling GET /api/v1/orders/333 -> HTTP 401
+
+Stack Trace
+-----------
+ConstraintViolationException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:362)
+	at com.company.orders.Class2.method2(Class2.java:267)
+	at com.company.orders.Class3.method3(Class3.java:196)
+
+HTTP Request (b64)
+------------------
+vSxFv4wQOqfBGHq+am9zXMJTxFN9oDtv9k==X3bdn8gTuEIYCDHzob6Tl/TZSJvH1lq07iPmUWopLazDjCx/w5rBbmqYRV4/K7IALI0fcX/4+n+rC9WoJISIQFqgyvqlwYVw6o9eVBi3PI5qVmZQ5QejBocuXhf/bPl224sDmGw20+2lD8+5vwtmsx9tMZzvER5R30++Vs0Rjc2kAEYVMWuhqQXg
