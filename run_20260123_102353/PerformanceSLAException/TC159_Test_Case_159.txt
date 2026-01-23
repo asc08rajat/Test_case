@@ -1,0 +1,21 @@
+Test Case Name : TC159_Test_Case_159
+Module         : Payments
+Timestamp      : 2026-01-20 10:06:40
+Build Number   : Jenkins-Build-493
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : PerformanceSLAException
+Error Message  : PerformanceSLAException while calling GET /api/v1/payments/159 -> HTTP 500
+
+Stack Trace
+-----------
+PerformanceSLAException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:388)
+	at com.company.payments.Class2.method2(Class2.java:100)
+	at com.company.payments.Class3.method3(Class3.java:401)
+
+HTTP Request (b64)
+------------------
+P+eCGXs5/p3p6cWDla/lG=luq/Q9ggZVuIRGUHNsIXiDtsvOjIIkkfbZhVtLr2mrfpeiSbrLl2nlm=LrjX2csicW9SymVsbLmLHFR7nmGDLFMaYIxriMpLZD=cA4YgngOoDyW0dzecXaHKDMtY54llWL/kjXSwSKC3A0KQXr6q44q34pNQwxI8++S5X1u7kUVJTQTkRj7NdL3rdQ7FSk7Koo=vpk
