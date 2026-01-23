@@ -1,0 +1,21 @@
+Test Case Name : TC128_Test_Case_128
+Module         : Checkout
+Timestamp      : 2026-01-20 10:43:07
+Build Number   : Jenkins-Build-414
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : DuplicateKeyException
+Error Message  : DuplicateKeyException while calling GET /api/v1/checkout/128 -> HTTP 500
+
+Stack Trace
+-----------
+DuplicateKeyException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:446)
+	at com.company.checkout.Class2.method2(Class2.java:489)
+	at com.company.checkout.Class3.method3(Class3.java:23)
+
+HTTP Request (b64)
+------------------
+dgkoAEfynIYfJhE87Zg6yuZN6/XUtwLgojjKNVy4a+hYmBq47QTt1vbMocJq3hsoQoUldN421vwe6WlLW8ap/+efE9XwOyhK8X2afktDd7zUSk/SF9MqgW5fqqr4aJ+fF+7gcHoaao13KK/FAuWLfCHfqg=hadRuJAUtzSbawfvA0tTZHyIjko8bkePRmhtPbgWnNdrFiQaGtYr=isnHjbG+703A
