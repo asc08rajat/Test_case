@@ -1,0 +1,21 @@
+Test Case Name : TC052_Test_Case_52
+Module         : Payments
+Timestamp      : 2026-01-20 10:11:17
+Build Number   : Jenkins-Build-481
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : ServiceUnavailableException
+Error Message  : ServiceUnavailableException while calling GET /api/v1/payments/52 -> HTTP 502
+
+Stack Trace
+-----------
+ServiceUnavailableException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:472)
+	at com.company.payments.Class2.method2(Class2.java:238)
+	at com.company.payments.Class3.method3(Class3.java:325)
+
+HTTP Request (b64)
+------------------
+4xglIk=nqeCddF82T4uQoaNoO/QrgvB8YaS3nxlTG2EdvFiNvlHhtVloVWzZyeNpDJ9ZWJFHl5USD/EAqSeV6wRI7aEfCl42AVqnk=3OVQvayfr34wU357E=i9ypvG1Hxx=pfoial=FgCj69NIImx8zsKK2PXJVoLekcpgEpKvFGZER0Ol6GFEksY0AuMBHAk/w7IuLk3FVThoa0r9G7GF8+I9ki
