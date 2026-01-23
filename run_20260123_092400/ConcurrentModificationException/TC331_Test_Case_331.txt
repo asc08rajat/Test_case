@@ -1,0 +1,21 @@
+Test Case Name : TC331_Test_Case_331
+Module         : Login
+Timestamp      : 2026-01-20 10:12:53
+Build Number   : Jenkins-Build-444
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ConcurrentModificationException
+Error Message  : ConcurrentModificationException while calling GET /api/v1/login/331 -> HTTP 500
+
+Stack Trace
+-----------
+ConcurrentModificationException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:330)
+	at com.company.login.Class2.method2(Class2.java:411)
+	at com.company.login.Class3.method3(Class3.java:390)
+
+HTTP Request (b64)
+------------------
+vi5fcftRRZh1vYEInqhWJTScTir1zPd/Wl/r3DAnKQ7ZkNSkj3iIyF2bMc6riBWuKKGIFHxJZW7hIG/U7/1v1vAunN+GL/jQD0SqUEKFEen=bdrnc=V3dIeU5+a4whQs5v2XbPkanBqlEHzxInKBkD0NLbCbPdPjHwbo2+EyPJ=CIy8opZOAl9zyPhPSMCyJ31TDV5jquFJJJzI1tNs/SeT+Nq6E
