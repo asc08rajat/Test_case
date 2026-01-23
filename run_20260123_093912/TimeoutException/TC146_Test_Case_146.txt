@@ -1,0 +1,21 @@
+Test Case Name : TC146_Test_Case_146
+Module         : Checkout
+Timestamp      : 2026-01-20 10:34:04
+Build Number   : Jenkins-Build-417
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : TimeoutException
+Error Message  : TimeoutException while calling GET /api/v1/checkout/146 -> HTTP 403
+
+Stack Trace
+-----------
+TimeoutException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:163)
+	at com.company.checkout.Class2.method2(Class2.java:429)
+	at com.company.checkout.Class3.method3(Class3.java:37)
+
+HTTP Request (b64)
+------------------
+Yr5ZfxHrlfT3Q9yOH3KTE5WWgw/vRZyNpjIk7nyzUe8ui/4/cV8Q8QpCVRMMrjKIV7Qp20JYyZbtbdAzwaRumOxElVzpYIDYvxBHJkcZd7NIbPzbfTd/3KdLHQ0hZxgBz3uzIdPYwf9rtMbVZ7=EKkNmjBBNNp8IL4K1G84=PJFO=gcVFjLX60Cp9Tw0s1wHowAAP3OzLxMZ6CiXJyIMuAgulvhJ
