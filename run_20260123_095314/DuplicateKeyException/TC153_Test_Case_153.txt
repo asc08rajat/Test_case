@@ -1,0 +1,21 @@
+Test Case Name : TC153_Test_Case_153
+Module         : Orders
+Timestamp      : 2026-01-20 10:54:57
+Build Number   : Jenkins-Build-598
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : DuplicateKeyException
+Error Message  : DuplicateKeyException while calling GET /api/v1/orders/153 -> HTTP 503
+
+Stack Trace
+-----------
+DuplicateKeyException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:145)
+	at com.company.orders.Class2.method2(Class2.java:196)
+	at com.company.orders.Class3.method3(Class3.java:234)
+
+HTTP Request (b64)
+------------------
+kH1G0Ytlo+0GCsYdWNuMBZlFLYVye8ctU19Y=L5XeuACUNRxLbSR1ABS3jnbeFewWgBRqd3xqtp9pCl8LflNYVV/Pu9uJ5=pXBfn5VvA469f1e=YxQFsmqnDEbljcWygqnbcqxRpNYxPUHe8XB396C=rHH1mokXQ0+p0CJEfKk42wQzsRgdN/aLPK1sRdVOYEXQoFJXxOtPMmm50qlcd6DfhfTDq
