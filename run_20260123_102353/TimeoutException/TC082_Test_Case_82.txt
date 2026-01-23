@@ -1,0 +1,21 @@
+Test Case Name : TC082_Test_Case_82
+Module         : Shipping
+Timestamp      : 2026-01-20 10:07:23
+Build Number   : Jenkins-Build-427
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : TimeoutException
+Error Message  : TimeoutException while calling GET /api/v1/shipping/82 -> HTTP 500
+
+Stack Trace
+-----------
+TimeoutException: failure in Shipping
+	at com.company.shipping.Class1.method1(Class1.java:92)
+	at com.company.shipping.Class2.method2(Class2.java:126)
+	at com.company.shipping.Class3.method3(Class3.java:22)
+
+HTTP Request (b64)
+------------------
+h5=8R2dpqmEKRhNFWzjr1XE/FUB=Te+oPkAQ0JjcYYX+B=DVHglPIDnKM/=FrGD5A2DwCR4hVeO91/vaAdJiCJ=nTpp3wZQDN2HIlR=n=dNnq9Uw4h878ObAa3mp0khPs0QrTO9j/JE11Vf/a5jNu4CStFAig5ZXc8TF2tCVPIxX4KQqHjkthFgZrKKNf0PeKbMXZmL6qla2F0IiABZYD8wrf74H
