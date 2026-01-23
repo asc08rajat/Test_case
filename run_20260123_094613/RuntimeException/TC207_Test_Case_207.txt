@@ -1,0 +1,21 @@
+Test Case Name : TC207_Test_Case_207
+Module         : Cart
+Timestamp      : 2026-01-20 10:51:40
+Build Number   : Jenkins-Build-536
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : RuntimeException
+Error Message  : RuntimeException while calling GET /api/v1/cart/207 -> HTTP 401
+
+Stack Trace
+-----------
+RuntimeException: failure in Cart
+	at com.company.cart.Class1.method1(Class1.java:425)
+	at com.company.cart.Class2.method2(Class2.java:390)
+	at com.company.cart.Class3.method3(Class3.java:343)
+
+HTTP Request (b64)
+------------------
+38cHkS/wWDplqVYmeg3G=l7bnEmGcRY67ZIB/ecbT6hgXfp=cqgjU94fdybPN7rrCwB0pVtfGp+utSWaWtn5s6eDHLhbOb9iJRYEzWK8AymsifN8zDvO3xz9nXAuxvPubqlSwmcd0/RbEEPAzFqh=2R73lbbvS/rdIhn3mIluc3m8E1KmiCE9yE9b9E3ThPuHEKE/1VKCgjOlE+WV+Q+GROjs6fe
