@@ -1,0 +1,21 @@
+Test Case Name : TC446_Test_Case_446
+Module         : Login
+Timestamp      : 2026-01-20 10:22:26
+Build Number   : Jenkins-Build-472
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : IOException
+Error Message  : IOException while calling GET /api/v1/login/446 -> HTTP 403
+
+Stack Trace
+-----------
+IOException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:436)
+	at com.company.login.Class2.method2(Class2.java:55)
+	at com.company.login.Class3.method3(Class3.java:184)
+
+HTTP Request (b64)
+------------------
+T03U0aPqGkJlKGlqdFDl+xxEo2NgsCdaLkgMSBFV7xsGcjKFlMIwZqM6IJxnFyE0v+MgQDM5q0VVn7AHmxkrZpb+kg3UrW5/Nqf6UqEaonqJrDtIN7y+PG4M0nOcPvqbxevTdyTsOvVoY4ChKA6lU=JCxfqHcJMQN9XSRVxoGuIdZR8k9Am3+Fl9zUWPtbudcR++g6KVT9gak/tL0CTXZYNqCOLc
