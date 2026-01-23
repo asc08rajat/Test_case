@@ -1,0 +1,21 @@
+Test Case Name : TC417_Test_Case_417
+Module         : Orders
+Timestamp      : 2026-01-20 10:19:37
+Build Number   : Jenkins-Build-493
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : ServiceUnavailableException
+Error Message  : ServiceUnavailableException while calling GET /api/v1/orders/417 -> HTTP 400
+
+Stack Trace
+-----------
+ServiceUnavailableException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:65)
+	at com.company.orders.Class2.method2(Class2.java:189)
+	at com.company.orders.Class3.method3(Class3.java:110)
+
+HTTP Request (b64)
+------------------
+1l=QAdc8TzY6O4sJQe8Eo8h4A/BX+M93O62dw+fWjwLHSVaAAi954fxO+DZbRce/99lHWKFFZ486jbaX/VkZ7SmbtG43CBm7k0KeG5i10ZFrzCgAudwt=6FDRKQqvqjP+ym+Adtg/8+/ipAlhqdQkloNikF/hQy3LlW+GkMwZyfGw2F9REczMh5skU0vG7iOX05GHLaYZ34e3Zx5iPD3m0OqERe7
