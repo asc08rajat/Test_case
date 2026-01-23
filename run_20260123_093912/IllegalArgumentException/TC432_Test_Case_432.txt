@@ -1,0 +1,21 @@
+Test Case Name : TC432_Test_Case_432
+Module         : Search
+Timestamp      : 2026-01-20 10:00:01
+Build Number   : Jenkins-Build-532
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : IllegalArgumentException
+Error Message  : IllegalArgumentException while calling GET /api/v1/search/432 -> HTTP 404
+
+Stack Trace
+-----------
+IllegalArgumentException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:210)
+	at com.company.search.Class2.method2(Class2.java:477)
+	at com.company.search.Class3.method3(Class3.java:223)
+
+HTTP Request (b64)
+------------------
+5BTbQ4GxsV=YoH/C/gFulln/BuUv8vUZuJuSwZnko0IIZd+/+3JVP1CXFoZjpXPPVNQxbUpq3pcf4Y+w36XCm3EOiRM8hKcznr/eWkU9KH7JL/Rzc/Oxb52SpLWuHuYFkWLguwjN3SwO1mc9nTz+s=aYWsgetxP1d7Q9PgyqDlgLfa5J6L7o8hBUNpLJTgz7hots/VKFXV+iPxS3BEfJxAoPDmM1
