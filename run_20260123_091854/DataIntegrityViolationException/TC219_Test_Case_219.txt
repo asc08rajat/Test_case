@@ -1,0 +1,21 @@
+Test Case Name : TC219_Test_Case_219
+Module         : Checkout
+Timestamp      : 2026-01-20 10:39:36
+Build Number   : Jenkins-Build-425
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : DataIntegrityViolationException
+Error Message  : DataIntegrityViolationException while calling GET /api/v1/checkout/219 -> HTTP 404
+
+Stack Trace
+-----------
+DataIntegrityViolationException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:496)
+	at com.company.checkout.Class2.method2(Class2.java:420)
+	at com.company.checkout.Class3.method3(Class3.java:322)
+
+HTTP Request (b64)
+------------------
+VkShjPJZbAomtCIwqG72yTtkAzxVX/w8=A+izQP32lWRXOhxUyZgmPTM/rP7cCkA2AelUIMvYzmrYwfXK31PMjZ0gMOyp2eQP/bSRJk/BIgVFs/G8DklAFE5BKd6DGetDHR6FglQgPRjEFXF4LEOFyJvnA/YIXU1pip9rMH4zgGNN0yXQElPRsdosNUa2rbW49jClr7BZ+5LJ0DSVf2MBEQZSV/r
