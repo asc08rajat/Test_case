@@ -1,0 +1,21 @@
+Test Case Name : TC186_Test_Case_186
+Module         : Inventory
+Timestamp      : 2026-01-20 10:08:51
+Build Number   : Jenkins-Build-528
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : NoSuchElementException
+Error Message  : NoSuchElementException while calling GET /api/v1/inventory/186 -> HTTP 401
+
+Stack Trace
+-----------
+NoSuchElementException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:292)
+	at com.company.inventory.Class2.method2(Class2.java:120)
+	at com.company.inventory.Class3.method3(Class3.java:114)
+
+HTTP Request (b64)
+------------------
+L8M9djiWudIrX8zAOB4R1R3nbMPlVPlyuh1dOKivkkSxZlp28Hj/kWMlXT9uodlMxcL1x61LjfOlgqul7pO4eWDv2dHtd+/QiadxZw692/aS4xNQcmnnlkehegTqWE8GGVSbsX+mrkkPuKqChklyw2iZKBnM5SXoeEpsjuB3mlo1AVMS+xmkAB9jPsDeYGWYdw70Ho=hfWUIp6G8y2jp2owJjy3H
