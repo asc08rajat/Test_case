@@ -1,0 +1,21 @@
+Test Case Name : TC274_Test_Case_274
+Module         : Profile
+Timestamp      : 2026-01-20 10:59:39
+Build Number   : Jenkins-Build-565
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : NoSuchElementException
+Error Message  : NoSuchElementException while calling GET /api/v1/profile/274 -> HTTP 503
+
+Stack Trace
+-----------
+NoSuchElementException: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:480)
+	at com.company.profile.Class2.method2(Class2.java:75)
+	at com.company.profile.Class3.method3(Class3.java:136)
+
+HTTP Request (b64)
+------------------
+Z/lk3cMZ7R35P==APOFN8qto92ZqzS12n4mBD7QzjvhjNOjCaUOOmE0Bq0o8MxSCRYDNS0mEy9D3rogdt0VmgnB+w9gN3fL=epQKEcghsoOWiV1pE5h2okkaUY9U6NYC6RDVZ52yUhNGhhscd5PxQVl82MZvVvOj/lgvaZ9bpYlqE353V82cTQtr1X9w6aumnBOz11q8tZL67sksbICAnYyXyD0a
