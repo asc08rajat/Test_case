@@ -1,0 +1,21 @@
+Test Case Name : TC111_Test_Case_111
+Module         : Checkout
+Timestamp      : 2026-01-20 10:47:54
+Build Number   : Jenkins-Build-463
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : SocketTimeoutException
+Error Message  : SocketTimeoutException while calling GET /api/v1/checkout/111 -> HTTP 400
+
+Stack Trace
+-----------
+SocketTimeoutException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:141)
+	at com.company.checkout.Class2.method2(Class2.java:247)
+	at com.company.checkout.Class3.method3(Class3.java:341)
+
+HTTP Request (b64)
+------------------
+bnjr/fKt43us=NR3lj2Rr0qRE2Q+LWVrgdXYQ7fMD/haD8EDYNtAtRRezfXPhbQDo365Y0WY19feEYdUnmgYeN8F+ijCAQ4mqt1qVTCyp6LLaapGPIprtyhjxQNv0ue1mNPmZJUPO5/krJAGYhrEuo61yrRKhtuKfASg2UgKA4OO0juwRAErWRrL6RUTDeNz/2Lx6QaHkUKSkeT8w1i26+8Pg=Ws
