@@ -1,0 +1,21 @@
+Test Case Name : TC408_Test_Case_408
+Module         : Login
+Timestamp      : 2026-01-20 10:12:26
+Build Number   : Jenkins-Build-455
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : NullPointerException
+Error Message  : NullPointerException while calling GET /api/v1/login/408 -> HTTP 503
+
+Stack Trace
+-----------
+NullPointerException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:106)
+	at com.company.login.Class2.method2(Class2.java:192)
+	at com.company.login.Class3.method3(Class3.java:403)
+
+HTTP Request (b64)
+------------------
+O5lkpXzbt485chLzVpDc7xB=mfgMZQTSZwatuak/Dvv=TGf2jF6h=v+fEoCoZiK1hOOZoRzqdaCHzmJGKcFHOJ4PsXbRAi/eHuz/4zYXM/D8=Gh1ZqYJJmFQbfTuoh7afhN0CfJ0WjlDT2+Rk/q6OlBbTFahCGSpEe/DNuec6VAQtsdJcVeua1Erq2Uzo7lxC=ASyUmQ2C2CSwjQT1lL19bwLN4b
