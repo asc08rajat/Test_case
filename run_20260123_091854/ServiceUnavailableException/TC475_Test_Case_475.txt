@@ -1,0 +1,21 @@
+Test Case Name : TC475_Test_Case_475
+Module         : Shipping
+Timestamp      : 2026-01-20 10:39:01
+Build Number   : Jenkins-Build-420
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : ServiceUnavailableException
+Error Message  : ServiceUnavailableException while calling GET /api/v1/shipping/475 -> HTTP 502
+
+Stack Trace
+-----------
+ServiceUnavailableException: failure in Shipping
+	at com.company.shipping.Class1.method1(Class1.java:99)
+	at com.company.shipping.Class2.method2(Class2.java:311)
+	at com.company.shipping.Class3.method3(Class3.java:310)
+
+HTTP Request (b64)
+------------------
+tYbRPRxhySwLvoO0oSe1zgckkn9eo+IZZpbSeIUwwh4H+CIsRkaduEp=0bygp5NzMseAzk6O7fRxuAQfOFbM0=WrQuybVrK+YtFpQVM2hK=p9Vuf=Tbiz7=PreprD7/nnSgxzGMdH0DPzEZ7/igL5RaPqdO/RsHD4cm83VmxfQf/tnhBOfvrOgRk75PQexurDWN7/0Yf2nO7IH/fwo4Kwr/Tnc8x
