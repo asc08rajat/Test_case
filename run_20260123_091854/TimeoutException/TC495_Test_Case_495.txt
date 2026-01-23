@@ -1,0 +1,21 @@
+Test Case Name : TC495_Test_Case_495
+Module         : Notifications
+Timestamp      : 2026-01-20 10:29:45
+Build Number   : Jenkins-Build-400
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : TimeoutException
+Error Message  : TimeoutException while calling GET /api/v1/notifications/495 -> HTTP 404
+
+Stack Trace
+-----------
+TimeoutException: failure in Notifications
+	at com.company.notifications.Class1.method1(Class1.java:348)
+	at com.company.notifications.Class2.method2(Class2.java:29)
+	at com.company.notifications.Class3.method3(Class3.java:147)
+
+HTTP Request (b64)
+------------------
+ngp7eWSrArZwE5/qsYFhoGrvA=HBjDHwEmB8zt6o7=i4=x9Hvs5gbizmDHJSivqe8Y7x2aT3sj/7AmKnBwRX2/x92=ekr3h/J47rWdA8UgRRwX/a5SQ/fz/JdZIUwIToMmca9XOwqAn5l9Ul9/YBKsV8Zey1shCYOEq2hvrLCGZeBVqNv/jcH=V1=3ao07RF19xDMQwAusLtlpOMgpfeKpDuzHho
