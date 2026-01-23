@@ -1,0 +1,21 @@
+Test Case Name : TC339_Test_Case_339
+Module         : Search
+Timestamp      : 2026-01-20 10:44:59
+Build Number   : Jenkins-Build-423
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : NoSuchElementException
+Error Message  : NoSuchElementException while calling GET /api/v1/search/339 -> HTTP 504
+
+Stack Trace
+-----------
+NoSuchElementException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:473)
+	at com.company.search.Class2.method2(Class2.java:15)
+	at com.company.search.Class3.method3(Class3.java:54)
+
+HTTP Request (b64)
+------------------
+6Yoe4z236sx9d7t0rOqRGS690crbwccGccee7TrHiOWoYYMzgB7I1XW3M0zAErBejp8V0ldF7TP/z14yO0DgSa2b=JZA=Z//V4P5eJj1p4XuGMiz7ywMvu1Gn+Af+WlKvv/Jwu0RyOGHyBwZ6CQtu4G7A4BRWBNIP1gME5YnHFRzEPD462w6Lpri9Mp5P8e+6yayOmQsjaIuleSLplKK/LAwUxeL
