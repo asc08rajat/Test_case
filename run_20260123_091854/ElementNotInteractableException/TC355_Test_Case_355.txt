@@ -1,0 +1,21 @@
+Test Case Name : TC355_Test_Case_355
+Module         : Payments
+Timestamp      : 2026-01-20 10:26:27
+Build Number   : Jenkins-Build-475
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ElementNotInteractableException
+Error Message  : ElementNotInteractableException while calling GET /api/v1/payments/355 -> HTTP 503
+
+Stack Trace
+-----------
+ElementNotInteractableException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:417)
+	at com.company.payments.Class2.method2(Class2.java:243)
+	at com.company.payments.Class3.method3(Class3.java:191)
+
+HTTP Request (b64)
+------------------
+XWEYEGn6/Yv6ivuU=L/w54C2=4MaQSFEuHsyokH8AE9==yBeboBvMAu0MsYSd8zMz6fbwEAf3WsLAvHmXWjULxRsc1aMPcDBXFaq+kY/XHfR10L7MCEASoC8=pivuvmVKhzDUziGUQ9JcQJ=9Jql0acRaYi3pqXQBBTE8dQQdxedCKgCHHY+9bxrovpNbC2BwsnoDyZdO6fjTAlXlIkY2Wi3txjV
