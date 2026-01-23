@@ -1,0 +1,21 @@
+Test Case Name : TC055_Test_Case_55
+Module         : Cart
+Timestamp      : 2026-01-20 10:44:01
+Build Number   : Jenkins-Build-479
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : SocketTimeoutException
+Error Message  : SocketTimeoutException while calling GET /api/v1/cart/55 -> HTTP 401
+
+Stack Trace
+-----------
+SocketTimeoutException: failure in Cart
+	at com.company.cart.Class1.method1(Class1.java:270)
+	at com.company.cart.Class2.method2(Class2.java:293)
+	at com.company.cart.Class3.method3(Class3.java:301)
+
+HTTP Request (b64)
+------------------
+wFcsyF6Hm5kxbcuw/V5hLVWtnk9mfYY6S5ZzFw91oCLBlbUM5yMDrY6ExD/ck3PzNLxgnFFAKvKWP0KjVz8FVAP9SrUFIfyTtkgWs5YLptrcd=4osyPcP6RSALI66iutjPJoNs49yULugo6e3/GmjBh8a98IKtfJ7rvNJ/TRpre6UqBMoHoVc87=h64XkyMLo9N/0I09SHdr7Jp9R69T9+Q5nNpz
