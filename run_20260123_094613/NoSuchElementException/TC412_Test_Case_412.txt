@@ -1,0 +1,21 @@
+Test Case Name : TC412_Test_Case_412
+Module         : Profile
+Timestamp      : 2026-01-20 10:04:59
+Build Number   : Jenkins-Build-414
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : NoSuchElementException
+Error Message  : NoSuchElementException while calling GET /api/v1/profile/412 -> HTTP 401
+
+Stack Trace
+-----------
+NoSuchElementException: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:131)
+	at com.company.profile.Class2.method2(Class2.java:392)
+	at com.company.profile.Class3.method3(Class3.java:25)
+
+HTTP Request (b64)
+------------------
+SqLOLqPZlUSR=VatiUlU7S4yZXNhKb7S/tDHytX5fnYLJBHGhNGcyg198G7RUnjUTgxTgj6pNRZHTRjG1/2vurdPdiBrnKNdVpFa7OE2b/X6YAZyo4+YOq16CM1IY3wT=ifa3oDvAFunNh7OtAa0uO17aeHyliWmY1AsOH0=Bqh+T5Ndd5vFx3oiQOF0EGMzqTqkQjr3/j51eMr+TC+qyBt1L+ZQ
