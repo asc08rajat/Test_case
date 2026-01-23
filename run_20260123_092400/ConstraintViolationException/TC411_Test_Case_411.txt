@@ -1,0 +1,21 @@
+Test Case Name : TC411_Test_Case_411
+Module         : Search
+Timestamp      : 2026-01-20 10:04:59
+Build Number   : Jenkins-Build-520
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : ConstraintViolationException
+Error Message  : ConstraintViolationException while calling GET /api/v1/search/411 -> HTTP 401
+
+Stack Trace
+-----------
+ConstraintViolationException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:217)
+	at com.company.search.Class2.method2(Class2.java:466)
+	at com.company.search.Class3.method3(Class3.java:279)
+
+HTTP Request (b64)
+------------------
+jdUQ6u1pnZUlv6r9NxqGVBSgAfXNDpwp9QyFpnyttu/8t1W0z4a6gKdYikR6aGDp3cTI8iMjlQti6rU+81yxe7yT4hyOgoDzQtXg+gEZGDhH5waytN5gxf/TQyzWRGImivsKpmbh=sYKME8iqtnPC65tQzK9PR=qKa+UpXb67SVOUcaCbMQFDDBgTBGbDu7JfPqFMHmS0jifuM4GSp67qIgrB6yc
