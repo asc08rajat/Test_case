@@ -1,0 +1,21 @@
+Test Case Name : TC257_Test_Case_257
+Module         : Inventory
+Timestamp      : 2026-01-20 10:06:03
+Build Number   : Jenkins-Build-470
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : NullPointerException
+Error Message  : NullPointerException while calling GET /api/v1/inventory/257 -> HTTP 504
+
+Stack Trace
+-----------
+NullPointerException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:245)
+	at com.company.inventory.Class2.method2(Class2.java:500)
+	at com.company.inventory.Class3.method3(Class3.java:151)
+
+HTTP Request (b64)
+------------------
+c4vSY1xTYp7ZSZT38hjkJAvEBoYrHYwrgnYC28UawAcjNtTzZW6CRTMUxwUyrXDxCNbAKw3sp3izRKP5THeq=2JfbfYLHTjKeVnXKCefDPBig8=Xi8as1dZfkkpTkbOZq/d0CUxSBbjuMPYtXmqky0cNAv1b+ImgDeoaXVD+OvcdJpFO1dh+71wrH2SUBv+LgIAQrq77M0tIHMSKds8257Q=ZTWW
