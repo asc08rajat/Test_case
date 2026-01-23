@@ -1,0 +1,21 @@
+Test Case Name : TC499_Test_Case_499
+Module         : Search
+Timestamp      : 2026-01-20 10:41:16
+Build Number   : Jenkins-Build-535
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : PerformanceSLAException
+Error Message  : PerformanceSLAException while calling GET /api/v1/search/499 -> HTTP 502
+
+Stack Trace
+-----------
+PerformanceSLAException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:492)
+	at com.company.search.Class2.method2(Class2.java:181)
+	at com.company.search.Class3.method3(Class3.java:30)
+
+HTTP Request (b64)
+------------------
+tzkg43Z2mQZ=YlmQp/9IHGHvJveI3HfZ7PjWD6DRJyLCVcc1Bfpqtc2S7hWEQHmqaWMP5MblDcvRMuRpj3q7MEen5mM7weQct0hRzrxwHsHmn2T6/mghh9XhniGKtZAVEV8uTGh/Fv7FJQ5WTif9KytEnIi74rbPY4br52KsKT5JT6SnvdO/OLXNZnweMi45IKN//SKpf3/giVsq79nzMNSa/Stc
