@@ -1,0 +1,21 @@
+Test Case Name : TC152_Test_Case_152
+Module         : Cart
+Timestamp      : 2026-01-20 10:22:23
+Build Number   : Jenkins-Build-558
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : RuntimeException
+Error Message  : RuntimeException while calling GET /api/v1/cart/152 -> HTTP 400
+
+Stack Trace
+-----------
+RuntimeException: failure in Cart
+	at com.company.cart.Class1.method1(Class1.java:120)
+	at com.company.cart.Class2.method2(Class2.java:74)
+	at com.company.cart.Class3.method3(Class3.java:68)
+
+HTTP Request (b64)
+------------------
+ctcH/Ss0wHv9PP+9/MtkFwhoCgwgBOi=7s4frWAuuObxGeKLIt03sfGNENXLRcA0H3pT1xin5VAosXcKp6Abe9jEKdoHgUmjpsGdqRzd5T7KU9P7qn=d3dD2jSWYNN8e0Na=zW=ebsmWt67RMJHP0UjSzU2eNOmFtzzH5ISzm4qbPDT9a823EWU6mEb=sVqATcUBIL8R5o2fG7P1B7JslWZZLiw6
