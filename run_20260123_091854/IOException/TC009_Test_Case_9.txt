@@ -1,0 +1,21 @@
+Test Case Name : TC009_Test_Case_9
+Module         : Inventory
+Timestamp      : 2026-01-20 10:27:10
+Build Number   : Jenkins-Build-535
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : IOException
+Error Message  : IOException while calling GET /api/v1/inventory/9 -> HTTP 404
+
+Stack Trace
+-----------
+IOException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:44)
+	at com.company.inventory.Class2.method2(Class2.java:272)
+	at com.company.inventory.Class3.method3(Class3.java:379)
+
+HTTP Request (b64)
+------------------
+v3SsKbwjgaWEOStiv82b=SBT9ozSGk04PCIcncXuIwVNszsooYkHE44mQJjaTHkbiMnyWiRTz0OI01aV9jQdiyb3Y7=79R1rj6Zt3gae+FETY8pzJ8HgMKBR2KDkH09VVr4uVgbBdQcXPrx7c5/7acdp9HkblN7=h0RiuxsnyfsjAh4GikLgSQA8ryZBhz5MMuKx6NenKtOeWxDOY9lI2b2xqFXS
