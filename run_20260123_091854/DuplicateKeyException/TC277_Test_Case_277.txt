@@ -1,0 +1,21 @@
+Test Case Name : TC277_Test_Case_277
+Module         : Search
+Timestamp      : 2026-01-20 10:50:28
+Build Number   : Jenkins-Build-420
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : DuplicateKeyException
+Error Message  : DuplicateKeyException while calling GET /api/v1/search/277 -> HTTP 400
+
+Stack Trace
+-----------
+DuplicateKeyException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:376)
+	at com.company.search.Class2.method2(Class2.java:402)
+	at com.company.search.Class3.method3(Class3.java:405)
+
+HTTP Request (b64)
+------------------
+xRsLIPKlZv=Zl2v8Pcx2B6eer0r67=NMMx+qL0NPlqGCYb7lwwbja1I=A7ZFFVFBiI4gUuKoKNu6YuH1LATal=ul56kgLhpv0bmo8BQ6bcjWPEKPH5H2e2mNs+=gtAeYWjOY33IV+lGxQHdhGEZgCDzpIA63CiX+fcgYSg/+oBqFi0F39LAx9APit52yEWWx7AQBriU0JkU9ZTaAmyXD5jDhcBRV
