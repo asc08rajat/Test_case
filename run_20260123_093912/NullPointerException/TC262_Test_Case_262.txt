@@ -1,0 +1,21 @@
+Test Case Name : TC262_Test_Case_262
+Module         : Payments
+Timestamp      : 2026-01-20 10:00:05
+Build Number   : Jenkins-Build-401
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : NullPointerException
+Error Message  : NullPointerException while calling GET /api/v1/payments/262 -> HTTP 504
+
+Stack Trace
+-----------
+NullPointerException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:231)
+	at com.company.payments.Class2.method2(Class2.java:168)
+	at com.company.payments.Class3.method3(Class3.java:467)
+
+HTTP Request (b64)
+------------------
+cPDVo9PJ0khEurfHPgMT/9hBMuWTtNm3Sjjhv+KkffvpU=lKTYNTTg6hw43LDUgXej/Qi5+flGYa0eJdqI0AeGvXOiqtv2CQ9u02ZmE1lxe7kDk1oKgkNtpq1PDTa9fEqZJ//Dq2qwo/4atUD3c2nMcjPv=aemlQ27U3NUnOKGc6/VJyt=V/eiaLIwDegjom2l/eB2q7=z2yHNHzO8XidizYi2G9
