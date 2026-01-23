@@ -1,0 +1,21 @@
+Test Case Name : TC353_Test_Case_353
+Module         : Inventory
+Timestamp      : 2026-01-20 10:34:19
+Build Number   : Jenkins-Build-519
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : ElementNotInteractableException
+Error Message  : ElementNotInteractableException while calling GET /api/v1/inventory/353 -> HTTP 500
+
+Stack Trace
+-----------
+ElementNotInteractableException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:156)
+	at com.company.inventory.Class2.method2(Class2.java:276)
+	at com.company.inventory.Class3.method3(Class3.java:14)
+
+HTTP Request (b64)
+------------------
+LyjmDQbcOygz+R95k1iyzRGsTROPFHc621ImbflA2hx1HZGOlvn4+cfl6DP4AEFfcuc4nNBTVE0JWtvS4rBCtJ9PzUtLE12L1FseRzBZcMF5+Qitg8oUEFjr6ZGLlzcRJL7kGZ=JMNQAwrrlaPFYncluYWd7tCHM7558tE471+8U95P8a7EcnPvl=sQO+sBByxQ6bDBa8AJvJ53zEWoFUVTq3sON
