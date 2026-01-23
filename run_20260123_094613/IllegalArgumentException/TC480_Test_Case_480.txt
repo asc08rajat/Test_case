@@ -1,0 +1,21 @@
+Test Case Name : TC480_Test_Case_480
+Module         : Profile
+Timestamp      : 2026-01-20 10:13:22
+Build Number   : Jenkins-Build-441
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : IllegalArgumentException
+Error Message  : IllegalArgumentException while calling GET /api/v1/profile/480 -> HTTP 500
+
+Stack Trace
+-----------
+IllegalArgumentException: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:145)
+	at com.company.profile.Class2.method2(Class2.java:20)
+	at com.company.profile.Class3.method3(Class3.java:183)
+
+HTTP Request (b64)
+------------------
+PKl12UFg9S0uS+un/lwYGgZJDAZStvlRt6CjpoH00HUosykD+qZslrzVBB+yD7XtORJBM3w6A9wKm6n/NtgCSi0MngK80uyP8uiI8sj/RVXUNJjXvk9sGFDnD5=Ez5SfqcRJon0AVb3gQ49+ItIqtd5s8k/L/GZgDc7gfjpm6FfN=givJvkKUzJFyp+05+PhSkiKTN0vWoUVcI=g9dn4BO7I+TvR
