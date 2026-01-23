@@ -1,0 +1,21 @@
+Test Case Name : TC006_Test_Case_6
+Module         : Orders
+Timestamp      : 2026-01-20 10:17:49
+Build Number   : Jenkins-Build-435
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : IllegalArgumentException
+Error Message  : IllegalArgumentException while calling GET /api/v1/orders/6 -> HTTP 504
+
+Stack Trace
+-----------
+IllegalArgumentException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:446)
+	at com.company.orders.Class2.method2(Class2.java:69)
+	at com.company.orders.Class3.method3(Class3.java:232)
+
+HTTP Request (b64)
+------------------
+AKjFCdAahC+YSmJdeJqXdoyRFjuP6jd+I5mxHVRycfFr=7L9LW2F36YnG37Bn50k2Kan3ogetuaB9=GMLMb8caYYNcPD8QsUUOujw=/XNLVUzOTw3YUv=iVtCPRDbb9igXNVuCV+igd8g3bz5fiOgCJ/l+N/8dzLFNoqbrGXSAlO10+qud/kPV7jKGSrX8Uuw3f3k=3gTWUR9HFh5z5I7ip7lFq5
