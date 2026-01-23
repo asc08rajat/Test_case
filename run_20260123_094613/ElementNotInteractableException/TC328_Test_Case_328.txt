@@ -1,0 +1,21 @@
+Test Case Name : TC328_Test_Case_328
+Module         : Profile
+Timestamp      : 2026-01-20 10:48:49
+Build Number   : Jenkins-Build-419
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ElementNotInteractableException
+Error Message  : ElementNotInteractableException while calling GET /api/v1/profile/328 -> HTTP 504
+
+Stack Trace
+-----------
+ElementNotInteractableException: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:460)
+	at com.company.profile.Class2.method2(Class2.java:375)
+	at com.company.profile.Class3.method3(Class3.java:382)
+
+HTTP Request (b64)
+------------------
+sswmZ0yJHvDNpF5X9RwE8Piprh1VoBMYLlO6IrAotjhR4eSZX1XljYkFHiGEmtg2Mnar=ft3udxG0U6F1BRmeGLAJcBtJBgsx4HhpsiM0MFzWbbfeN=FrZ1lgez8dpP42emMuuM5Z=qeKISt6FHEbJcyCBydYE2zg2IdXXAr5llO5e+9CU/QgftbpKSdtV=CE0O4SozuQuKShk=98O=iJ64hksuE
