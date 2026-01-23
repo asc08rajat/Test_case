@@ -1,0 +1,21 @@
+Test Case Name : TC391_Test_Case_391
+Module         : Inventory
+Timestamp      : 2026-01-20 10:23:05
+Build Number   : Jenkins-Build-466
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : NoSuchElementException
+Error Message  : NoSuchElementException while calling GET /api/v1/inventory/391 -> HTTP 504
+
+Stack Trace
+-----------
+NoSuchElementException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:60)
+	at com.company.inventory.Class2.method2(Class2.java:283)
+	at com.company.inventory.Class3.method3(Class3.java:53)
+
+HTTP Request (b64)
+------------------
+qT241k1oLUcFBQKZg3shpO6GQQFqB307ancBookN/Ga7iA7vSuJsIgoitD+993Nlb8mcb3mRSswU9aerh/ISTn+gkC+PwXvZczIUTH8bJ2xSyj8uSPZCuF/TTrnh4VeY2Qp=DV6IQp3f9OYeBJLZx=+QVBApHhMqHR4JhG9cepnw9FOp/EtOLXOCF86Ce5IAyOscnIFolUXxJH3tCCYvgOt5Q2uu
