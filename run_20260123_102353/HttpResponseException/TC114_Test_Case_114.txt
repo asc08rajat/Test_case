@@ -1,0 +1,21 @@
+Test Case Name : TC114_Test_Case_114
+Module         : Inventory
+Timestamp      : 2026-01-20 10:29:32
+Build Number   : Jenkins-Build-570
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : HttpResponseException
+Error Message  : HttpResponseException while calling GET /api/v1/inventory/114 -> HTTP 500
+
+Stack Trace
+-----------
+HttpResponseException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:145)
+	at com.company.inventory.Class2.method2(Class2.java:211)
+	at com.company.inventory.Class3.method3(Class3.java:232)
+
+HTTP Request (b64)
+------------------
+I7509J2HQSba=Pr6VfabmLM7AzxDqw9FjN7q6b5CAIqaNajzN3hz0HVQFDlkTavyhzg9WfG=TDjZC+Ue+aWzJ9Ul03935mAyLz0aTFu=jsqYPKVECQfpHFPfziF6qYLfPsP78E4GkPuol209=YS3M1BTKLjnlOD/rvMyx6inFJ4RFFXpu9PU5=KiEhZLPru/v2/=s5rnQnS6X5zBGaDa8tYPGo15
