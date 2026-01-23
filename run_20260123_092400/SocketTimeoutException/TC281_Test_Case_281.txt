@@ -1,0 +1,21 @@
+Test Case Name : TC281_Test_Case_281
+Module         : Orders
+Timestamp      : 2026-01-20 10:02:37
+Build Number   : Jenkins-Build-505
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : SocketTimeoutException
+Error Message  : SocketTimeoutException while calling GET /api/v1/orders/281 -> HTTP 503
+
+Stack Trace
+-----------
+SocketTimeoutException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:157)
+	at com.company.orders.Class2.method2(Class2.java:366)
+	at com.company.orders.Class3.method3(Class3.java:91)
+
+HTTP Request (b64)
+------------------
+K0tcZxeH3er/aEeek186jBly8Ex2QCck76CDtXtwQaXAE9qJLX6WGZ=hioUbp7foVcLM=MOkMGcM0ARYj7vUdIPqperoIKOHIMNy4CoTAnUOM2sfpbGKCAcFYhrMMTSZ2TGsvyWTa/PKwPoUz/xLpdLQ65dtnuwSVE1fzpRt9U9XQNLph20H/hiyfVyAgIkMk3/XmwmjOAnO6P/6b9Y=vQZtCYnD
