@@ -1,0 +1,21 @@
+Test Case Name : TC229_Test_Case_229
+Module         : Orders
+Timestamp      : 2026-01-20 10:01:31
+Build Number   : Jenkins-Build-466
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ConstraintViolationException
+Error Message  : ConstraintViolationException while calling GET /api/v1/orders/229 -> HTTP 400
+
+Stack Trace
+-----------
+ConstraintViolationException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:16)
+	at com.company.orders.Class2.method2(Class2.java:465)
+	at com.company.orders.Class3.method3(Class3.java:199)
+
+HTTP Request (b64)
+------------------
+siO/FbAby6kpAlFb8CmK=r6qI8XH3Fnuj=Px++YjPZHbeblECp9nyBZIwQlHU/WCJCu49Gpk7MPj=McUXqYdMsnuuxGayQeu+M6F1ZjGpf9RBWsP71XBf+aQZWneR2VCk2f5I=BYbZO1cJm8Ea0xmt5vpOmYkMM9LSctVLr0YBZo/BvG+rwEMN7lUTk=nDxP3oVwrbx/11zG9vsOPf5PU0gh=Y/5
