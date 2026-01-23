@@ -1,0 +1,21 @@
+Test Case Name : TC101_Test_Case_101
+Module         : Payments
+Timestamp      : 2026-01-20 10:36:57
+Build Number   : Jenkins-Build-475
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : TimeoutException
+Error Message  : TimeoutException while calling GET /api/v1/payments/101 -> HTTP 500
+
+Stack Trace
+-----------
+TimeoutException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:335)
+	at com.company.payments.Class2.method2(Class2.java:414)
+	at com.company.payments.Class3.method3(Class3.java:10)
+
+HTTP Request (b64)
+------------------
+F0gdRmSMdivjgjzfEXnsQta+wChwxcEUQyd6NNMj83p5y6fghLDOIN7wF9w7htLQ09QVmHadrMwRm+upJ/mNzaH53kUkjpzWx9i2d31RElqlg=B24jjhhclqOybtCccLrryeFgEREZEYhz7amgBtCTQ2VdU=1dg3eZ4Se9ndkx5psGbH3b098iSyunI9z1y8DpUe2dAhuAU9GfeT5Xt8VRekB0Cd
