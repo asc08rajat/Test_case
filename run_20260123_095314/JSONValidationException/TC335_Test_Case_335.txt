@@ -1,0 +1,21 @@
+Test Case Name : TC335_Test_Case_335
+Module         : Search
+Timestamp      : 2026-01-20 10:37:33
+Build Number   : Jenkins-Build-572
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : JSONValidationException
+Error Message  : JSONValidationException while calling GET /api/v1/search/335 -> HTTP 504
+
+Stack Trace
+-----------
+JSONValidationException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:281)
+	at com.company.search.Class2.method2(Class2.java:129)
+	at com.company.search.Class3.method3(Class3.java:248)
+
+HTTP Request (b64)
+------------------
+=uJ6sRqTh4hh5wvBNXEypJ6y9zlzvx8z3um+9pLfuc2NCmTBKkxCzjNi=5i4XBDnKAACME/hL9=59oExoeHkwk2yRUobODK5RcS/Z9rDWxlmwWzLHmWHg2XI557Li1LQx39hYVauR+4d/01XPsb8BYbEc6HdM0arUnIy9Qmx9Iu/6mSuuax8eFpXuX/kmyY58/YbQ00n3yKNZyrIWqPScO4=mYN3
