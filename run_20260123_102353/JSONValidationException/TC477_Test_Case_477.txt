@@ -1,0 +1,21 @@
+Test Case Name : TC477_Test_Case_477
+Module         : Profile
+Timestamp      : 2026-01-20 10:30:25
+Build Number   : Jenkins-Build-515
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : JSONValidationException
+Error Message  : JSONValidationException while calling GET /api/v1/profile/477 -> HTTP 404
+
+Stack Trace
+-----------
+JSONValidationException: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:154)
+	at com.company.profile.Class2.method2(Class2.java:287)
+	at com.company.profile.Class3.method3(Class3.java:214)
+
+HTTP Request (b64)
+------------------
+iTKpmm91L4QG2q6pgofKVcs4qnHU6APPTo/RqmQx559oErcmO+GsOOg4nrCyiN1cRKAxyucDvAUssnf/07CkanxCS1FEnbCjlF0tsS3Nt+pijTj5u59p9T8QzgyneMsANGOX/14g719c36ODrWyo3prQ69DU9b+ehPRts17CBJBlc05lWU2UbYEGN1NQSBQjNyWzdwxAwALz0md0iy32IQPTzRRW
