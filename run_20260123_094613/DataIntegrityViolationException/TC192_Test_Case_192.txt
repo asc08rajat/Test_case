@@ -1,0 +1,21 @@
+Test Case Name : TC192_Test_Case_192
+Module         : Inventory
+Timestamp      : 2026-01-20 10:42:13
+Build Number   : Jenkins-Build-538
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : DataIntegrityViolationException
+Error Message  : DataIntegrityViolationException while calling GET /api/v1/inventory/192 -> HTTP 403
+
+Stack Trace
+-----------
+DataIntegrityViolationException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:296)
+	at com.company.inventory.Class2.method2(Class2.java:478)
+	at com.company.inventory.Class3.method3(Class3.java:361)
+
+HTTP Request (b64)
+------------------
+dxOp/Rbd4QZVo/I1i9FF70qmuwyyHMAVuEPPilE1fU5tqUovlBCf4UCqpKKZ1FiWHxKLPKaETIV+VeuZYSu10G+KrHAF2SrdyaCYqI6HDN5ZomOm18oSfIt75cOdApTrNLupkePrbDh6Hm+31YSp=uXIB4eLTAeRmIf2SS/ELX7tGcB9hfQ10yMY7AvF5JNt70Y1fmLsDwDLX=uzrr5ofMv1I=l6
