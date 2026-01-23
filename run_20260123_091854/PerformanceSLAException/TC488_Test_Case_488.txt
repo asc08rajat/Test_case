@@ -1,0 +1,21 @@
+Test Case Name : TC488_Test_Case_488
+Module         : Payments
+Timestamp      : 2026-01-20 10:06:19
+Build Number   : Jenkins-Build-475
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : PerformanceSLAException
+Error Message  : PerformanceSLAException while calling GET /api/v1/payments/488 -> HTTP 504
+
+Stack Trace
+-----------
+PerformanceSLAException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:498)
+	at com.company.payments.Class2.method2(Class2.java:462)
+	at com.company.payments.Class3.method3(Class3.java:433)
+
+HTTP Request (b64)
+------------------
+9kyCvIiSt4ik2kOgASsXLLQbuTJbwBSciKrk3lpR=vdMqg/UZrg/u1xqgyYZ0XEZWm0xywHzImg5VX3hgJml1hCqh=d5s2UIQRyQ1SDLjGBIgoslUib4WteL9D5YircHUHkp2oFjxXhffSuqD/LxP3gjpZhiNm/y5RKX4ZEqskI9kuWlHXjqqpcziL/QIp9KLOzQv4h7YCglDhTDHgTVqO1Xj0km
