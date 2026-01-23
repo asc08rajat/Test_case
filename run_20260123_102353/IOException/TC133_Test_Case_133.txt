@@ -1,0 +1,21 @@
+Test Case Name : TC133_Test_Case_133
+Module         : Login
+Timestamp      : 2026-01-20 10:53:48
+Build Number   : Jenkins-Build-563
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : IOException
+Error Message  : IOException while calling GET /api/v1/login/133 -> HTTP 400
+
+Stack Trace
+-----------
+IOException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:408)
+	at com.company.login.Class2.method2(Class2.java:436)
+	at com.company.login.Class3.method3(Class3.java:333)
+
+HTTP Request (b64)
+------------------
+XUHu6jZqP/EzvZekvPZaVikaIoIiyQJy9QH3YKtyHmQltS4UJuGqOY18ARfF/2lqHZe2tQxDqehUq2LMk51rCILM2dBfsAqYwLNvGEkaBAE1UXesSxvFtsPC9Km/CgLqJjDBLLOqR3GrZCp42CxG2Dk83b=AFieTctRR+ZqgQn4qvQYTQr3BIFlDihLVk/NswsU6f=wVjm0EpJR3cDtgkjLKycUw
