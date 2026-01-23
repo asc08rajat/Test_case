@@ -1,0 +1,21 @@
+Test Case Name : TC239_Test_Case_239
+Module         : Cart
+Timestamp      : 2026-01-20 10:50:43
+Build Number   : Jenkins-Build-442
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : NoSuchElementException
+Error Message  : NoSuchElementException while calling GET /api/v1/cart/239 -> HTTP 404
+
+Stack Trace
+-----------
+NoSuchElementException: failure in Cart
+	at com.company.cart.Class1.method1(Class1.java:59)
+	at com.company.cart.Class2.method2(Class2.java:154)
+	at com.company.cart.Class3.method3(Class3.java:287)
+
+HTTP Request (b64)
+------------------
+pOLy8PJfSF/iu5P4qq2BY8vXm9JjYSme=z3mE/gBYM1TK1edNYPlbx2LaieEENn82ALZx2Pl4ySppg=1NjimpKPcV5OciXYsXWZiIuT2X5HClxT24WCdFGbQEmZ73panHYPfXxtFWvTU4PmgCb4VKBeSaw3EfHmiS8rqBp8QqNDVbjH7/EBiALJA+yA3m4cUeQ9T3aCaJSzrZhhQvuNmQQ6pqb9=
