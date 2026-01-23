@@ -1,0 +1,21 @@
+Test Case Name : TC145_Test_Case_145
+Module         : Payments
+Timestamp      : 2026-01-20 10:28:15
+Build Number   : Jenkins-Build-535
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : RuntimeException
+Error Message  : RuntimeException while calling GET /api/v1/payments/145 -> HTTP 400
+
+Stack Trace
+-----------
+RuntimeException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:186)
+	at com.company.payments.Class2.method2(Class2.java:252)
+	at com.company.payments.Class3.method3(Class3.java:94)
+
+HTTP Request (b64)
+------------------
+5Bg6MCUrouTTUfVy4tJXvEL8U+nhh8FHremWSY4aJDviyZ49e9LNsJk0UCnNVj4zA2sJjAUY2KWmtY+MVS6QxgQf2h21Awu5YXzLYpSDzVFpbg0lR5T4zSCCNWh1vTFVOwO/WprdwD1EVESQVsBlngFCZGUgXtuLSV+KSEtiJt+QcI/WXHicfdwsqkaGCs/veYCAfbtdVitsfmbgVMXwZa7cfSXm
