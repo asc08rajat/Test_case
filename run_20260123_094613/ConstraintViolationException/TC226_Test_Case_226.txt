@@ -1,0 +1,21 @@
+Test Case Name : TC226_Test_Case_226
+Module         : Cart
+Timestamp      : 2026-01-20 10:47:03
+Build Number   : Jenkins-Build-458
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : ConstraintViolationException
+Error Message  : ConstraintViolationException while calling GET /api/v1/cart/226 -> HTTP 400
+
+Stack Trace
+-----------
+ConstraintViolationException: failure in Cart
+	at com.company.cart.Class1.method1(Class1.java:423)
+	at com.company.cart.Class2.method2(Class2.java:196)
+	at com.company.cart.Class3.method3(Class3.java:240)
+
+HTTP Request (b64)
+------------------
+mDEYk2g81rqhwewL/r=r1fh4/hXTUXHSe59DCdifAOUW5lfy9i28NMTYAuSc5Bod9l5lne3H36j9TrOgqm2saCFOsv7jxtm3c3tJajrPsbgfh==gDTlh40Q/I5tR6ChOG3/vvcnRw1DMDKt2wJ/gsEHQyNrIsMmvC1Zjg9HFR387QVuJRoPj1WOUW+93c4jo3fmxj=PJ8vAQDD2rGEctyR/IpBlU
