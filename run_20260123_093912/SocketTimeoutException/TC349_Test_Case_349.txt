@@ -1,0 +1,21 @@
+Test Case Name : TC349_Test_Case_349
+Module         : Checkout
+Timestamp      : 2026-01-20 10:04:17
+Build Number   : Jenkins-Build-409
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : SocketTimeoutException
+Error Message  : SocketTimeoutException while calling GET /api/v1/checkout/349 -> HTTP 404
+
+Stack Trace
+-----------
+SocketTimeoutException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:433)
+	at com.company.checkout.Class2.method2(Class2.java:26)
+	at com.company.checkout.Class3.method3(Class3.java:36)
+
+HTTP Request (b64)
+------------------
+GY36Y7JjCSJd=eH0WpPXpEBcsu0LhD3iOiujRT6kEt9K3wx6Rac6A3gBbQ6jAWf+fH845pxX1PJzAb+ia8xmL5D4NzBU3A=J5yLeqiFljjHPAIz5xVynGAim7mdrxJQBp86Vx=rXw1eDxxFkuV4Omy9kej0evX=7OZCtaGpOAgcPhSVSrE/nn4nuWQOGtE1P6XbS8zDSihx3RsWcYTRhvkeETtAL
