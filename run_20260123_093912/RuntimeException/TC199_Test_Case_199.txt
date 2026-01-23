@@ -1,0 +1,21 @@
+Test Case Name : TC199_Test_Case_199
+Module         : Checkout
+Timestamp      : 2026-01-20 10:16:52
+Build Number   : Jenkins-Build-423
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : RuntimeException
+Error Message  : RuntimeException while calling GET /api/v1/checkout/199 -> HTTP 503
+
+Stack Trace
+-----------
+RuntimeException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:197)
+	at com.company.checkout.Class2.method2(Class2.java:242)
+	at com.company.checkout.Class3.method3(Class3.java:28)
+
+HTTP Request (b64)
+------------------
+DpM9IsKyIw2XQfvndYd80GMh8tvPOCaBo1vavys+kZ9a4SDtbNW2rLhuoP41Lx6+JARvV=+aOpu3RwNX5oAVmCgXaUBkMH+RuWMbWXo+q1quyTRFbEgirnh=aSCPqiik9Q/Fm2govJY8J+lWohe3VKQQ4qPSadsvPbPat6qKuNKoeCewTOnVtq7A28Kaz+SSudCPOln1Pt1kw+WgvEsr1oRA3nWl
