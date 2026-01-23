@@ -1,0 +1,21 @@
+Test Case Name : TC238_Test_Case_238
+Module         : Login
+Timestamp      : 2026-01-20 10:41:57
+Build Number   : Jenkins-Build-502
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : AuthenticationException
+Error Message  : AuthenticationException while calling GET /api/v1/login/238 -> HTTP 403
+
+Stack Trace
+-----------
+AuthenticationException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:435)
+	at com.company.login.Class2.method2(Class2.java:443)
+	at com.company.login.Class3.method3(Class3.java:99)
+
+HTTP Request (b64)
+------------------
+76jIPML3+AocgZE9wRdBAaDXaC4hJk2QjEZIM/aurGoxKycOp6+zW682kYcLOFJ8P5aqKe+FPjpRtC488LR66c6J4CBMoH1LmHrdoE=Abn8bKocQ0793imUyb3clRawgdymcL+HsvoQX8W9rT=CGT/MXleaDQwOxR1ngxg3k3JryZ=+4x+eEErfYquLPObOMKPNPgh+5VkTfqN/gpulpVV7zMhc5
