@@ -1,0 +1,21 @@
+Test Case Name : TC157_Test_Case_157
+Module         : Login
+Timestamp      : 2026-01-20 10:54:12
+Build Number   : Jenkins-Build-448
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : IllegalArgumentException
+Error Message  : IllegalArgumentException while calling GET /api/v1/login/157 -> HTTP 400
+
+Stack Trace
+-----------
+IllegalArgumentException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:200)
+	at com.company.login.Class2.method2(Class2.java:243)
+	at com.company.login.Class3.method3(Class3.java:275)
+
+HTTP Request (b64)
+------------------
+lnJKm03++frDS0uwJ2TFDF6zeYLn//jWp7Uc/UMB0eSVpXIYbyxgNovv=3fv4braz213533NrHQRLL9NIK=Yw=z1JdlLA1kTmbxnn2V3MHEAhpE6f80BwOH=OE5hDrO01hBqkGTq=164rLSiZ+EsgPXGMQQYBWT79hCxUjMv0UQXA=T9FvCqxN5F29XqL2S/YO46YN8UzQpo7/rcyDespCBJ8guh
