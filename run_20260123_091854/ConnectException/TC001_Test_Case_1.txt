@@ -1,0 +1,21 @@
+Test Case Name : TC001_Test_Case_1
+Module         : Cart
+Timestamp      : 2026-01-20 10:02:08
+Build Number   : Jenkins-Build-447
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ConnectException
+Error Message  : ConnectException while calling GET /api/v1/cart/1 -> HTTP 502
+
+Stack Trace
+-----------
+ConnectException: failure in Cart
+	at com.company.cart.Class1.method1(Class1.java:325)
+	at com.company.cart.Class2.method2(Class2.java:447)
+	at com.company.cart.Class3.method3(Class3.java:177)
+
+HTTP Request (b64)
+------------------
+saURqP/q9gFInuDtLM5VYhzaqnTf7hMchDimi0nPKjDf47wLF5TpNExoc6O/rVLz8BcsoZeBCjY0FaPKRMboTNttsFhSp60KltR03I+6+6mTxuuJs1AIjCtQ51QOIe5r9lT6o8/GjHPvkzFvG1Y7dbdI11q3EcUhpczH1+23Wymyi8Xz5K3ukmhTVqf4OxYnyvLXHPvicKATr9393wwJW3RvpHMt
