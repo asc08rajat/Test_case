@@ -1,0 +1,21 @@
+Test Case Name : TC283_Test_Case_283
+Module         : Orders
+Timestamp      : 2026-01-20 10:25:54
+Build Number   : Jenkins-Build-413
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : JSONValidationException
+Error Message  : JSONValidationException while calling GET /api/v1/orders/283 -> HTTP 503
+
+Stack Trace
+-----------
+JSONValidationException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:169)
+	at com.company.orders.Class2.method2(Class2.java:420)
+	at com.company.orders.Class3.method3(Class3.java:409)
+
+HTTP Request (b64)
+------------------
+BuQHYeMuxf1UY23xQdtAQ6QOSDlEUySuN2tvQGlS3jkCXOoURQSyBOMR=2QAwp2+6Ej6LYqvp4S8Gg+ZJyjjyx3wg1nz53gppz2zV2MT0WD=rL1zzxVjfKtCDucv9bS+vX6fKOssQ/sXmLTDVL5OAB5pI/zXm/rfpenLrxfQheevSI7LA+Sqa4IUpSLDAXzo=j0ndllgOjcpYMv=/f4Tw7yN853x
