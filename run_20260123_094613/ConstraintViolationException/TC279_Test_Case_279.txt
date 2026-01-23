@@ -1,0 +1,21 @@
+Test Case Name : TC279_Test_Case_279
+Module         : Orders
+Timestamp      : 2026-01-20 10:16:26
+Build Number   : Jenkins-Build-461
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : ConstraintViolationException
+Error Message  : ConstraintViolationException while calling GET /api/v1/orders/279 -> HTTP 404
+
+Stack Trace
+-----------
+ConstraintViolationException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:186)
+	at com.company.orders.Class2.method2(Class2.java:296)
+	at com.company.orders.Class3.method3(Class3.java:388)
+
+HTTP Request (b64)
+------------------
+j2PaIZLjlkCGgWTq76iieBUSkTrnsiRvIEvSq0TSNJOCLZDrVtRpS1wr0ZEkiXIkjWRyx+Ev8QyBXppTXbzWpOXTa/plIERROiGHIkXiHBnFYrncTIuImZJLzPtrlU6YDIiNGmvJqewl3M96g9u3DEqnykdYLR/e2YNmWOfz/MO74+dhLKy869IA3ib6KUJL5aMpttoWFZqJ0mJrWFw11W0F7X6K
