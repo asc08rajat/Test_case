@@ -1,0 +1,21 @@
+Test Case Name : TC320_Test_Case_320
+Module         : Profile
+Timestamp      : 2026-01-20 10:20:33
+Build Number   : Jenkins-Build-474
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : IOException
+Error Message  : IOException while calling GET /api/v1/profile/320 -> HTTP 504
+
+Stack Trace
+-----------
+IOException: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:161)
+	at com.company.profile.Class2.method2(Class2.java:12)
+	at com.company.profile.Class3.method3(Class3.java:254)
+
+HTTP Request (b64)
+------------------
+w7/OYP+lc4f=d9G+5Jip39djDps4Cvbe2e/KIJuLuQ6aeOVqIjJ=0itjAJTSy9hvYjNVDWDY7VdQtQfPo/zXGdmzQgdF4HvrebTweOJLCdReMEI9hHDnxoLH2fdqc4Cr+UT7BbraPZsht0t5WhvHk5fiv3aWMkbX32JbyTJsLS8jDbLpbP+VU3xgTMZyGzpZxREluim4Sq1OR+tqpIoZpnDPpx7B
