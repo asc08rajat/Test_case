@@ -1,0 +1,21 @@
+Test Case Name : TC057_Test_Case_57
+Module         : Login
+Timestamp      : 2026-01-20 10:17:46
+Build Number   : Jenkins-Build-600
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : AuthenticationException
+Error Message  : AuthenticationException while calling GET /api/v1/login/57 -> HTTP 500
+
+Stack Trace
+-----------
+AuthenticationException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:361)
+	at com.company.login.Class2.method2(Class2.java:233)
+	at com.company.login.Class3.method3(Class3.java:489)
+
+HTTP Request (b64)
+------------------
+jwDm4r2QJhJvsg=dK4lbgIWk=ImDG0FmoHTo/vBGveM/5VN5IeRExYtXUwqrY2jDNj+xF08C7OaGMeCw/qTUjC6PdktuXFnp8oLw7Gk===MP15Mo0h2E8LuTFiG0XkoF91o/0Hbfb=DPujsknjfDPlJygYf6rO0Vjw4OhstHaaVFh0xQ2MqJzjlpYi+VU8sf/zcblEadgx2jWsyv9RpKpVOWCAV7
