@@ -1,0 +1,21 @@
+Test Case Name : TC490_Test_Case_490
+Module         : Search
+Timestamp      : 2026-01-20 10:29:04
+Build Number   : Jenkins-Build-590
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : AuthenticationException
+Error Message  : AuthenticationException while calling GET /api/v1/search/490 -> HTTP 504
+
+Stack Trace
+-----------
+AuthenticationException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:294)
+	at com.company.search.Class2.method2(Class2.java:383)
+	at com.company.search.Class3.method3(Class3.java:291)
+
+HTTP Request (b64)
+------------------
+nQquYFprdPE2MpxOdVWNNb81tsuLcLsx0MvlozVCguDF3pdMN75YV7bYo1R46R5Rzq01Fsbc0y4Mpb0uvDDVtbP0GKD4mXx1JOiq3gBvP/WjU7OAiG8P4hlceK1dm57nASyv30McGpzq17pLpB9cAhGBfK7XyVcBg++kv=/NC/VfLC=qAy0L0eSy0A3zGy+D0EG3ShZCUOPZ7nefrtn3iFGAvDC3
