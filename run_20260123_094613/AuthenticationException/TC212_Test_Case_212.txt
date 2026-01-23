@@ -1,0 +1,21 @@
+Test Case Name : TC212_Test_Case_212
+Module         : Profile
+Timestamp      : 2026-01-20 10:35:14
+Build Number   : Jenkins-Build-468
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : AuthenticationException
+Error Message  : AuthenticationException while calling GET /api/v1/profile/212 -> HTTP 503
+
+Stack Trace
+-----------
+AuthenticationException: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:196)
+	at com.company.profile.Class2.method2(Class2.java:108)
+	at com.company.profile.Class3.method3(Class3.java:348)
+
+HTTP Request (b64)
+------------------
+PA=xvzveaH2JiPo8ettKdCpHo2LJRb4UyVosoH+/J85Gh=X6PJ8quXVwozOkXLcK6kJ6YwIP1W7FLpBEr=Tps7pP7vSy80dtz3pM8vSbJk429CUCm+XjOI6feilGxFLTdGt9a7kSTeIhPqS6f8nQejB8Jqqw1rJrLL1R4S4e7vUarthB2YO5495JyLq6E6tMAjTvp=jSWkvEKx4tEuxTMCteR3pM
