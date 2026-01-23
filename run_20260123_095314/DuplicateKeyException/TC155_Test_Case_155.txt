@@ -1,0 +1,21 @@
+Test Case Name : TC155_Test_Case_155
+Module         : Login
+Timestamp      : 2026-01-20 10:52:23
+Build Number   : Jenkins-Build-458
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : DuplicateKeyException
+Error Message  : DuplicateKeyException while calling GET /api/v1/login/155 -> HTTP 403
+
+Stack Trace
+-----------
+DuplicateKeyException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:403)
+	at com.company.login.Class2.method2(Class2.java:469)
+	at com.company.login.Class3.method3(Class3.java:330)
+
+HTTP Request (b64)
+------------------
+Sxa7hB1UDZXRSASIzNOGoIyR7nhWYD9b2bIfBBcbWj7xbxy1EmiIttTr3FlEtC8k+ANfsDU+0tGX=BsDuxgrCjA8Ut+qIGUCa8jyXm=Uk3jL7ACnziNQ=0IRCZel1KPCcCEfzbW2VguB9oUFP9otDFxWp1ypktx/fOR1RfswkJvjPHtAf4vwC7wLuQm+PQ0Ri3bMkKkJ3ERD5sq0D4p+IiqZbEyf
