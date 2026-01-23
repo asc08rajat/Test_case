@@ -1,0 +1,21 @@
+Test Case Name : TC135_Test_Case_135
+Module         : Payments
+Timestamp      : 2026-01-20 10:19:23
+Build Number   : Jenkins-Build-418
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : NullPointerException
+Error Message  : NullPointerException while calling GET /api/v1/payments/135 -> HTTP 503
+
+Stack Trace
+-----------
+NullPointerException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:182)
+	at com.company.payments.Class2.method2(Class2.java:277)
+	at com.company.payments.Class3.method3(Class3.java:20)
+
+HTTP Request (b64)
+------------------
+0rupV5Pbcfk9gVnpqGwfjT/kHid5miVVhvobeMsYWMDUkE3vrD8UZVyLefS2v7TOP9Wjly=kT=1Wpr9W50Xx0gydyIny7ynYRnYrlGvSH7fIWiY9q2=M/SBVK/xFKHh44fnYqTidaEDfoasc09RFc115BF/SafGl7J86H1=83MgBCaBTvio38NfG=KjBLL6vSXs9DEtHOz6KghRj6YUE/d/9bxWZ
