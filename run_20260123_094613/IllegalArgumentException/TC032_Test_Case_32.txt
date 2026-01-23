@@ -1,0 +1,21 @@
+Test Case Name : TC032_Test_Case_32
+Module         : Login
+Timestamp      : 2026-01-20 10:05:21
+Build Number   : Jenkins-Build-514
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : IllegalArgumentException
+Error Message  : IllegalArgumentException while calling GET /api/v1/login/32 -> HTTP 503
+
+Stack Trace
+-----------
+IllegalArgumentException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:136)
+	at com.company.login.Class2.method2(Class2.java:66)
+	at com.company.login.Class3.method3(Class3.java:254)
+
+HTTP Request (b64)
+------------------
+xAOc47zYSvf/ZMFF/8j3AvZFG0sgoBaejl00HOaW+2opuiCnAVFbsjOBWAGZc7pA0BPB5f=rmhAdnVoGAgCF7BIGwlptlNBCQl8a+DHFJhL4iKBWg==wAQ5l0h08m/z1lItKBQUsIfiEeUZ1/4e913Wk6fOrfBX=Sq8xXeHtRddlFDfH5eHv0lTQJTyMXTXEC6/5g99hnaZQUJVnaNt5p94eRBwt
