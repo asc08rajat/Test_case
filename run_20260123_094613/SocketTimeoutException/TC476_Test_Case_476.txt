@@ -1,0 +1,21 @@
+Test Case Name : TC476_Test_Case_476
+Module         : Profile
+Timestamp      : 2026-01-20 10:48:22
+Build Number   : Jenkins-Build-514
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : SocketTimeoutException
+Error Message  : SocketTimeoutException while calling GET /api/v1/profile/476 -> HTTP 500
+
+Stack Trace
+-----------
+SocketTimeoutException: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:47)
+	at com.company.profile.Class2.method2(Class2.java:115)
+	at com.company.profile.Class3.method3(Class3.java:319)
+
+HTTP Request (b64)
+------------------
+Zq6d1fBePbyz0roF3qHSXluxGR8XZob5miJM09ZaZ92GcacGcDGr+YW07dCnmWcj1nX7YO1SKU+KWgA8JwfOJOlwtppWJSfyhIbwuBL3u2H37kmuYrUbwGKgEudGwtd70AchNZu6jVW+dMuf5A=tCPCWd1skPB5sZ8Y3jY/B2hANiM7VCL6NNT+SRhMmr=NfmBpM1Jyx4WE9hKGRwQZjZV5+9mzv
