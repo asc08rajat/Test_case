@@ -1,0 +1,21 @@
+Test Case Name : TC357_Test_Case_357
+Module         : Checkout
+Timestamp      : 2026-01-20 10:45:07
+Build Number   : Jenkins-Build-424
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : TimeoutException
+Error Message  : TimeoutException while calling GET /api/v1/checkout/357 -> HTTP 400
+
+Stack Trace
+-----------
+TimeoutException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:203)
+	at com.company.checkout.Class2.method2(Class2.java:397)
+	at com.company.checkout.Class3.method3(Class3.java:328)
+
+HTTP Request (b64)
+------------------
+lTIbDkqJF8LS6YuAEKP1sccr5KRpoS7LkBM+aj28yDtLfnP987afPX9ZFrcfTNOZ/v5no29oVUqW=BTZiPA8P/8leNrsBcnLf3OBhKkc+49ZdnfaBz9gFNXxqCTGmvyQjmqI9UrTxPKAb74KD8b0UcjBuYo2Hoxj64NIeEASBeK/sGat2nwtZlyDlT+aXTVk7N3G4vr2O+NjFJ90xpvSTxNGh6dZ
