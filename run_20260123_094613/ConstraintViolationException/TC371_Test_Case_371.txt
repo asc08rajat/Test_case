@@ -1,0 +1,21 @@
+Test Case Name : TC371_Test_Case_371
+Module         : Profile
+Timestamp      : 2026-01-20 10:36:53
+Build Number   : Jenkins-Build-469
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : ConstraintViolationException
+Error Message  : ConstraintViolationException while calling GET /api/v1/profile/371 -> HTTP 401
+
+Stack Trace
+-----------
+ConstraintViolationException: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:203)
+	at com.company.profile.Class2.method2(Class2.java:320)
+	at com.company.profile.Class3.method3(Class3.java:128)
+
+HTTP Request (b64)
+------------------
+yHRSfw8=SK+5MtwdYAG/Ne30RtK7yfCNIhL/PHdDBABxLj+jGrl/w=R9bAIwJjPyVgzH2Lm+=kjfRZoru/lHbms37b/0ClhM22f7xwa68HXMTaUuQ+2RrGJ=1XLuDVa5Mx0qr76SXEkv8vRo6RylywNt/1QfNmTcR/L+AEi9EgrZirPy8dU8zCJvvY2ewbMzN5aA7RpBLk5Yuyox=8HaLa5pf2ut
