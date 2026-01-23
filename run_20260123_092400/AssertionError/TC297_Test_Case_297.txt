@@ -1,0 +1,21 @@
+Test Case Name : TC297_Test_Case_297
+Module         : Profile
+Timestamp      : 2026-01-20 10:53:31
+Build Number   : Jenkins-Build-598
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : AssertionError
+Error Message  : AssertionError while calling GET /api/v1/profile/297 -> HTTP 500
+
+Stack Trace
+-----------
+AssertionError: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:407)
+	at com.company.profile.Class2.method2(Class2.java:420)
+	at com.company.profile.Class3.method3(Class3.java:86)
+
+HTTP Request (b64)
+------------------
+QG=Gh8SA8bG36NL=azJZWKMmFnYvGim+9UhG1Frt3vc5Y4TM=uVfu5kSCm14wVlOMICn6a2ZZnkatz/u6HmyopeHLZhNll/9HkSwz1OW3lbPKsNluo3JAlhWjc4r8K2vhIfkImWWXOxViBCheLw0dwwD2d=ArRvF=rGlUocphMRz3uaID/Wgdhxujge+No4PodyhTAY/GAivTM172jtUGW0q249X
