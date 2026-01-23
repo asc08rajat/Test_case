@@ -1,0 +1,21 @@
+Test Case Name : TC392_Test_Case_392
+Module         : Profile
+Timestamp      : 2026-01-20 10:37:27
+Build Number   : Jenkins-Build-567
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : DataIntegrityViolationException
+Error Message  : DataIntegrityViolationException while calling GET /api/v1/profile/392 -> HTTP 500
+
+Stack Trace
+-----------
+DataIntegrityViolationException: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:37)
+	at com.company.profile.Class2.method2(Class2.java:143)
+	at com.company.profile.Class3.method3(Class3.java:98)
+
+HTTP Request (b64)
+------------------
+TJtMYr0LTRtLR6fWCVfHyJFqaNCHRYbtKa5M4ETSx20bM/1SM=nqXBT1Y0951gVt8VuGSs=mmRbEWVy746RrkN=CdKgX2vFp9tFITH9JnDbuWTSFNvEvkuAh1CovPokya0rMXC9UzFjN7IQG7IA8uFfZ=9sQ6DC/UGZo6kDQ/reWO=i4Hq6dhnigVdB9amP66qWyocddVxDw7ZV90l3UuXnngxmj
