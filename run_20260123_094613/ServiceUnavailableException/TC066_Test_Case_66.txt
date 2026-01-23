@@ -1,0 +1,21 @@
+Test Case Name : TC066_Test_Case_66
+Module         : Login
+Timestamp      : 2026-01-20 10:36:52
+Build Number   : Jenkins-Build-549
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : ServiceUnavailableException
+Error Message  : ServiceUnavailableException while calling GET /api/v1/login/66 -> HTTP 400
+
+Stack Trace
+-----------
+ServiceUnavailableException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:469)
+	at com.company.login.Class2.method2(Class2.java:12)
+	at com.company.login.Class3.method3(Class3.java:403)
+
+HTTP Request (b64)
+------------------
+32wmm=fFeorVw2Qb18htYtpHhNbQCnx1PmolswDFtw/pH+hBL6iuQ7TQFGZ0R+XV41K8DlcCoGdyqAtzq788eGr3x=NHqO7jl0XSQgeUQ8SiDu3kZQ/FU/XLIe/g=Gm3=JNA+EmhU0v=3uXhR7qgZlDRSkwAUxw/L/lLAsqUYGHmncBygQQtOaYtAjwhpKSX481fGE0mc1T9VY8=u84RH1xYvVrl
