@@ -1,0 +1,21 @@
+Test Case Name : TC282_Test_Case_282
+Module         : Search
+Timestamp      : 2026-01-20 10:08:20
+Build Number   : Jenkins-Build-507
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : AuthenticationException
+Error Message  : AuthenticationException while calling GET /api/v1/search/282 -> HTTP 503
+
+Stack Trace
+-----------
+AuthenticationException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:332)
+	at com.company.search.Class2.method2(Class2.java:355)
+	at com.company.search.Class3.method3(Class3.java:495)
+
+HTTP Request (b64)
+------------------
+y6tNLdfaJuLgvw+fbbUtnlH6CO=LhyhObzeOx6nrfkq8xXlxcgI02aJXmez6PoSWGX6vzFCWKb548ZNHUcOrPO5MEAxpA0qc7dqVrbpwE/l6z7ehr7D2KeJ1SS//mnzdGqbxtP5HsT78XdudkKxhj47=cu7D=BiPwKFgSXnbIYcfnmv6q1xmA0VCdHglC7uod8eJcvcUAehV47T1l3xOdNhixK0V
