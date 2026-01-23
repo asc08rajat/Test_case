@@ -1,0 +1,21 @@
+Test Case Name : TC118_Test_Case_118
+Module         : Login
+Timestamp      : 2026-01-20 10:36:10
+Build Number   : Jenkins-Build-438
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : NoSuchElementException
+Error Message  : NoSuchElementException while calling GET /api/v1/login/118 -> HTTP 502
+
+Stack Trace
+-----------
+NoSuchElementException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:338)
+	at com.company.login.Class2.method2(Class2.java:231)
+	at com.company.login.Class3.method3(Class3.java:244)
+
+HTTP Request (b64)
+------------------
+YVuJS8pSXlLR9ykFdcwuFTqGM9F8cirXkTe0Ae1p2p0nx1CTxMzClbg+60KmUrYezLdLaAOprlXWI=EEmdd+gvDky4DSGJFaSxUczKtdTL73u1Scw8RKyyqRaqWcBrfbPBgAEOQropFxvXlYaUUj=GbZvhXdPu2=XCzoG=915jmk/U/uFkK8UXI7QvkLxQErnHeIg2C2LwpzrA4D1PtA63iBv1qh
