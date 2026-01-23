@@ -1,0 +1,21 @@
+Test Case Name : TC014_Test_Case_14
+Module         : Login
+Timestamp      : 2026-01-20 10:04:50
+Build Number   : Jenkins-Build-509
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : ServiceUnavailableException
+Error Message  : ServiceUnavailableException while calling GET /api/v1/login/14 -> HTTP 503
+
+Stack Trace
+-----------
+ServiceUnavailableException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:230)
+	at com.company.login.Class2.method2(Class2.java:135)
+	at com.company.login.Class3.method3(Class3.java:453)
+
+HTTP Request (b64)
+------------------
+YJnP=j/3MB024LvHCEwdNq=AT5AEBc19R9wXtWYSw9oEw8tTCv=IbpoDcQm1iIUzo2JoO2Y0lg+659NYRv0jTrM+UJG1h9LTJrFGOIvxNNAa6+Ojd9O1SMIwWG8z0ax5o3euhHTLLrlCfNXbnLx9FGE+kL9l/+N2hBrbJIJG12DrRp/T1CaMVhokYhdXxXgy4xpR+keQAmMcGzhc9JTY+GmdQehW
