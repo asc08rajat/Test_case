@@ -1,0 +1,21 @@
+Test Case Name : TC042_Test_Case_42
+Module         : Payments
+Timestamp      : 2026-01-20 10:59:07
+Build Number   : Jenkins-Build-508
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : AssertionError
+Error Message  : AssertionError while calling GET /api/v1/payments/42 -> HTTP 404
+
+Stack Trace
+-----------
+AssertionError: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:287)
+	at com.company.payments.Class2.method2(Class2.java:439)
+	at com.company.payments.Class3.method3(Class3.java:190)
+
+HTTP Request (b64)
+------------------
+U7/xGJLPXuHXbGO5t7P9o/f4V+W0XF4emWI0dubGXUpFwIERyeBKJPvcXQSmahATwLkqZ02TBWnESlH/XhIwmp0kjQnjDod6MupATVbmzXeYVuk9fMRfZVd+o/xjShcjxf8mG3ETQFIa34FZ0WAH0JeYCbXwxZ4nzEBXJd5FFK8X11v5=5xNY6K4AOfIp7CNob/JBnO/7ENfkD1TcxCeeXkS+1re
