@@ -1,0 +1,21 @@
+Test Case Name : TC330_Test_Case_330
+Module         : Checkout
+Timestamp      : 2026-01-20 10:18:09
+Build Number   : Jenkins-Build-597
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : AuthenticationException
+Error Message  : AuthenticationException while calling GET /api/v1/checkout/330 -> HTTP 403
+
+Stack Trace
+-----------
+AuthenticationException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:493)
+	at com.company.checkout.Class2.method2(Class2.java:362)
+	at com.company.checkout.Class3.method3(Class3.java:21)
+
+HTTP Request (b64)
+------------------
+Ut+4iXZk9P6LPe9gyA6PMkZ+iITAoq8BnYTcI+BJjsRM5F4H8BvepCNa0r6OP8R=2mgMfR+FnP+Yog63q+x4cMLYpT4GQXQpEXhn+LYVChhaF9Q014Ux9oobLDSgx+3Yruj70qCm4lyder+x1mJ+YB67i9Ev+9S=Cn9FiPPd0frtytywYPo9thpS30dlQHIITd9ZHNFagrJPLKAvI=85gV5ligTR
