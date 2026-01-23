@@ -1,0 +1,21 @@
+Test Case Name : TC321_Test_Case_321
+Module         : Search
+Timestamp      : 2026-01-20 10:58:13
+Build Number   : Jenkins-Build-592
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : IOException
+Error Message  : IOException while calling GET /api/v1/search/321 -> HTTP 503
+
+Stack Trace
+-----------
+IOException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:178)
+	at com.company.search.Class2.method2(Class2.java:139)
+	at com.company.search.Class3.method3(Class3.java:34)
+
+HTTP Request (b64)
+------------------
+ZuWHUC=RM1YqIkyoXu52zyGnOf=khwmlik2QHYQr54m6=zqRWXeWFYp6SE=Chr5hm+QvYxxOaiBmPmKBau5eiG84Pjd7W10U93DTcFeiLYz6+gaUVWhlsYfCcz4ONwN48ijHmI1tB9z+djhD3FH5kQjMF5LAKEYirEPGtzMV4ctdf+j2/+03dJel0mtXzKTIhn=jtSq6Rj5nypBHsFiqUiZx8mAH
