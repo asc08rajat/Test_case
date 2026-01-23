@@ -1,0 +1,21 @@
+Test Case Name : TC309_Test_Case_309
+Module         : Checkout
+Timestamp      : 2026-01-20 10:13:47
+Build Number   : Jenkins-Build-474
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : AssertionError
+Error Message  : AssertionError while calling GET /api/v1/checkout/309 -> HTTP 401
+
+Stack Trace
+-----------
+AssertionError: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:196)
+	at com.company.checkout.Class2.method2(Class2.java:100)
+	at com.company.checkout.Class3.method3(Class3.java:221)
+
+HTTP Request (b64)
+------------------
+g9TzrrYy6cKtgaR7TbhSJPSTIlWGQ11HDOaW786zcqW6OzuitFYqAIyjsU7HXIevZHEr6E4hKlB2mjuE8mhHe/736MchE3/0BXw4Et48fcvdfNN17xdT+1ELmkJMPt0hfDbReTpMIkhXlOILffU=dvAwVa6jtOEa5/PprzOMm0mA2RpmDLstb3hWkpNGwdIyrgE62FOSkHmFCK7urn4pyeZRZoNr
