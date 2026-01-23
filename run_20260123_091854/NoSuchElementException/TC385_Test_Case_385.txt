@@ -1,0 +1,21 @@
+Test Case Name : TC385_Test_Case_385
+Module         : Checkout
+Timestamp      : 2026-01-20 10:00:38
+Build Number   : Jenkins-Build-481
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : NoSuchElementException
+Error Message  : NoSuchElementException while calling GET /api/v1/checkout/385 -> HTTP 401
+
+Stack Trace
+-----------
+NoSuchElementException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:122)
+	at com.company.checkout.Class2.method2(Class2.java:147)
+	at com.company.checkout.Class3.method3(Class3.java:391)
+
+HTTP Request (b64)
+------------------
+l0M1=FYwUdka/JLT3ot7+V+pYUQ1Lyymlb4RsMgX2Z=kC2eCmJYBWV51SXPBh/UDwprHSj2X9lNQ=KhaYHOx1r3pyqHH5C8vL2OzlGylX3Oh2D16gRJ6bW5rMQ9lalgQg1YynP9p6sRdWH1wt9=DmO13gHShNEItvXzV=a5Laz=q+ctnma8XDft8UX5IjXJ6iFm1gA9eA/RiZJkEBM22WZY6iDmt
