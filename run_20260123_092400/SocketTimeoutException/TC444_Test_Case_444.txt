@@ -1,0 +1,21 @@
+Test Case Name : TC444_Test_Case_444
+Module         : Login
+Timestamp      : 2026-01-20 10:58:49
+Build Number   : Jenkins-Build-494
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : SocketTimeoutException
+Error Message  : SocketTimeoutException while calling GET /api/v1/login/444 -> HTTP 401
+
+Stack Trace
+-----------
+SocketTimeoutException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:176)
+	at com.company.login.Class2.method2(Class2.java:169)
+	at com.company.login.Class3.method3(Class3.java:84)
+
+HTTP Request (b64)
+------------------
+u7FFsePc39JQan37/TdGLSqzFDNy0ZyYkXJ0NbsB6cVR0029=6JlbF/Gyaxewv5teiGcuxufk+5aEXBax2tj9E5hte8StOjv=/Loi=Ug4D/iDrk29su1wgcIugLt/wg0kljN4wdrutmmvzBINq4Ww57ZUwoHKmFLsxuUYTR6m5kHMwDpLa3CUzkxh2V/9=pKKLjFLLR2Ei4ou2Z/6BlIfVo1Lw/D
