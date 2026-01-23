@@ -1,0 +1,21 @@
+Test Case Name : TC265_Test_Case_265
+Module         : Cart
+Timestamp      : 2026-01-20 10:42:48
+Build Number   : Jenkins-Build-403
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : NullPointerException
+Error Message  : NullPointerException while calling GET /api/v1/cart/265 -> HTTP 500
+
+Stack Trace
+-----------
+NullPointerException: failure in Cart
+	at com.company.cart.Class1.method1(Class1.java:305)
+	at com.company.cart.Class2.method2(Class2.java:29)
+	at com.company.cart.Class3.method3(Class3.java:45)
+
+HTTP Request (b64)
+------------------
+fyo8q2IunQAqjlH1=T3xyjEFHRiMkn0+qBbFBpqQGAP8Ui9=+doGQXUfw0knt71SB=KZd0mYedzKuCuRW1DW=SS=FayJVJVhqMy/m8C/h+FdGzkoqPYBgK53K/UmzP/LtbaDt4Is+FxzTwAb22fZG9yY7U3QeJ8mvjCefo=Pxlt5OiqnX+8a3BU3hNVbNh952QWr/5QR7S=3AeTUg5Ms5=utGRIB
