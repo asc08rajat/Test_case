@@ -1,0 +1,21 @@
+Test Case Name : TC201_Test_Case_201
+Module         : Orders
+Timestamp      : 2026-01-20 10:22:04
+Build Number   : Jenkins-Build-474
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : DuplicateKeyException
+Error Message  : DuplicateKeyException while calling GET /api/v1/orders/201 -> HTTP 504
+
+Stack Trace
+-----------
+DuplicateKeyException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:437)
+	at com.company.orders.Class2.method2(Class2.java:435)
+	at com.company.orders.Class3.method3(Class3.java:222)
+
+HTTP Request (b64)
+------------------
+t8csNtmvVI2IUFtbuQKLjfyO95RrH/tCNM=mYed211x2I6KY5c0gxi+UWF8IZXz=9R/Qys33JBHXjL/tHR=Dh/Z/Skme3Py4i3/6AGfXoqBMToEt27mQh3D7RTYC6hVyoYEkO43jlu75DZ8LoiKZvpOt6zEadbPtakHmevklKAoOh=XCYrkUJLKam/AZl4DVqMC=qfFxERBXNEqZztn/dlsnUEwB
