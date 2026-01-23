@@ -1,0 +1,21 @@
+Test Case Name : TC317_Test_Case_317
+Module         : Login
+Timestamp      : 2026-01-20 10:51:41
+Build Number   : Jenkins-Build-494
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : NoSuchElementException
+Error Message  : NoSuchElementException while calling GET /api/v1/login/317 -> HTTP 403
+
+Stack Trace
+-----------
+NoSuchElementException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:13)
+	at com.company.login.Class2.method2(Class2.java:336)
+	at com.company.login.Class3.method3(Class3.java:162)
+
+HTTP Request (b64)
+------------------
+g38xi8KN8cshnRPHTcGyGFnxe4PTr40JGFX13=miYuBFNZsDN9vsjCT3t5vQAodQHvPKbHBT=I+ur=2FtQ5=zoJWsvZhLDVTa8TPN4XbxnzOgwFPmP7AC8=Fk2Q/favLZHMQg+Ya=BB64YD=IY3BjGDRVDt/u6D7ywFhWwrTiF2CNNDziy3QfppJcBrzI97eKSkQ+djd32iSIPrqzg9wxMWCCACb
