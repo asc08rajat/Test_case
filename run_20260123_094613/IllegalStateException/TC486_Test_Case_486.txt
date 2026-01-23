@@ -1,0 +1,21 @@
+Test Case Name : TC486_Test_Case_486
+Module         : Orders
+Timestamp      : 2026-01-20 10:27:42
+Build Number   : Jenkins-Build-440
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : IllegalStateException
+Error Message  : IllegalStateException while calling GET /api/v1/orders/486 -> HTTP 504
+
+Stack Trace
+-----------
+IllegalStateException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:91)
+	at com.company.orders.Class2.method2(Class2.java:455)
+	at com.company.orders.Class3.method3(Class3.java:230)
+
+HTTP Request (b64)
+------------------
+xlK9k5YKQ4cpX7lT6fXl/SUxWEn4z64zq1S1zBOlhWL0rVJFR=KwyfUgyE6HqaMl7u7wY9oKOTCaiulsc2U8hIZSoPpT/M=dvP0AgZvnO+NHeEfCNZwFmIIDpj4P0mU6dmLaVnl1sORtw0lkR9jU1Peaz3wgRQ9Ph6RrWb5WcIexWuAJPX+ATX20K6dQ3te=LZZKD3USpbVUQBGYdEoXX2YLVNj7
