@@ -1,0 +1,21 @@
+Test Case Name : TC415_Test_Case_415
+Module         : Search
+Timestamp      : 2026-01-20 10:02:09
+Build Number   : Jenkins-Build-540
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : TimeoutException
+Error Message  : TimeoutException while calling GET /api/v1/search/415 -> HTTP 500
+
+Stack Trace
+-----------
+TimeoutException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:75)
+	at com.company.search.Class2.method2(Class2.java:62)
+	at com.company.search.Class3.method3(Class3.java:165)
+
+HTTP Request (b64)
+------------------
+Us/oHBaCnfp5ERlFLQ8qCV33Df2p9UxafbanB/Pk060k67wpIDNSB8U9qMYPWOTHP91dGkJcmjt8liX=io5MOyEYBrh=6DhN=YOiyPzyeJeQUhnUUEXhUoNoe4tzEvce+QmNvdzO9zmfV/6ro/cXCjokVj23Wi5wl5Z+xDbeYp46wodlFLcOTShmww=msQZYf9GTHp68qkLu1NjV+T5oOLx1mNiK
