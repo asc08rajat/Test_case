@@ -1,0 +1,21 @@
+Test Case Name : TC301_Test_Case_301
+Module         : Inventory
+Timestamp      : 2026-01-20 10:33:10
+Build Number   : Jenkins-Build-594
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : ConnectException
+Error Message  : ConnectException while calling GET /api/v1/inventory/301 -> HTTP 401
+
+Stack Trace
+-----------
+ConnectException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:364)
+	at com.company.inventory.Class2.method2(Class2.java:65)
+	at com.company.inventory.Class3.method3(Class3.java:284)
+
+HTTP Request (b64)
+------------------
+0peBmv35u3GtNdU0p05N7xlngUV1Lyh+7xMCuM6Y0TT/Dn08A5HFO7hWMuKuRDczErNpWTGFVOtaadNWhjPU5WWbMh0iZB083NZJwHZGUdZRdPTig4Sq+VEjEOlJphtSWIm6b=lBGX46D+k3dDdiwGNh8CGJpodAGnYG7u0Ijy7=q=XsXVA6kzhjsllSeuQTM8zq2em8RfjwuZJ/yVj2fP7VE2dC
