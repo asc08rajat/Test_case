@@ -1,0 +1,21 @@
+Test Case Name : TC119_Test_Case_119
+Module         : Payments
+Timestamp      : 2026-01-20 10:12:21
+Build Number   : Jenkins-Build-560
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : AuthenticationException
+Error Message  : AuthenticationException while calling GET /api/v1/payments/119 -> HTTP 401
+
+Stack Trace
+-----------
+AuthenticationException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:62)
+	at com.company.payments.Class2.method2(Class2.java:415)
+	at com.company.payments.Class3.method3(Class3.java:170)
+
+HTTP Request (b64)
+------------------
+MnWTG=tsUQOsSayo9lfvLDBA5W0kWqtrRIsgql=I+8WVw0Rcnkyy3lEpvl=jgSK+T=N+j8H0oG70mFo3SOmah+Z4d9sS2CJe4aA+3iDSfV/pWT0UuXmaMlydN5r3ijh/YajJ6Ga1yCoP/fZwRGCbu/99goefQK7tTipYpjDBv61SW6tTIxoLx6reedqZ3Bg1jYM86vyZIOnXX0alpOgMOKg8Rp2w
