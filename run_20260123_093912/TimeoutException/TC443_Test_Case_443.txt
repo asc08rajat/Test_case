@@ -1,0 +1,21 @@
+Test Case Name : TC443_Test_Case_443
+Module         : Orders
+Timestamp      : 2026-01-20 10:54:12
+Build Number   : Jenkins-Build-545
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : TimeoutException
+Error Message  : TimeoutException while calling GET /api/v1/orders/443 -> HTTP 500
+
+Stack Trace
+-----------
+TimeoutException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:395)
+	at com.company.orders.Class2.method2(Class2.java:495)
+	at com.company.orders.Class3.method3(Class3.java:69)
+
+HTTP Request (b64)
+------------------
+FL/olI2JI25rqy+lKyfH9ZUW234VWjubRONzpIxXtK30kVQx9YQ3ceea33UlGYq7HAmCltRs22FuabZBuypcXzUk1cYMTm/pLqo7bCMVDy2lvH=E8fkKRK+BqhOumUlnzug6IQyc9ivLscUlybu22eqSuhf1/iN2bbm16Bjxnz=e/c4HfpSB0sOQ+lAtVuGNd6374Aa7DBUZpKUjlrXTG6jWX8Id
