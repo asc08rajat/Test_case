@@ -1,0 +1,21 @@
+Test Case Name : TC004_Test_Case_4
+Module         : Checkout
+Timestamp      : 2026-01-20 10:32:52
+Build Number   : Jenkins-Build-422
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : HttpResponseException
+Error Message  : HttpResponseException while calling GET /api/v1/checkout/4 -> HTTP 403
+
+Stack Trace
+-----------
+HttpResponseException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:92)
+	at com.company.checkout.Class2.method2(Class2.java:369)
+	at com.company.checkout.Class3.method3(Class3.java:34)
+
+HTTP Request (b64)
+------------------
++Xk=wH/l/tqPjpBhqnX9cDR7FZj4Wku3XNT+Usj8OR5uUqTFypwXXGu4lII2ML1v6FAYEmivky9+wA+DH5k/NwoHfCpCs0LsLg1iXzBPZ/YtP4s/jtRBBobnkQijzvNkLMBOaN=oaesSnJpPrDPGnsYNi5L64oqJ7t3f+aTJNs6LckT7JLiaGVPlcAi=kC2jHdsGlmTfonXF7sd78PQHk/h9Qopt
