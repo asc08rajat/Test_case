@@ -1,0 +1,21 @@
+Test Case Name : TC041_Test_Case_41
+Module         : Checkout
+Timestamp      : 2026-01-20 10:56:28
+Build Number   : Jenkins-Build-464
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : IllegalArgumentException
+Error Message  : IllegalArgumentException while calling GET /api/v1/checkout/41 -> HTTP 504
+
+Stack Trace
+-----------
+IllegalArgumentException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:323)
+	at com.company.checkout.Class2.method2(Class2.java:206)
+	at com.company.checkout.Class3.method3(Class3.java:111)
+
+HTTP Request (b64)
+------------------
+RLhiHLpmGn4VeL5ZEbk/5bWSK/gd/xEJXkOnlGi1lTo7Zsk9l+bLDNQYuQofR/mN01S8Lfu7TAqr3liLTU1da=Z/jKeRe4zg1g56YYn5OiRH1VPbe5nC5Mpj/igDetg8K4kZY0Bm/UXvtSUdiQrIvNDEx7XESqJL5HvF1/OvhwwKt0s7TD9RI=PXgSGu+X/8c+konLKXcHkKrpLWw0R6Cbqt/j6a
