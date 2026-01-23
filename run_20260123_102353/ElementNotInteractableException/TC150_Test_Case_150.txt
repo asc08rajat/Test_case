@@ -1,0 +1,21 @@
+Test Case Name : TC150_Test_Case_150
+Module         : Checkout
+Timestamp      : 2026-01-20 10:05:59
+Build Number   : Jenkins-Build-418
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ElementNotInteractableException
+Error Message  : ElementNotInteractableException while calling GET /api/v1/checkout/150 -> HTTP 404
+
+Stack Trace
+-----------
+ElementNotInteractableException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:68)
+	at com.company.checkout.Class2.method2(Class2.java:158)
+	at com.company.checkout.Class3.method3(Class3.java:234)
+
+HTTP Request (b64)
+------------------
+8NdmbQxrBRBW7T7w4DqBmEo9NVPadX3=tiK36k9aoHqV5mE5Jiv==6c=98cBowZTruni/0JVhhwEeGtXy+3p8y1wEklxEHHqBrpX2S38fkMJvEwZrm7OfVdSUZWnWES0KI=zYFtWQpmFSfRn7rMe=SeGxpaC1sre5RFKW1mNRrrRKxAxSntBTKrfVXddnFDfR0JHjdxpdFvvzlIWDNpkcGZWCgZk
