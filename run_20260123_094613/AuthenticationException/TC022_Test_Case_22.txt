@@ -1,0 +1,21 @@
+Test Case Name : TC022_Test_Case_22
+Module         : Checkout
+Timestamp      : 2026-01-20 10:11:16
+Build Number   : Jenkins-Build-473
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : AuthenticationException
+Error Message  : AuthenticationException while calling GET /api/v1/checkout/22 -> HTTP 504
+
+Stack Trace
+-----------
+AuthenticationException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:443)
+	at com.company.checkout.Class2.method2(Class2.java:358)
+	at com.company.checkout.Class3.method3(Class3.java:459)
+
+HTTP Request (b64)
+------------------
+B7o7CvzWx2EhSIHArCbyCOpdR8ESDty6DaAKVI2/=D0qmS7Nh7t2ZLIwNvYG2ugccfJsy8ej0ZutoBWCpC6n8cgxdA=Monwx6uezVx5v02JAq2t9K7ofpiTzYvIY5I4e6xLEmzJK06Hy13Jhg7n7oq3y3MyEaU9swoxNU8GZRf7+ye=HcHM+U0RUb0VVYeyS6vlCYHoykKwt7LhOtj5LpTfbrci+
