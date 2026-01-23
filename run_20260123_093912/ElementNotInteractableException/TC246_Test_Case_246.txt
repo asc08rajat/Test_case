@@ -1,0 +1,21 @@
+Test Case Name : TC246_Test_Case_246
+Module         : Inventory
+Timestamp      : 2026-01-20 10:38:24
+Build Number   : Jenkins-Build-464
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : ElementNotInteractableException
+Error Message  : ElementNotInteractableException while calling GET /api/v1/inventory/246 -> HTTP 503
+
+Stack Trace
+-----------
+ElementNotInteractableException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:131)
+	at com.company.inventory.Class2.method2(Class2.java:185)
+	at com.company.inventory.Class3.method3(Class3.java:162)
+
+HTTP Request (b64)
+------------------
+SNj83m4mk+YbZdAPHCvzitKYn8Ic2PV5//8U4O6skQEhUrrVoOIp9bDiuG0eX=N92OWmVtO6tCeJjViHVfQMG/c4XGj1MfRjauRIN4c8lFDjjIBeLvv0H3f6lw0INhfR0zQYnsJ6DXUv7rOgcfOi5C0spVTngvsFeZIgxdV7nw19rL+4b0G71+2crBhgGPA014hXQh0PdE=lQyeLCTxCGEHnib=Y
