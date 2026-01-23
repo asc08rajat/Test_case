@@ -1,0 +1,21 @@
+Test Case Name : TC350_Test_Case_350
+Module         : Cart
+Timestamp      : 2026-01-20 10:51:54
+Build Number   : Jenkins-Build-451
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : HttpResponseException
+Error Message  : HttpResponseException while calling GET /api/v1/cart/350 -> HTTP 400
+
+Stack Trace
+-----------
+HttpResponseException: failure in Cart
+	at com.company.cart.Class1.method1(Class1.java:446)
+	at com.company.cart.Class2.method2(Class2.java:111)
+	at com.company.cart.Class3.method3(Class3.java:311)
+
+HTTP Request (b64)
+------------------
+BM=+SbwI/an97eMkoFGeMKVLJfJSDoc2BZb0JEptccJd=t6G2ngRVuXADDo6pmu8OAVLcYGWU8mW6SDBXFDXqjY=zjAjKkTUGzzxV/WmZH=sMuHW34Vs7ZJeYwwUr4txgoG8xWzwAxnUxTNKxxdrxQ5iT7dI4zjPCtBxDRg4kZD3ALmCyh7ZROuMVjXHCtO917xdd9ihi6cxLfpfwzTm8VK+oNob
