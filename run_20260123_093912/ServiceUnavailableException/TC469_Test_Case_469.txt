@@ -1,0 +1,21 @@
+Test Case Name : TC469_Test_Case_469
+Module         : Checkout
+Timestamp      : 2026-01-20 10:56:39
+Build Number   : Jenkins-Build-559
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ServiceUnavailableException
+Error Message  : ServiceUnavailableException while calling GET /api/v1/checkout/469 -> HTTP 503
+
+Stack Trace
+-----------
+ServiceUnavailableException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:449)
+	at com.company.checkout.Class2.method2(Class2.java:66)
+	at com.company.checkout.Class3.method3(Class3.java:38)
+
+HTTP Request (b64)
+------------------
+FTunqnL=ofo5E8v+vEwO8jVO2Z0eBueFtQEetK5nwHlSqfo0MsJ5jMnpHlHgyQs5y0pRzEoFn57UPEmkexAMSIxV7LbnDPHPz2+Ij15XafiU72T6biE3VhM2BlHgrCLu=a70DFu1Wls2856IylXT3OWziNQfqnmQ6TdN8c5Jx1+MLIG5VFd/v8V=+j+1n1JqAi0nqwvNYcOVtXAgStu3ar==W2U4
