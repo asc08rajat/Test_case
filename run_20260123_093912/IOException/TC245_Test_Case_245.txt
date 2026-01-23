@@ -1,0 +1,21 @@
+Test Case Name : TC245_Test_Case_245
+Module         : Payments
+Timestamp      : 2026-01-20 10:15:55
+Build Number   : Jenkins-Build-460
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : IOException
+Error Message  : IOException while calling GET /api/v1/payments/245 -> HTTP 400
+
+Stack Trace
+-----------
+IOException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:444)
+	at com.company.payments.Class2.method2(Class2.java:263)
+	at com.company.payments.Class3.method3(Class3.java:28)
+
+HTTP Request (b64)
+------------------
+7UncolA/e9reGjMlk+=al5qmBdm8spmIIuXQyjRsNfW=X3THWVIaLI+YbhCnPz5JwgAji/py/myzxnZgEnqJkRK56VEkd7QLwvdE865mHwZTh6E6ilyeQ3O4B33udvqvKhawEyaS0KejcGO97f8h6tyJgJv2018LJfmHE8=VuTXxzRj3yL4DAEM1a7ySJVmxOA+gYKbTfKfgwuTWVsmBWB0fC=kt
