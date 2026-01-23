@@ -1,0 +1,21 @@
+Test Case Name : TC164_Test_Case_164
+Module         : Cart
+Timestamp      : 2026-01-20 10:09:47
+Build Number   : Jenkins-Build-551
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : ConcurrentModificationException
+Error Message  : ConcurrentModificationException while calling GET /api/v1/cart/164 -> HTTP 503
+
+Stack Trace
+-----------
+ConcurrentModificationException: failure in Cart
+	at com.company.cart.Class1.method1(Class1.java:304)
+	at com.company.cart.Class2.method2(Class2.java:62)
+	at com.company.cart.Class3.method3(Class3.java:452)
+
+HTTP Request (b64)
+------------------
+PnJyQJWS3OcFkMVylZwD+yFWg=X1s4n4MWK2z=huVkHmyiwQ2mN4945sIgaVDm9sd1selWc0SkDNQmGmQJFMYaBwXrKSaLOFem8PTMJSfOhGMYM6Y4N6C0xRLa3TjDkxGiGSoWyXmCzw/tNJ7Z/p167pLE79NI4bmGaV42LvtfuKgw1NXm22AqT53MGlV+GfAwK3XUy7UTkSus1hn+CO9N0yfF3z
