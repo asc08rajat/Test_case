@@ -1,0 +1,21 @@
+Test Case Name : TC427_Test_Case_427
+Module         : Inventory
+Timestamp      : 2026-01-20 10:13:07
+Build Number   : Jenkins-Build-541
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : AssertionError
+Error Message  : AssertionError while calling GET /api/v1/inventory/427 -> HTTP 502
+
+Stack Trace
+-----------
+AssertionError: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:210)
+	at com.company.inventory.Class2.method2(Class2.java:470)
+	at com.company.inventory.Class3.method3(Class3.java:499)
+
+HTTP Request (b64)
+------------------
+5GcTYT/FC4970BwZLorq7Hve2lzJpyZ3VZQPlZvppq19ibDdvivPYLUGonP9v5OIPA0FNE0nBkQLAq+ud1qwxV=TJTe+pRYa+2sw13f/QA4TCEnUVzkaKaRHo3kkscQbv1t6e7W8/=84QagbLhVc089jYYvWGVUHZFk0YfymveL0ZGejp5uep4K5pQEmbd3NlT9QKtVM3hNpN4YfS9Ayt=/NEKUA
