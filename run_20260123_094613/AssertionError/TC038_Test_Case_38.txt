@@ -1,0 +1,21 @@
+Test Case Name : TC038_Test_Case_38
+Module         : Search
+Timestamp      : 2026-01-20 10:39:28
+Build Number   : Jenkins-Build-528
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : AssertionError
+Error Message  : AssertionError while calling GET /api/v1/search/38 -> HTTP 403
+
+Stack Trace
+-----------
+AssertionError: failure in Search
+	at com.company.search.Class1.method1(Class1.java:275)
+	at com.company.search.Class2.method2(Class2.java:296)
+	at com.company.search.Class3.method3(Class3.java:468)
+
+HTTP Request (b64)
+------------------
+byaHKz6pUvVTD8FgC=hNLhzhr4pHHwUmLSkbv9zU/DdAqPJcYV/hymsGCSIQNs02wV/X5RiAjFkbjjdjMTpg0Hp/GfhxwyjBtOimauqpXUmI117FZ3gPhsvP5Q56ZZb6hu3qAaWtCdI=3PF6+xhndwwsnGr71q8QTEKmG8xzdWHr/s+TtPEsiByKs6405GUg4UhnpfMOUI15kipDFrIrhjXq6b1v
