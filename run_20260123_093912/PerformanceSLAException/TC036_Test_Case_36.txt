@@ -1,0 +1,21 @@
+Test Case Name : TC036_Test_Case_36
+Module         : Orders
+Timestamp      : 2026-01-20 10:20:34
+Build Number   : Jenkins-Build-442
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : PerformanceSLAException
+Error Message  : PerformanceSLAException while calling GET /api/v1/orders/36 -> HTTP 502
+
+Stack Trace
+-----------
+PerformanceSLAException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:161)
+	at com.company.orders.Class2.method2(Class2.java:451)
+	at com.company.orders.Class3.method3(Class3.java:350)
+
+HTTP Request (b64)
+------------------
+l4=7SIPdJ0rGH1DVDBdZmtXkBKNZcTaOITpnm6aI44Dl9mvF2P+bjl3y76Mp9aXdoF8KCjmsU/B4mD2kTeFwf0iRq9XIDL6uY8f8Et41OIZt5Tc1aS4Zp7NGO0pP87lPjI4D+R=Oh0pKjApHAdFX9nPP75mHKEtS96sZc9DgwM3wAtd+btKOnpsjMG=6kn2JC12xAQO3EeG7oybnames5hw2uOgL
