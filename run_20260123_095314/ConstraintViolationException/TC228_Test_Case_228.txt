@@ -1,0 +1,21 @@
+Test Case Name : TC228_Test_Case_228
+Module         : Inventory
+Timestamp      : 2026-01-20 10:22:57
+Build Number   : Jenkins-Build-436
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ConstraintViolationException
+Error Message  : ConstraintViolationException while calling GET /api/v1/inventory/228 -> HTTP 400
+
+Stack Trace
+-----------
+ConstraintViolationException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:190)
+	at com.company.inventory.Class2.method2(Class2.java:101)
+	at com.company.inventory.Class3.method3(Class3.java:30)
+
+HTTP Request (b64)
+------------------
+=Z4xcrBLWgjj9cglYTsxedk5HXrWSxfDHQZBmg1heD/uC+iV7tq/vVB7UVoaDfgPKnTMhQSXrcnaY+VDske77Uj+OoJEiPx1zvfrKWjk4bwQAch6S0BIuf5DQbJY5jiRoWrznPlQbBETEx5xrv5cQWlLlQ5iEMWYxncDwKrQVTzxRUv6Y6nWFjp3cf4fhP+tv5YGzXEJgBgU8=0g4rZ93KwIPesA
