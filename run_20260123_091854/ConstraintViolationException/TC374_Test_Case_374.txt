@@ -1,0 +1,21 @@
+Test Case Name : TC374_Test_Case_374
+Module         : Payments
+Timestamp      : 2026-01-20 10:24:22
+Build Number   : Jenkins-Build-535
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : ConstraintViolationException
+Error Message  : ConstraintViolationException while calling GET /api/v1/payments/374 -> HTTP 401
+
+Stack Trace
+-----------
+ConstraintViolationException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:332)
+	at com.company.payments.Class2.method2(Class2.java:73)
+	at com.company.payments.Class3.method3(Class3.java:251)
+
+HTTP Request (b64)
+------------------
+JbaBYwdrPgY5BIo4RSmk2OMPe9rkI/cql27LwtcpM0Kv6GQaRAQqWEKnafTBAorXjCFu6dlHXTFDp9umoXfAOykSmoGBHel9Ljwc5ETFYqZrdA27RvCFNqxtWy3z49A2cOP4k6ZOF1bts6a8nFqKT4yYdEttKbZ84KtLJuloxusw=7mzc=aNMBGs8w6RHfwZTRpX3wMVXCHC50/NkxJBoA/54TdH
