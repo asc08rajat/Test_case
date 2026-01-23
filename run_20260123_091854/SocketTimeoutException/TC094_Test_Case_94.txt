@@ -1,0 +1,21 @@
+Test Case Name : TC094_Test_Case_94
+Module         : Orders
+Timestamp      : 2026-01-20 10:08:56
+Build Number   : Jenkins-Build-466
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : SocketTimeoutException
+Error Message  : SocketTimeoutException while calling GET /api/v1/orders/94 -> HTTP 404
+
+Stack Trace
+-----------
+SocketTimeoutException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:442)
+	at com.company.orders.Class2.method2(Class2.java:258)
+	at com.company.orders.Class3.method3(Class3.java:355)
+
+HTTP Request (b64)
+------------------
+Q0N4ODINMNyGsH+39QtT9yYyPgR9okTC/81xtCEopZLYcAtic9Lf1sB6Os3SPXzbAVoiMY=TZ4olvRqcKrBzEpldR7kjNNbyoa249Ja2c/x3b9jZN6icKxIBlgnibCbpY84Ds6th3mgGTVFj8onQdV1MLBecy28b5OrAtaUkPbohA0zV/lsfnsl=0fatbZakBWkWJdFfbAbPKptzwIRgER992B+O
