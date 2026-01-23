@@ -1,0 +1,21 @@
+Test Case Name : TC315_Test_Case_315
+Module         : Inventory
+Timestamp      : 2026-01-20 10:49:52
+Build Number   : Jenkins-Build-445
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : ConstraintViolationException
+Error Message  : ConstraintViolationException while calling GET /api/v1/inventory/315 -> HTTP 401
+
+Stack Trace
+-----------
+ConstraintViolationException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:300)
+	at com.company.inventory.Class2.method2(Class2.java:204)
+	at com.company.inventory.Class3.method3(Class3.java:67)
+
+HTTP Request (b64)
+------------------
+Ub2NWDEd6kj4ye5lO+do491mumA2hesb7tbIa2YMzJo7eWn03MyIAw9hXt5yF3VzniocrPPKmaHZt+TI0bvY0QVZFP1I8wTdjsSq6vUuKL7HnXMuFX5W2AYhWebHmrfqW3iMZTG5tbHmMiHqdISecph=XpTn=QamVOLhnbd8OOO0EdGljSq5GpNbf=i7o=AeXiTg+cIp+G4DCFLV3CHkZrIhYNj/
