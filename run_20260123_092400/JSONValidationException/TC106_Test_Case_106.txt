@@ -1,0 +1,21 @@
+Test Case Name : TC106_Test_Case_106
+Module         : Payments
+Timestamp      : 2026-01-20 10:03:50
+Build Number   : Jenkins-Build-482
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : JSONValidationException
+Error Message  : JSONValidationException while calling GET /api/v1/payments/106 -> HTTP 404
+
+Stack Trace
+-----------
+JSONValidationException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:286)
+	at com.company.payments.Class2.method2(Class2.java:309)
+	at com.company.payments.Class3.method3(Class3.java:301)
+
+HTTP Request (b64)
+------------------
+YCmjHPeXLkDMaA+sSq15T0aR3FXOAtOTsJMrn=GXz2LhC4bek5y8vTbe80JhXO=tzHRvCujmx9QvmJe=N/PO9tmnIohMS+fVwN=Yo=BToAulEQ+izX573bH6F4nhJSG6z/hAErF3h399R7DEYcZfWSQCAdz6=OfjtM=9xXthXu0X4agxFXKrcJDYv/RoBYnTYqAXKNO26=GOkVurpPDWAecoF7hr
