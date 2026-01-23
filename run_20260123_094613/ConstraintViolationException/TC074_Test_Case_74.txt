@@ -1,0 +1,21 @@
+Test Case Name : TC074_Test_Case_74
+Module         : Checkout
+Timestamp      : 2026-01-20 10:42:43
+Build Number   : Jenkins-Build-595
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : ConstraintViolationException
+Error Message  : ConstraintViolationException while calling GET /api/v1/checkout/74 -> HTTP 503
+
+Stack Trace
+-----------
+ConstraintViolationException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:301)
+	at com.company.checkout.Class2.method2(Class2.java:277)
+	at com.company.checkout.Class3.method3(Class3.java:347)
+
+HTTP Request (b64)
+------------------
+Fp3G0A+okgG8t8DlYfSTmrKY1rtq8tXplcssowNlxNrG2g/No7UDUkp=GD1nkUZ1sZA=JNnWMUtgP1zKx/4VR03sBWiXBtWfXoUVA1e32nP9tV7Wuv+H2T4zdLMaNhCmU2EO7JWIDglUqro0S2wgclK3soNpLRabRY26O+NGl76CVSS/lD0Wa5yuppTmx6c2bCwp5VsLfSAtp1+8+0cmXKChn7UO
