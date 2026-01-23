@@ -1,0 +1,21 @@
+Test Case Name : TC005_Test_Case_5
+Module         : Shipping
+Timestamp      : 2026-01-20 10:44:46
+Build Number   : Jenkins-Build-506
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : ElementNotInteractableException
+Error Message  : ElementNotInteractableException while calling GET /api/v1/shipping/5 -> HTTP 401
+
+Stack Trace
+-----------
+ElementNotInteractableException: failure in Shipping
+	at com.company.shipping.Class1.method1(Class1.java:141)
+	at com.company.shipping.Class2.method2(Class2.java:475)
+	at com.company.shipping.Class3.method3(Class3.java:354)
+
+HTTP Request (b64)
+------------------
+mjp=5/wlnbQziYrmWo7CKC5/pMpMZ=7=VtLQ3aze1Zh4AZF5i1WGiPMsVg+9AAPHQGhO+RjqNz1VsY115tyPxUs8NojsgqA3f5FfGzUGwTaXyKSzP2MkKl4STrB5SsBWPzI/DRH2i/wL7Nfig2j28LdR7pWg5rgxDQBmw+Qc4c4a=ud+pSoHTRlWYgrVgqo8W5s7YrWRdveeXGWr62O3FY111unY
