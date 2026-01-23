@@ -1,0 +1,21 @@
+Test Case Name : TC252_Test_Case_252
+Module         : Orders
+Timestamp      : 2026-01-20 10:34:19
+Build Number   : Jenkins-Build-512
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : AssertionError
+Error Message  : AssertionError while calling GET /api/v1/orders/252 -> HTTP 401
+
+Stack Trace
+-----------
+AssertionError: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:346)
+	at com.company.orders.Class2.method2(Class2.java:310)
+	at com.company.orders.Class3.method3(Class3.java:483)
+
+HTTP Request (b64)
+------------------
+Oc6nfvQjtqFzUhrW6r1Ck3h5V9CG/N4M8bcwapGKevB/CzyL+gqOy1FmvoOii4ks+Syh8hw8eUyTrve3v6p50X3e/1e+RplvUWfVuJ3LJY/SfzDMgQ7S0JLmOYMQMU3uMLjdK3ZPSiuI5k9=w/lZz7=L3=PeI6n6FKZMj5PdA9PQ+kFxSM0DsHw4+FJUUQLfmoDnh4T0jTl7rnmbbD3J8f/+Yh/z
