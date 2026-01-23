@@ -1,0 +1,21 @@
+Test Case Name : TC356_Test_Case_356
+Module         : Inventory
+Timestamp      : 2026-01-20 10:07:04
+Build Number   : Jenkins-Build-533
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : TimeoutException
+Error Message  : TimeoutException while calling GET /api/v1/inventory/356 -> HTTP 504
+
+Stack Trace
+-----------
+TimeoutException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:452)
+	at com.company.inventory.Class2.method2(Class2.java:131)
+	at com.company.inventory.Class3.method3(Class3.java:361)
+
+HTTP Request (b64)
+------------------
+WejWf/IO6=v5hBcLUSuBiscVDgP69WI23rleOmp=eNa5PvZ+XgeVyJgJDEqGNs71tUsjupi/s0aaWdZVKH7NwIlEUZ5VOT=aBzpoeepTfSGNM34xT7CQ5bN=q4Xso3HPoyUqhwe5g4z7/eqJGX/iun70s6VsOhtYbzG/hgDsaP6wTHKouNEvvAYZTYAKOM3PlpPPZGUnbmSEehd8X3odXNbfj7hb
