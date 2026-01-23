@@ -1,0 +1,21 @@
+Test Case Name : TC047_Test_Case_47
+Module         : Cart
+Timestamp      : 2026-01-20 10:48:29
+Build Number   : Jenkins-Build-569
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : IllegalArgumentException
+Error Message  : IllegalArgumentException while calling GET /api/v1/cart/47 -> HTTP 400
+
+Stack Trace
+-----------
+IllegalArgumentException: failure in Cart
+	at com.company.cart.Class1.method1(Class1.java:198)
+	at com.company.cart.Class2.method2(Class2.java:384)
+	at com.company.cart.Class3.method3(Class3.java:442)
+
+HTTP Request (b64)
+------------------
+XQuU6DA+a4vc2r/iwy3xAAQ2LD9RuDcBEHJlen2+=aw7ENGGOgFwe5B/UYwB+6aVRsA4CxWdBijb12sHJ/jrbD3THFw1aWCnC8BoHsDwo2UKt7/HNiruvdmCmJ4Nt6p9NdxvazwaeqdvmX1HV5MzjP=MsTTSFeVilerL3GL3OPFFcv+bB3jo1TjmT/9ex/TVpuxnMPm3Ce4kLWNMd/YqVZJenNhg
