@@ -1,0 +1,21 @@
+Test Case Name : TC206_Test_Case_206
+Module         : Profile
+Timestamp      : 2026-01-20 10:22:09
+Build Number   : Jenkins-Build-530
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : TimeoutException
+Error Message  : TimeoutException while calling GET /api/v1/profile/206 -> HTTP 504
+
+Stack Trace
+-----------
+TimeoutException: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:113)
+	at com.company.profile.Class2.method2(Class2.java:255)
+	at com.company.profile.Class3.method3(Class3.java:308)
+
+HTTP Request (b64)
+------------------
+/5TYo=qGRIJQldwto0z0u6PAEnP8Dbvg/yDLyW9jIQqGb8RfzSjGAyuyiRIo/Prv3dGG55mFgt2U6Y3sH1NSYgrEQWMzeFGYdUblZxvA4G3JflYZ9JdNaa0cEhP=VPLmiR2w59Znh5M6jMYACODPygMNS2G=t9C6T=faFzhCCqp0epbISTZGDthq25Vyyh1=3TgIU2eURmFTPpgcnJst2h=ELAXq
