@@ -1,0 +1,21 @@
+Test Case Name : TC236_Test_Case_236
+Module         : Profile
+Timestamp      : 2026-01-20 10:16:26
+Build Number   : Jenkins-Build-570
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : RuntimeException
+Error Message  : RuntimeException while calling GET /api/v1/profile/236 -> HTTP 404
+
+Stack Trace
+-----------
+RuntimeException: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:326)
+	at com.company.profile.Class2.method2(Class2.java:34)
+	at com.company.profile.Class3.method3(Class3.java:120)
+
+HTTP Request (b64)
+------------------
+oJcA66PfCbszVL1T7LDO/v=kTLLxv=3amAR0KDhOzgFVai9uzlgu8LDwpNHc9x3vzNdTf2sXjil52gaC05zBLt6lgRmHZpuuXkZOX496uEsh5Ee2CPAccX3uHGzm47WGOi7RA9DQFze6lcFh5bc/yCw1vWM39bj99IbehcWyaLFjDsDCSF4Jrf6lArnWSE74ejvF4kx0qlI=BUqKSIZ7=eCrX4V3
