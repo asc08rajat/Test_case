@@ -1,0 +1,21 @@
+Test Case Name : TC325_Test_Case_325
+Module         : Shipping
+Timestamp      : 2026-01-20 10:13:32
+Build Number   : Jenkins-Build-516
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : IOException
+Error Message  : IOException while calling GET /api/v1/shipping/325 -> HTTP 502
+
+Stack Trace
+-----------
+IOException: failure in Shipping
+	at com.company.shipping.Class1.method1(Class1.java:252)
+	at com.company.shipping.Class2.method2(Class2.java:193)
+	at com.company.shipping.Class3.method3(Class3.java:327)
+
+HTTP Request (b64)
+------------------
+mOmcnZiHpSeMtv4dN4do7G9AYX0u+JpC5d/qRz4dxuY7UXjLKEysbUpJRAcMjKUsF3n1Ct1FEsTuWDRGMmO/WHZGYjajOQYI3BWNX=/S3YQJdEsXlwsAt=yCuFWIUWu3/s/zz74zdyotjYihaYN8iD6WD7kRNgUGQkkhKU=zKb97V5pTPZt2bgu6SgsXGfVt1ZRxfXjioABL2wLTWKE9P/qFufIr
