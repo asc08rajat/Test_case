@@ -1,0 +1,21 @@
+Test Case Name : TC340_Test_Case_340
+Module         : Inventory
+Timestamp      : 2026-01-20 10:08:59
+Build Number   : Jenkins-Build-441
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : DuplicateKeyException
+Error Message  : DuplicateKeyException while calling GET /api/v1/inventory/340 -> HTTP 400
+
+Stack Trace
+-----------
+DuplicateKeyException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:293)
+	at com.company.inventory.Class2.method2(Class2.java:184)
+	at com.company.inventory.Class3.method3(Class3.java:108)
+
+HTTP Request (b64)
+------------------
+RMvYaFD36puSHgGAOp2fBzo0O9wzEMm8/0S6HLdi8fQ4+jd3s7uOmRUNT6rKc0Zd2AaSBRiGxAVpY3SHq8E4LE3elnyNLCGkN9l/oWiwoZjsE5lbotTIPKjr9MLkPh6bCcP2NqLlq+4zcpJrYYaQ+UHnDGNcvT9BV37BpHkA=ayNtcprLomsyO3eaJWDHDqfvOrMR/LLNQF7DuZ1PhtONjZzdsiC
