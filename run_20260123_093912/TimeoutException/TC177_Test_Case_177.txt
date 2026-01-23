@@ -1,0 +1,21 @@
+Test Case Name : TC177_Test_Case_177
+Module         : Notifications
+Timestamp      : 2026-01-20 10:59:16
+Build Number   : Jenkins-Build-525
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : TimeoutException
+Error Message  : TimeoutException while calling GET /api/v1/notifications/177 -> HTTP 400
+
+Stack Trace
+-----------
+TimeoutException: failure in Notifications
+	at com.company.notifications.Class1.method1(Class1.java:329)
+	at com.company.notifications.Class2.method2(Class2.java:135)
+	at com.company.notifications.Class3.method3(Class3.java:395)
+
+HTTP Request (b64)
+------------------
+3JryXe6gCDx3HA6OxXpk0oNhUaNbjjYbdqKOy8KCG7EHy=dJy5Yr=CtsR=snUbUX139h5CIWdPcyI7Ww/OerFZu7XDUxeypwHy7oaWIxHlSMtgOozZ8nVXrP3KEnJd8H9XWh0hNKuFgfINJXuW/0B18IzSqXwS/cQTm2jjV9KlI8vGwA84/Vx7cYcKTsr84UGdCMRYKx9rKr=+A7t3JOf9nkE3=Q
