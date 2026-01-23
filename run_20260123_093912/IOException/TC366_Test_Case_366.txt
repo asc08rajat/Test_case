@@ -1,0 +1,21 @@
+Test Case Name : TC366_Test_Case_366
+Module         : Cart
+Timestamp      : 2026-01-20 10:35:13
+Build Number   : Jenkins-Build-573
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : IOException
+Error Message  : IOException while calling GET /api/v1/cart/366 -> HTTP 504
+
+Stack Trace
+-----------
+IOException: failure in Cart
+	at com.company.cart.Class1.method1(Class1.java:131)
+	at com.company.cart.Class2.method2(Class2.java:124)
+	at com.company.cart.Class3.method3(Class3.java:496)
+
+HTTP Request (b64)
+------------------
+Oi//Tbju5uNcnw0DTgEpQ6GanNdZXPwrPtlhDjvblbTGu0slMhYG9abkF9wbw25jdwiJujBG++qVD7AxFSXmLw8dr2WQoeo3LI8CO/ZcZBrYwa+/uS7E60eMrqBS9oOwi2An7iMDQXmr70+lH1ffNyhsA=ArYIqyf6jPAQTiBSAgGjfSIe0MealSH0H/f/PLr+0DixfnRiVkvR7VnVp02qT0EAyt
