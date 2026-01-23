@@ -1,0 +1,21 @@
+Test Case Name : TC367_Test_Case_367
+Module         : Payments
+Timestamp      : 2026-01-20 10:37:02
+Build Number   : Jenkins-Build-492
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : IllegalArgumentException
+Error Message  : IllegalArgumentException while calling GET /api/v1/payments/367 -> HTTP 403
+
+Stack Trace
+-----------
+IllegalArgumentException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:196)
+	at com.company.payments.Class2.method2(Class2.java:496)
+	at com.company.payments.Class3.method3(Class3.java:147)
+
+HTTP Request (b64)
+------------------
+OqD/Ck09EFnGNlLWJxgmYahD5enR7dwx48H/phe49IgA8F/lMGgX/ntPrKAS5VkJFURDSxfVDKr4kkr8oz2k50PnOzQHm7/0riWPG2hj0POzix/5msiMi7I2hJJJkZBuZgHaXaxoAHvedsV3bB951Ltz6fbZ4m4ZT7a2KxhcJJaDI=yTU3oUtXVw3acfTg8kAgdLQLFRi95sk6zshjOPU6YtU9X1
