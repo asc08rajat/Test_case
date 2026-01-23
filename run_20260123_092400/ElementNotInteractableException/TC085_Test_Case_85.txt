@@ -1,0 +1,21 @@
+Test Case Name : TC085_Test_Case_85
+Module         : Login
+Timestamp      : 2026-01-20 10:43:04
+Build Number   : Jenkins-Build-517
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : ElementNotInteractableException
+Error Message  : ElementNotInteractableException while calling GET /api/v1/login/85 -> HTTP 503
+
+Stack Trace
+-----------
+ElementNotInteractableException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:48)
+	at com.company.login.Class2.method2(Class2.java:485)
+	at com.company.login.Class3.method3(Class3.java:466)
+
+HTTP Request (b64)
+------------------
+g+JA03tr8hmCQ6T0xHM/vUSxl9cHJs=d+f7nsMxXXmX2YeWT+S6AHKEC7g4wSBxv8DmEZzVzTw=RyuRVKQPGG2gbPp8xBASjP4WSlc7w4wE4qY=AebNegqDGouET7P=/voP7/r21ppsquaZM/yVJ+Bxq03ZaPAV/HIbxgtJe7+z5Mj6R+7gAJaTS9DEBXmMIjZbyeR/JB3O/ORo+OueZ75OnvWeJ
