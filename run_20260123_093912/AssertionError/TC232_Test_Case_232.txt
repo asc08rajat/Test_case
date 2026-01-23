@@ -1,0 +1,21 @@
+Test Case Name : TC232_Test_Case_232
+Module         : Profile
+Timestamp      : 2026-01-20 10:14:57
+Build Number   : Jenkins-Build-537
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : AssertionError
+Error Message  : AssertionError while calling GET /api/v1/profile/232 -> HTTP 401
+
+Stack Trace
+-----------
+AssertionError: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:188)
+	at com.company.profile.Class2.method2(Class2.java:242)
+	at com.company.profile.Class3.method3(Class3.java:35)
+
+HTTP Request (b64)
+------------------
+5zOSu6esuXokxszBm99JDSRi=tNE92/CbDOarJG5aGkzxixPXniJaRGvp+j10xkHouLedrkuoFi5JQaT4lkpwldMew/ZHUGPTEAn3kn9l3oeUn/2sMsqqUMib0lC7pnU4rLd1UMdaZu53u8Vm7bJfcr62QRUVS3XsE5B47A/TongMX0b/b0hvQJqDN2aMLC0Imppx0wN98jHIFF9tA2GgI8pyYwt
