@@ -1,0 +1,21 @@
+Test Case Name : TC487_Test_Case_487
+Module         : Orders
+Timestamp      : 2026-01-20 10:34:33
+Build Number   : Jenkins-Build-458
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : HttpResponseException
+Error Message  : HttpResponseException while calling GET /api/v1/orders/487 -> HTTP 404
+
+Stack Trace
+-----------
+HttpResponseException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:353)
+	at com.company.orders.Class2.method2(Class2.java:132)
+	at com.company.orders.Class3.method3(Class3.java:345)
+
+HTTP Request (b64)
+------------------
+43/ITTdH9V13pa5tithkzOH3M7BtEvPR50vjwVJTf7mCWo8p02v/TWZRB+076V2R1gZ=Fb+Xisg3tgsG=sIT13CJjcbNC0nvldJPRFdLT96Gh7LcaObexWCi1CzWw=yH25YCxpyVhjLeoPZaGaIbHne5QWC=LOEnzm9oo5FacXofMfIfJG9SzSiRcxLRH8NUnT=6hVp4=Q5Y8SCuD+b+qE5Q+v=g
