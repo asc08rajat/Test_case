@@ -1,0 +1,21 @@
+Test Case Name : TC217_Test_Case_217
+Module         : Search
+Timestamp      : 2026-01-20 10:52:44
+Build Number   : Jenkins-Build-402
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : IOException
+Error Message  : IOException while calling GET /api/v1/search/217 -> HTTP 502
+
+Stack Trace
+-----------
+IOException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:325)
+	at com.company.search.Class2.method2(Class2.java:394)
+	at com.company.search.Class3.method3(Class3.java:489)
+
+HTTP Request (b64)
+------------------
+KjEJSntq5xL1HcbHv20ADnlDPfUl7irz4nEN2LRY5UJUgca+D8gfdxrCJPjzBeDG5/aBOQ74qxHPafnUAoP6quAO3X7MFzgD2J2KW7hIW8SwmsBxf3yzdz9cQWiURW23fwT8s7j5Uf62+1/F4xtNQDOV=rGFPIW0WR0kPtLT2lyN3T9zu4hmvAKSU1RLV8NsFaa8mWVcuTMcF3Jl7nLYoxW8FXSJ
