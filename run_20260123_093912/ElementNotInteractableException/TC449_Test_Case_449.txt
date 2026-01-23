@@ -1,0 +1,21 @@
+Test Case Name : TC449_Test_Case_449
+Module         : Login
+Timestamp      : 2026-01-20 10:27:52
+Build Number   : Jenkins-Build-573
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ElementNotInteractableException
+Error Message  : ElementNotInteractableException while calling GET /api/v1/login/449 -> HTTP 404
+
+Stack Trace
+-----------
+ElementNotInteractableException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:343)
+	at com.company.login.Class2.method2(Class2.java:382)
+	at com.company.login.Class3.method3(Class3.java:204)
+
+HTTP Request (b64)
+------------------
+vL1TEJALPykuDaz/qjJW6nqlXhnzX9DIVCcqHJ7Y=0faGzDuCaV1o3GhUD6jRsqh1kZDteNqKZgIsF5l/A8V8HKf2TgDSJ/XCCnkkEJBusVYcAygtmpLvq7JehL56jy5AOJyuV17huPhVaznjqOpAEfROming+LWyQi=hSTkRugQDDfQkcHKeWvgdFtJcqMK3pvVPVMU71I9EXTd68ld1ZYWcwAE
