@@ -1,0 +1,21 @@
+Test Case Name : TC120_Test_Case_120
+Module         : Checkout
+Timestamp      : 2026-01-20 10:37:36
+Build Number   : Jenkins-Build-550
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : PerformanceSLAException
+Error Message  : PerformanceSLAException while calling GET /api/v1/checkout/120 -> HTTP 500
+
+Stack Trace
+-----------
+PerformanceSLAException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:315)
+	at com.company.checkout.Class2.method2(Class2.java:231)
+	at com.company.checkout.Class3.method3(Class3.java:362)
+
+HTTP Request (b64)
+------------------
+rF9SK3fZXufKwaN1caDJ/bM8Ry7jvPfY91J9aFbRBNiKcVdlmbjxJmyf+G5fWS7B5+4fFBAElgua/ehMXXPXClM+D1trHV0tTGleuh6EpcriwdRCZ1QDVx9vyatJTU6+6z/nbGk/Q8F3elZ2afBm59CEK4oOzvvSvrbP3aw3nvUZvHq2pECkQ3Zs1Y4moAAWgnbYmpH=rP7a7pl46wzmYBP8ThfF
