@@ -1,0 +1,21 @@
+Test Case Name : TC034_Test_Case_34
+Module         : Search
+Timestamp      : 2026-01-20 10:22:55
+Build Number   : Jenkins-Build-480
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : NullPointerException
+Error Message  : NullPointerException while calling GET /api/v1/search/34 -> HTTP 403
+
+Stack Trace
+-----------
+NullPointerException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:299)
+	at com.company.search.Class2.method2(Class2.java:157)
+	at com.company.search.Class3.method3(Class3.java:44)
+
+HTTP Request (b64)
+------------------
+rdh/nC8EgNxRd19EjhN8gPlxVZCIWMF=42Iia4P4mjfwfs0gCofA6qgpp52LWm14eF4jwf9Azcs1cqLw6AQZ46vFayy00vlvLaQAYlbtw2YWVyCUkZOcsy7PVRH2HZkHavnsX0ht3VqJkWkaa9ALQGQJnkLt=eUoZFDKNTnDdH9togkGA44ppqNbTeKeQT107w1FaLWscjrPCDbpZoTM6NCLdKil
