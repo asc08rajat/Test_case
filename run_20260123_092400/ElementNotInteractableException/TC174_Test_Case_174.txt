@@ -1,0 +1,21 @@
+Test Case Name : TC174_Test_Case_174
+Module         : Shipping
+Timestamp      : 2026-01-20 10:12:23
+Build Number   : Jenkins-Build-554
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : ElementNotInteractableException
+Error Message  : ElementNotInteractableException while calling GET /api/v1/shipping/174 -> HTTP 500
+
+Stack Trace
+-----------
+ElementNotInteractableException: failure in Shipping
+	at com.company.shipping.Class1.method1(Class1.java:400)
+	at com.company.shipping.Class2.method2(Class2.java:269)
+	at com.company.shipping.Class3.method3(Class3.java:169)
+
+HTTP Request (b64)
+------------------
+t=QFJ2kGEP2wM0sr+Y8DCh7zuDvPfPClqHi+8hCNyoZ6=DcwmKV0k/vmgvv7fWV=YpF/GGu1Ck2v15XPGNJkIuuHbrwQ=NSyS=dhKrAN3US4EAdHHzO5BTC=F6SPIF+d25/rPp5YQHT7ggJDXHBI6NRDP7ZrXfmGcvJT6mFvAlxHFiFyUw/bO04npB8wpRajntLLQfARUZiMzNPoVR=2CMwYB+Tz
