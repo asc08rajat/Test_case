@@ -1,0 +1,21 @@
+Test Case Name : TC312_Test_Case_312
+Module         : Search
+Timestamp      : 2026-01-20 10:57:57
+Build Number   : Jenkins-Build-441
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : ServiceUnavailableException
+Error Message  : ServiceUnavailableException while calling GET /api/v1/search/312 -> HTTP 503
+
+Stack Trace
+-----------
+ServiceUnavailableException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:293)
+	at com.company.search.Class2.method2(Class2.java:211)
+	at com.company.search.Class3.method3(Class3.java:74)
+
+HTTP Request (b64)
+------------------
+N1fIAM8=lHnnuMgv0eU9DFcSq35dJN6DTTpBiEUmJ5ijU+e3/YKqn5DwjpSC/jcqnacZAD49M+42wdIAl=12PO1pk6ojJhed3anc5a7vchvKiAZIOuoBr8lBleLCBRcIn24mmXmV3elrEZLbyZxhGndoE2G1Xyv=vpdaKx+8+p/+KdWhc5cOU8ZCYR21clx5e0Q8q/gI7WGYTiwLf8JmhNpsLmG4
