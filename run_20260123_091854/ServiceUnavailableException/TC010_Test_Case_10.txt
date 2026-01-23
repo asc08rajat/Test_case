@@ -1,0 +1,21 @@
+Test Case Name : TC010_Test_Case_10
+Module         : Checkout
+Timestamp      : 2026-01-20 10:50:24
+Build Number   : Jenkins-Build-524
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ServiceUnavailableException
+Error Message  : ServiceUnavailableException while calling GET /api/v1/checkout/10 -> HTTP 401
+
+Stack Trace
+-----------
+ServiceUnavailableException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:302)
+	at com.company.checkout.Class2.method2(Class2.java:148)
+	at com.company.checkout.Class3.method3(Class3.java:204)
+
+HTTP Request (b64)
+------------------
+yacTu9j9E0adCGMvG0OnM9l0kpkcVynV+NtSN2+cUDU/fem6l59kHetuqyk+=E2P8Tr=KtL9pI23ket2VaJpmztg/rDTX6QL3tGkP11F6EttbulEEDcSszW8vXEv83q1OnLbVDLFFXH/NID/NS+2LJ3qIeg=PN=zhm3r5Fl11TAZTYEflT7lCy8G1MxupVKTkCjm0b7XVSNgnBwRda82lcOS436e
