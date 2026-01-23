@@ -1,0 +1,21 @@
+Test Case Name : TC215_Test_Case_215
+Module         : Orders
+Timestamp      : 2026-01-20 10:19:49
+Build Number   : Jenkins-Build-462
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : SocketTimeoutException
+Error Message  : SocketTimeoutException while calling GET /api/v1/orders/215 -> HTTP 502
+
+Stack Trace
+-----------
+SocketTimeoutException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:301)
+	at com.company.orders.Class2.method2(Class2.java:479)
+	at com.company.orders.Class3.method3(Class3.java:145)
+
+HTTP Request (b64)
+------------------
+aq3BtBoA5+VdoDb6KK3BXeurKM5BErEwvmMnRX3RkvOpkwqdDk3CW=B0=ao7navPV9nr/0PPi+eMjkprzgEV9tbEqXg0L/e4yrEDF209OT78/Xasxg0/ktkC8jC+4nKwURwOn5eQKzacmMkV+p45gssMF/kIPV4MHXWg1b=HVMY6/cUxIqFpWUPd2YhAbk4gQwpX6yRyf1LXkmNmDQgGo4gfr8TY
