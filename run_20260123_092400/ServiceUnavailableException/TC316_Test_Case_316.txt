@@ -1,0 +1,21 @@
+Test Case Name : TC316_Test_Case_316
+Module         : Profile
+Timestamp      : 2026-01-20 10:41:43
+Build Number   : Jenkins-Build-553
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : ServiceUnavailableException
+Error Message  : ServiceUnavailableException while calling GET /api/v1/profile/316 -> HTTP 503
+
+Stack Trace
+-----------
+ServiceUnavailableException: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:487)
+	at com.company.profile.Class2.method2(Class2.java:331)
+	at com.company.profile.Class3.method3(Class3.java:301)
+
+HTTP Request (b64)
+------------------
+mav73QMN0HurGaNtw=C7BhoD1fpJzE4ekO10jJGaPMdjCu2gyixhx8gu=kWyPqb=93aX6aT1rqZhJHLJE=r1+X2G52SedVqO4R9nju5VEe8CJNIaGIrNAYWSKZcuu8ynblMZbOnI1pt6mT2IWz5C6c9g6bG=nn6oxFTvrmpwHN5dWnUPJeX8JGM3GrbAfg3BuN9nuuAqucSnjvv+JBk+xwtFY62e
