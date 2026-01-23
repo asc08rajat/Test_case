@@ -1,0 +1,21 @@
+Test Case Name : TC343_Test_Case_343
+Module         : Shipping
+Timestamp      : 2026-01-20 10:36:39
+Build Number   : Jenkins-Build-439
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ConcurrentModificationException
+Error Message  : ConcurrentModificationException while calling GET /api/v1/shipping/343 -> HTTP 503
+
+Stack Trace
+-----------
+ConcurrentModificationException: failure in Shipping
+	at com.company.shipping.Class1.method1(Class1.java:272)
+	at com.company.shipping.Class2.method2(Class2.java:85)
+	at com.company.shipping.Class3.method3(Class3.java:417)
+
+HTTP Request (b64)
+------------------
+EivEnmMOyZ=bxvOy/f4W82B+hPxPdbI5ZilLKkPAtW+cb2HMRdimf4fzpAUsUYbsLFBTtSO9iZh9sO=Bl=AX2gv66kHqt1K9uLUAtS1jITvK=fJh+6modlXBX5sZSobcXKRqjJJs1auj9t+4px8TIL=Yr72SNrWe5vqMFit+7y=YbelDqCRVcjMF2tAI8pOgQDUWsK+PCKW76fYkh+lgyL36dXsJ
