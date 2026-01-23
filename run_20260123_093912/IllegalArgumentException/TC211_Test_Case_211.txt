@@ -1,0 +1,21 @@
+Test Case Name : TC211_Test_Case_211
+Module         : Profile
+Timestamp      : 2026-01-20 10:28:14
+Build Number   : Jenkins-Build-469
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : IllegalArgumentException
+Error Message  : IllegalArgumentException while calling GET /api/v1/profile/211 -> HTTP 403
+
+Stack Trace
+-----------
+IllegalArgumentException: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:197)
+	at com.company.profile.Class2.method2(Class2.java:456)
+	at com.company.profile.Class3.method3(Class3.java:437)
+
+HTTP Request (b64)
+------------------
+cLZrLynyenQTT50=UmgVRMArgdtsiF+vTCKOYF49dyib05IeJliR/rymI2McMkWEUKal9+NznTWNfSI5fyyYm3P10=4pDwgm85CXTS+b84gDCkB4/d+mLZMAd8wl/hUnbJD6y8tWBMJoAxnCGVWtRW=ErGcnaLbNJ/=URC310C8=GBxaa46SlycnEhmb9+lMCa/e=zjlkMNEU3aRoyEf+tmA7eeZ
