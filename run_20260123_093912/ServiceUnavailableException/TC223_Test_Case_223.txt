@@ -1,0 +1,21 @@
+Test Case Name : TC223_Test_Case_223
+Module         : Payments
+Timestamp      : 2026-01-20 10:42:41
+Build Number   : Jenkins-Build-489
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : ServiceUnavailableException
+Error Message  : ServiceUnavailableException while calling GET /api/v1/payments/223 -> HTTP 504
+
+Stack Trace
+-----------
+ServiceUnavailableException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:31)
+	at com.company.payments.Class2.method2(Class2.java:161)
+	at com.company.payments.Class3.method3(Class3.java:317)
+
+HTTP Request (b64)
+------------------
+Nj8TXJu4kYV/oD19gtpyeiueV0yEGaGpP4p4wvucGoKzA5ir7+ioWmVD/tyKZX+fpkyfmx68VngQvN4LhJkxRh6Da=RN=a0bZR6tKqEoPCvFl6RrIEnrTs6DjS3uqm11g3C3GiWfLDhPQpf7JiMsCqJhrplA2E3aSbA8ikZckQfwfg=wMDiYWTIMOt4y=g0ybjM=w1ZSNaxE16zN5TOGYFWeYx7r
