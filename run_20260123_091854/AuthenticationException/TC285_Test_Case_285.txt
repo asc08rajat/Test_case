@@ -1,0 +1,21 @@
+Test Case Name : TC285_Test_Case_285
+Module         : Orders
+Timestamp      : 2026-01-20 10:02:36
+Build Number   : Jenkins-Build-433
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : AuthenticationException
+Error Message  : AuthenticationException while calling GET /api/v1/orders/285 -> HTTP 502
+
+Stack Trace
+-----------
+AuthenticationException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:134)
+	at com.company.orders.Class2.method2(Class2.java:469)
+	at com.company.orders.Class3.method3(Class3.java:70)
+
+HTTP Request (b64)
+------------------
+7Je8bazGACKf=CymuOiavZOy+T7Y=7nwVzmApH0o33aJj95ZDXrnd2l3DRNMUG+nZ7t68TzIWQ3Z7wXVk4sqrI=Bfz/=4pYctVvuiZ/nxBUoIfZkh2kf5U7JZWLLS3vF11zFIt6ygCpscAEAYjX5bHj7kuhDyZmuVsyPlfOk3dhci9aLvv5gweuTdHVa9Uz=3oytx2dhpmxQhYb0UAL0DmF0M7Et
