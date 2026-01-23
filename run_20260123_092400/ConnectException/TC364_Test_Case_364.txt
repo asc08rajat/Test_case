@@ -1,0 +1,21 @@
+Test Case Name : TC364_Test_Case_364
+Module         : Profile
+Timestamp      : 2026-01-20 10:24:46
+Build Number   : Jenkins-Build-408
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : ConnectException
+Error Message  : ConnectException while calling GET /api/v1/profile/364 -> HTTP 400
+
+Stack Trace
+-----------
+ConnectException: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:53)
+	at com.company.profile.Class2.method2(Class2.java:135)
+	at com.company.profile.Class3.method3(Class3.java:115)
+
+HTTP Request (b64)
+------------------
+/k0kW5dNrkZDmrJKIQv/4KEZgx3emjnDVqFBpxnFkkhTyh60F3wmXA8TXC82Rj2eFiGJvlKBCCUZHyoBtTowfGbkKb/bil1RNSqAw4C6KIuXBbYBSYQ57gMZvSk7Fsqk/=TWt4cVIVaXHk0xwWbW0l0K+ysCapM6iApH2rhNtLTzpXTAckBWVRfZneIsyNJdAl996GyTepIJ0487CB7bAK3rc6Kx
