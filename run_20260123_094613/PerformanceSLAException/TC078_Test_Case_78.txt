@@ -1,0 +1,21 @@
+Test Case Name : TC078_Test_Case_78
+Module         : Checkout
+Timestamp      : 2026-01-20 10:54:27
+Build Number   : Jenkins-Build-441
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : PerformanceSLAException
+Error Message  : PerformanceSLAException while calling GET /api/v1/checkout/78 -> HTTP 504
+
+Stack Trace
+-----------
+PerformanceSLAException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:44)
+	at com.company.checkout.Class2.method2(Class2.java:388)
+	at com.company.checkout.Class3.method3(Class3.java:410)
+
+HTTP Request (b64)
+------------------
+RpG2OnyY5DdlD1b7VulvvWQQEvVnJyi=9WY9c4R4bJmc7b4Ab2c9821hH0DL69Zf72omTg2kdKjh6P/oMU6wsFqEZ9NU=+h+cEhiEWgb0zjUvuDCZVp/mP+Kn=V4tu/M=5te=9hAxaKeZ6Zc49K7JWsJlot8WcotVlyRIHUSa0Ovud5lCtwEU1qmMcAXsOJX5MaeGiy3O1qDlBtPZY+6B10QNZ5S
