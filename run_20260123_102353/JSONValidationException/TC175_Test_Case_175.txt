@@ -1,0 +1,21 @@
+Test Case Name : TC175_Test_Case_175
+Module         : Orders
+Timestamp      : 2026-01-20 10:09:26
+Build Number   : Jenkins-Build-555
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : JSONValidationException
+Error Message  : JSONValidationException while calling GET /api/v1/orders/175 -> HTTP 400
+
+Stack Trace
+-----------
+JSONValidationException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:147)
+	at com.company.orders.Class2.method2(Class2.java:39)
+	at com.company.orders.Class3.method3(Class3.java:376)
+
+HTTP Request (b64)
+------------------
+=b2bz2=gatE49DO349LO7bbbPcPEo8SbdVAisr05mIp/LUP9Dto7SvedUohT4fkHVNXAtbK/gDgtUZq2Q=5SEXTmTNmswNKGKNIy6hi49JlhQrbw2ubYq=ue2nkA8g3QtuitU9NDAyZbJzL1JIS5pKfIqmkzH66DCfXajyuZt62mc6P03QW6it/mooMjUaBgcwUM4ob6+H+Vxu+dnm52rEl+elCp
