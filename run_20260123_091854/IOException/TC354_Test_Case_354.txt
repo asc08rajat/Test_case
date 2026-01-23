@@ -1,0 +1,21 @@
+Test Case Name : TC354_Test_Case_354
+Module         : Orders
+Timestamp      : 2026-01-20 10:08:41
+Build Number   : Jenkins-Build-518
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : IOException
+Error Message  : IOException while calling GET /api/v1/orders/354 -> HTTP 404
+
+Stack Trace
+-----------
+IOException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:304)
+	at com.company.orders.Class2.method2(Class2.java:370)
+	at com.company.orders.Class3.method3(Class3.java:162)
+
+HTTP Request (b64)
+------------------
+V2x51SWw5CJ69MQo0Od0k/l3oBqEvWfQADnJaPL/sIhUwc7jYrna=SKx9mEjLpktTO7J6Xpu+6+g=4aq3xDi8wbIunAxO+dhnAUgR=NAr28smSTe8VItBDCGKpR6QRNGPVwzKOtW3nmLumgy/mqnXR+09T/c3xmZJe7VDksR2yTKC44HzKtI7Yj18XAIl//RtsQqfrjGHu/5MzEA4Ch6RRzTnfI=
