@@ -1,0 +1,21 @@
+Test Case Name : TC165_Test_Case_165
+Module         : Profile
+Timestamp      : 2026-01-20 10:26:57
+Build Number   : Jenkins-Build-543
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : TimeoutException
+Error Message  : TimeoutException while calling GET /api/v1/profile/165 -> HTTP 500
+
+Stack Trace
+-----------
+TimeoutException: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:232)
+	at com.company.profile.Class2.method2(Class2.java:226)
+	at com.company.profile.Class3.method3(Class3.java:265)
+
+HTTP Request (b64)
+------------------
+kbe7949TSRf8kuptG0M/v0i8R2r6hO92BISfDFjc8oF5Zl2r4INcnfmaHTxNXI/dbaFEZfp7pj53opD+2anmq5eR8OxQoWhIlTLYBfmL8ghNkAKzzWH7NEMAoUo3io91QyXLV6S+n6BcQ5Iim0vZRbjqjp2v+30AnQ6UzsZiY8t9UqTMOCaoCnrGoz7J1TbqZeQRtpQFqHvzOscc83lR0o3RtEK4
