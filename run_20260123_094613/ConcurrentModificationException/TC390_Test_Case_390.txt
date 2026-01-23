@@ -1,0 +1,21 @@
+Test Case Name : TC390_Test_Case_390
+Module         : Login
+Timestamp      : 2026-01-20 10:09:19
+Build Number   : Jenkins-Build-441
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ConcurrentModificationException
+Error Message  : ConcurrentModificationException while calling GET /api/v1/login/390 -> HTTP 503
+
+Stack Trace
+-----------
+ConcurrentModificationException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:480)
+	at com.company.login.Class2.method2(Class2.java:57)
+	at com.company.login.Class3.method3(Class3.java:470)
+
+HTTP Request (b64)
+------------------
+a1dvzLegVbd3sysP2Txo3ecwdgy4sHwSB=YmY1GrqKeogbNAf8ykiZ=bWsH99EXLh2cqdCpCgC2PCWj=/naCfg0n2JQgdZ7cm3WJMCRQX0pM9ukWTocsy/ZFXQ7mVhuScma2LD4LFzdaElQoR4tk9TbeJLi4PDh4evYyKVIcd3N/Xp2pUQ9nDGb72NtEr2R0dopCir6EisPUDaVodD=fBZmSBzLL
