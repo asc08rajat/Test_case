@@ -1,0 +1,21 @@
+Test Case Name : TC089_Test_Case_89
+Module         : Inventory
+Timestamp      : 2026-01-20 10:54:43
+Build Number   : Jenkins-Build-505
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : ConstraintViolationException
+Error Message  : ConstraintViolationException while calling GET /api/v1/inventory/89 -> HTTP 500
+
+Stack Trace
+-----------
+ConstraintViolationException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:55)
+	at com.company.inventory.Class2.method2(Class2.java:31)
+	at com.company.inventory.Class3.method3(Class3.java:226)
+
+HTTP Request (b64)
+------------------
+fJFG/e6x5Agy2aT2suLh3=dSIUK4vJ/3+SdhK5DCzQFDc4l5us+is1StrGeEBlNvo=PCQqDevFqWPHVSnOUqs6MZUc/ScWuznX/=NM5FHg4vhUnMUkJ1jbEfj6zIvbnRnP8vCGBTvfvGGoB9JWz5nAvv0wutBIeJc5TRq4WdLVJ8=bwNcr6WBfPOlplg/+stwkT/uREmEt94Mtm/Suy5szhGwASY
