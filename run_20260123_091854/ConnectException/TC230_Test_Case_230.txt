@@ -1,0 +1,21 @@
+Test Case Name : TC230_Test_Case_230
+Module         : Orders
+Timestamp      : 2026-01-20 10:25:25
+Build Number   : Jenkins-Build-579
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : ConnectException
+Error Message  : ConnectException while calling GET /api/v1/orders/230 -> HTTP 504
+
+Stack Trace
+-----------
+ConnectException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:12)
+	at com.company.orders.Class2.method2(Class2.java:323)
+	at com.company.orders.Class3.method3(Class3.java:457)
+
+HTTP Request (b64)
+------------------
+9j5k=IDB/MF6T9PB0wFPiVw1=wzVZvq/VnBnMbiyttm7OLnvjJ58JevHUIwBhyhyGFsKo0rI1JP/DSZ68HKUXU=YhdLB3U8UG0Vp2Wwv+if/dnhJQTTPs3+HzacwQOLFHYRAPlXIGyweC3lyP668yFJLdwCG6lUTCEbdT8DVDaaeMV2qa9RbNADiqPjRuUb+k98l30UFT7HTAnOC8t+8ukYk41s7
