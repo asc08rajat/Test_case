@@ -1,0 +1,21 @@
+Test Case Name : TC337_Test_Case_337
+Module         : Inventory
+Timestamp      : 2026-01-20 10:57:58
+Build Number   : Jenkins-Build-496
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : IOException
+Error Message  : IOException while calling GET /api/v1/inventory/337 -> HTTP 503
+
+Stack Trace
+-----------
+IOException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:281)
+	at com.company.inventory.Class2.method2(Class2.java:36)
+	at com.company.inventory.Class3.method3(Class3.java:317)
+
+HTTP Request (b64)
+------------------
+eYPw9ptksA1dfckKK6aPzv88If4FcURufC2A4avUNkoNqYd2t/mInSDExcuq9WAIs7kMOFrXKtTDw7fLgo1PoXEctS+ATyPL04L5mW/3Qt0aNcMj00IPt26bAarX15=zb0RhfMf9FuAFLUVSQM5RmqqHbBNw=R60+Sczjz4VLed1QhF2lUUVRKbN08jp1yq3uoH0HRM7VgvykyIoSk3j0hvxMb5F
