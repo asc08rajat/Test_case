@@ -1,0 +1,21 @@
+Test Case Name : TC073_Test_Case_73
+Module         : Payments
+Timestamp      : 2026-01-20 10:45:41
+Build Number   : Jenkins-Build-515
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : IOException
+Error Message  : IOException while calling GET /api/v1/payments/73 -> HTTP 401
+
+Stack Trace
+-----------
+IOException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:288)
+	at com.company.payments.Class2.method2(Class2.java:299)
+	at com.company.payments.Class3.method3(Class3.java:365)
+
+HTTP Request (b64)
+------------------
+Rjly9ozhwGcWOwYF4wVrbAc8LGflyjqwsqOto55kVqvQNdaYb21Pb=abHm0pc+sPbCyNSjyEBF78j1G0tW6Bf0b7gjlIi0qfWv3WJ0uo6P/tvLgP8/WwXQmSBoznmRxNGAUSND3quvdWx0yrZ3ZiGEB59JnZ=PTyJM9OGHF44yG4Lvt7yZaOcPIhJCeSn9ZkGQsooqOQgVL1CyCx2PrJSsY/6pp4
