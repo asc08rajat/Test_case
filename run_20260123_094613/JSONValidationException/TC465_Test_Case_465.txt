@@ -1,0 +1,21 @@
+Test Case Name : TC465_Test_Case_465
+Module         : Inventory
+Timestamp      : 2026-01-20 10:10:31
+Build Number   : Jenkins-Build-598
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : JSONValidationException
+Error Message  : JSONValidationException while calling GET /api/v1/inventory/465 -> HTTP 500
+
+Stack Trace
+-----------
+JSONValidationException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:496)
+	at com.company.inventory.Class2.method2(Class2.java:276)
+	at com.company.inventory.Class3.method3(Class3.java:500)
+
+HTTP Request (b64)
+------------------
+B+yKIv2QrKf90hTabpXAgj3ywVME/yG/vdoLBWa+ZFjbvfJO17NiWNKjeJNW0jjuxQ9hB+PeYzhLZyRAhxcNsOvkGvPfhfEoTJHOTyhvcYgGhO3OIPRxoKT5xZ49U+vSM7IpOQf=lVN/mk5wCEGsstOa9Ux+a0ZKcjfnhhnPMHYReFfyQHWkiKj7q+W+x0N97jKkCBPjiIlgP=aK=bH4nt1beEiW
