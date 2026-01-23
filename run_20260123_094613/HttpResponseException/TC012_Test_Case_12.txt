@@ -1,0 +1,21 @@
+Test Case Name : TC012_Test_Case_12
+Module         : Shipping
+Timestamp      : 2026-01-20 10:17:00
+Build Number   : Jenkins-Build-533
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : HttpResponseException
+Error Message  : HttpResponseException while calling GET /api/v1/shipping/12 -> HTTP 503
+
+Stack Trace
+-----------
+HttpResponseException: failure in Shipping
+	at com.company.shipping.Class1.method1(Class1.java:222)
+	at com.company.shipping.Class2.method2(Class2.java:48)
+	at com.company.shipping.Class3.method3(Class3.java:103)
+
+HTTP Request (b64)
+------------------
+SjVHtVOIO6abjSKIYHKlLbg1yFhRUMkW0WmDNa8KZbzhklYifn5vHVCS3rA7a7tilmRVqP/rOGl4T2+xygh/PaJ3OTIh05IuhVWTcaIL9IwwDchbIqLqtdbTq+uf1Sjc4Fs=3b5ROTSCpRBirLeK8Pg1/wDc2RPvE+BailZ95sjCObW3/6htH6TcJCvTiOeDGMAII2pQvYEvL=bW0Udry2wGJUfN
