@@ -1,0 +1,21 @@
+Test Case Name : TC416_Test_Case_416
+Module         : Orders
+Timestamp      : 2026-01-20 10:34:31
+Build Number   : Jenkins-Build-597
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : DataIntegrityViolationException
+Error Message  : DataIntegrityViolationException while calling GET /api/v1/orders/416 -> HTTP 500
+
+Stack Trace
+-----------
+DataIntegrityViolationException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:111)
+	at com.company.orders.Class2.method2(Class2.java:307)
+	at com.company.orders.Class3.method3(Class3.java:159)
+
+HTTP Request (b64)
+------------------
+bck3OUFdkCSVkQSXmMig+ET/jYfVqGKzNLdq+fAhx4VsXmmCBxOguiaNuqG63mBKvlWSqGsriin5+Hnoh1TWASlfZMvsMSDaOZG8Z8T35UTRDHGd79iYNOD28q5Ol7g3/gpVU78fS+Ahzmm3nl0GccccQ0bR/yDeAs=Yic8K4/RrM9+CqqcvSq4sZ/iDIm8v7K=5vowZquzLrv4e=tXyfT9fpFu5
