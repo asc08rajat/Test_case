@@ -1,0 +1,21 @@
+Test Case Name : TC243_Test_Case_243
+Module         : Search
+Timestamp      : 2026-01-20 10:59:21
+Build Number   : Jenkins-Build-554
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ServiceUnavailableException
+Error Message  : ServiceUnavailableException while calling GET /api/v1/search/243 -> HTTP 403
+
+Stack Trace
+-----------
+ServiceUnavailableException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:316)
+	at com.company.search.Class2.method2(Class2.java:491)
+	at com.company.search.Class3.method3(Class3.java:195)
+
+HTTP Request (b64)
+------------------
+cOaIl1CoT1ZSY+wel/reUg9TglUSvdOqKygr9qQuIfVMm97x86l3qe1k/fB+UPdPqM9mjyCKK5FecAdCt770aosTx1ILfT31EwyDlblXGSoEM9jwqv9TkL=oz8w8LcoR5+GDV86Ev0G=2ybMB=ktYvJyyj61a3eo5/C8zsHzK3OQatTkd6tIxAXljivaG3vKtLsHep9dMQyGghEA+jYXppHBlF8t
