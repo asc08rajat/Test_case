@@ -1,0 +1,21 @@
+Test Case Name : TC067_Test_Case_67
+Module         : Payments
+Timestamp      : 2026-01-20 10:03:49
+Build Number   : Jenkins-Build-465
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : HttpResponseException
+Error Message  : HttpResponseException while calling GET /api/v1/payments/67 -> HTTP 504
+
+Stack Trace
+-----------
+HttpResponseException: failure in Payments
+	at com.company.payments.Class1.method1(Class1.java:131)
+	at com.company.payments.Class2.method2(Class2.java:199)
+	at com.company.payments.Class3.method3(Class3.java:95)
+
+HTTP Request (b64)
+------------------
+NgWupBV3YRcdN0P/0QwxQStOqqS1BDGv=4tsXee7pvab4QQeZB7w9me9wqo7oAh9G2=8wfKjwKX+jex3k4R+sEI2jNyRzZ/mnBBiF2us+QE73MHCWj0kQ+Qj/qoCGhIeBSTu/Ng/RKFZVCf2HCDhZ72=aCuQQDook08bPZSWEyC3=P/YYLKIVxXfjY6CLAazTDmNoVMQk0vBFfXusx5k8ctrMarW
