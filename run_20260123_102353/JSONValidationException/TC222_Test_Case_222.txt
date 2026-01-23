@@ -1,0 +1,21 @@
+Test Case Name : TC222_Test_Case_222
+Module         : Cart
+Timestamp      : 2026-01-20 10:04:54
+Build Number   : Jenkins-Build-499
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : JSONValidationException
+Error Message  : JSONValidationException while calling GET /api/v1/cart/222 -> HTTP 403
+
+Stack Trace
+-----------
+JSONValidationException: failure in Cart
+	at com.company.cart.Class1.method1(Class1.java:241)
+	at com.company.cart.Class2.method2(Class2.java:310)
+	at com.company.cart.Class3.method3(Class3.java:176)
+
+HTTP Request (b64)
+------------------
+5X==yrfuV7ZEqdu86l5xhsEB4BgeuK2nVRWrQ2qqd97EYinf0D+fFRKZAbwPQ9hOv39/uK2vbd3CRmX=tj8PWiO0BO/R5xvqAn0yi31iOwTa0LEemXdONg5eeycllAOX1jd7WU/IYI6RcCqGZFjOoaEfbABAQTvu3PGeADblYQ6nc3xHgKi6N6fyM5fZriy1l4vyrsGXRuHqNrTYKBZtKgailFkb
