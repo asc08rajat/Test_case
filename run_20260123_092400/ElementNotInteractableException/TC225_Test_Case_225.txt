@@ -1,0 +1,21 @@
+Test Case Name : TC225_Test_Case_225
+Module         : Shipping
+Timestamp      : 2026-01-20 10:52:09
+Build Number   : Jenkins-Build-432
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ElementNotInteractableException
+Error Message  : ElementNotInteractableException while calling GET /api/v1/shipping/225 -> HTTP 503
+
+Stack Trace
+-----------
+ElementNotInteractableException: failure in Shipping
+	at com.company.shipping.Class1.method1(Class1.java:48)
+	at com.company.shipping.Class2.method2(Class2.java:95)
+	at com.company.shipping.Class3.method3(Class3.java:471)
+
+HTTP Request (b64)
+------------------
+xdIGg6u3SjwOoukPvApyZV=M7EDwZg93/qRvbzgXXXwpTJmsOU5/W8FZgdpen5uqNy/V/=8M+ljkIXUhGiHQrXGWVEmngsdYgVXuJxjnliSyTUXeAM4vrd5kfAZ69X4XE7EWwN7Hry2TN9MPoTPaT=lwCoD+EGytFz=9tC/zBWGRP4B4Ti6o8CZq7ZQeC8P6J4hOjLYcTT0Vk4bZc14n0fpCxCe7
