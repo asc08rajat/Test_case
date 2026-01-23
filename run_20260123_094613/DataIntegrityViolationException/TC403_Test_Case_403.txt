@@ -1,0 +1,21 @@
+Test Case Name : TC403_Test_Case_403
+Module         : Profile
+Timestamp      : 2026-01-20 10:29:00
+Build Number   : Jenkins-Build-497
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : DataIntegrityViolationException
+Error Message  : DataIntegrityViolationException while calling GET /api/v1/profile/403 -> HTTP 401
+
+Stack Trace
+-----------
+DataIntegrityViolationException: failure in Profile
+	at com.company.profile.Class1.method1(Class1.java:201)
+	at com.company.profile.Class2.method2(Class2.java:186)
+	at com.company.profile.Class3.method3(Class3.java:418)
+
+HTTP Request (b64)
+------------------
+EamB+L/g9NVszvUNmUnowTX3F/++XgmWwml9ArDX08irnZyjASRY+ZLlR4ePYyE5oWu=TtHn4vB9ZMwydE52NWNjkt1BHHuOk9O=BU8EgilH2a/k9KPFVPKTNLUZEAmtpy5pg6sJmslRnsSOzAZkLmU6sFByOm=+se4VZ2mG9mcVZ9YfMHdG1XmTigSeqsZ5fX6utxOQlf1tIBt3IQkpWN4rAO8a
