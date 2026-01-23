@@ -1,0 +1,21 @@
+Test Case Name : TC185_Test_Case_185
+Module         : Inventory
+Timestamp      : 2026-01-20 10:15:26
+Build Number   : Jenkins-Build-470
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : PerformanceSLAException
+Error Message  : PerformanceSLAException while calling GET /api/v1/inventory/185 -> HTTP 401
+
+Stack Trace
+-----------
+PerformanceSLAException: failure in Inventory
+	at com.company.inventory.Class1.method1(Class1.java:57)
+	at com.company.inventory.Class2.method2(Class2.java:290)
+	at com.company.inventory.Class3.method3(Class3.java:487)
+
+HTTP Request (b64)
+------------------
+QXmzmEPcAnSF=ZCW0=5QyXwh1g9k9s3gCEA5rzy2x6VbWGnsd40tsyJA58Xqwqa0nhwC0hbHNIQKo8Q5I86soODvIMiUDdekBZAUd5zZ/p85cXsGWZ8U7zmuay=n0siZPLKmS97AKoBCkIyfFUL=gdt6xLwvLVlhZXJLJA0D=WcPpGXfaF2IbdV0XlkGsNc4kleu1=nhqGficWWh0/8eD3qhAdnb
