@@ -1,0 +1,21 @@
+Test Case Name : TC126_Test_Case_126
+Module         : Orders
+Timestamp      : 2026-01-20 10:13:58
+Build Number   : Jenkins-Build-519
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ServiceUnavailableException
+Error Message  : ServiceUnavailableException while calling GET /api/v1/orders/126 -> HTTP 404
+
+Stack Trace
+-----------
+ServiceUnavailableException: failure in Orders
+	at com.company.orders.Class1.method1(Class1.java:120)
+	at com.company.orders.Class2.method2(Class2.java:187)
+	at com.company.orders.Class3.method3(Class3.java:471)
+
+HTTP Request (b64)
+------------------
+IBu0r+knJ9YUtxNIVetH0stOMfq7WJtQnPyaObdr34mspywDgCfRtz/fFsvZru5sfsEphP7t5DLQqubrGdmPPTmA5W8gRwgPdfxNWvrW8UReac0ZQD8AbspeshpEr2UpvCOSJEvLEM6lWM9i7AhyBcvvRt4Q7dISvam03eA3eMnlPaguGbchFlbeOW/xZ53cgpxfPlahMlY+3HQLI/cEqPUIToa5
