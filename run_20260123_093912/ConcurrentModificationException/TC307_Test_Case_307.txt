@@ -1,0 +1,21 @@
+Test Case Name : TC307_Test_Case_307
+Module         : Search
+Timestamp      : 2026-01-20 10:28:36
+Build Number   : Jenkins-Build-548
+Environment    : STAGE
+
+Failure Details
+----------------
+Exception Type : ConcurrentModificationException
+Error Message  : ConcurrentModificationException while calling GET /api/v1/search/307 -> HTTP 502
+
+Stack Trace
+-----------
+ConcurrentModificationException: failure in Search
+	at com.company.search.Class1.method1(Class1.java:190)
+	at com.company.search.Class2.method2(Class2.java:235)
+	at com.company.search.Class3.method3(Class3.java:46)
+
+HTTP Request (b64)
+------------------
+lSwV8KUdPZp36WvAfV3difNpWwKKbJGSiXgK42nn2SjDDUiTipxmbPU2vjTrhQdF0ncmxfyGkXpltxYWchZt/Y7UdWqKnZNa9mPSDheyOC1ajne9GHgSrtEVqYABJnmG=M5KO1UszAHfB83wxDDS7Z+eVyfYra3f5pNoC8Qb7NXyVWthlVK30EhQVurSJXg0Ps+jQ7TPAbfUmdKL3L7jtmh6nrYC
