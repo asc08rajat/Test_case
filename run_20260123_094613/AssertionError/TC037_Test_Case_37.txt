@@ -1,0 +1,21 @@
+Test Case Name : TC037_Test_Case_37
+Module         : Login
+Timestamp      : 2026-01-20 10:23:52
+Build Number   : Jenkins-Build-481
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : AssertionError
+Error Message  : AssertionError while calling GET /api/v1/login/37 -> HTTP 401
+
+Stack Trace
+-----------
+AssertionError: failure in Login
+	at com.company.login.Class1.method1(Class1.java:250)
+	at com.company.login.Class2.method2(Class2.java:24)
+	at com.company.login.Class3.method3(Class3.java:118)
+
+HTTP Request (b64)
+------------------
+YCC=7+ADRHEqGwHb+MkmdkfQp3iQsjQmhrI3NF8KLwfHOlGNMcPePe4Dp2ib71WBBfAp617gpZrWfMRUFpa3cl5GV0UeRcLE7meRPijHjtLIlFYR8iImXMusbPzzeqdcz3eKqoMpy45qPnEthk/5IlHkOOyJsFRJDDQgQPB0T5sYHgBTgfXsiohtwf5T30v5U2SB11MN9Rr88aNx9fpIUKNq2PR6
