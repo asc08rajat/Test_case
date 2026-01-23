@@ -1,0 +1,21 @@
+Test Case Name : TC400_Test_Case_400
+Module         : Login
+Timestamp      : 2026-01-20 10:00:45
+Build Number   : Jenkins-Build-561
+Environment    : QA
+
+Failure Details
+----------------
+Exception Type : HttpResponseException
+Error Message  : HttpResponseException while calling GET /api/v1/login/400 -> HTTP 500
+
+Stack Trace
+-----------
+HttpResponseException: failure in Login
+	at com.company.login.Class1.method1(Class1.java:327)
+	at com.company.login.Class2.method2(Class2.java:338)
+	at com.company.login.Class3.method3(Class3.java:281)
+
+HTTP Request (b64)
+------------------
+rD5Y=Soq1Ubm=8yf9g24YJp+6fSNf+MUKW2fmAvj4K6Hkt=w925mn+gyxkcP0vyOcCJJ2KHv9RvQMsOu=yboNKqXe=SLfUWUl46SHQwS7iDLheYwhE505xNqYDaC4zqIZr/zuaeacv//X45fYgmSthE=9svT3PuhJYKzegMsRZhSJvie4aLcPM4Sl3=iz0KDpPiCTUk/U6UfLuFqCTThPJsalcb7
