@@ -1,0 +1,21 @@
+Test Case Name : TC092_Test_Case_92
+Module         : Checkout
+Timestamp      : 2026-01-20 10:11:42
+Build Number   : Jenkins-Build-410
+Environment    : DEV
+
+Failure Details
+----------------
+Exception Type : ConstraintViolationException
+Error Message  : ConstraintViolationException while calling GET /api/v1/checkout/92 -> HTTP 500
+
+Stack Trace
+-----------
+ConstraintViolationException: failure in Checkout
+	at com.company.checkout.Class1.method1(Class1.java:150)
+	at com.company.checkout.Class2.method2(Class2.java:452)
+	at com.company.checkout.Class3.method3(Class3.java:325)
+
+HTTP Request (b64)
+------------------
+n2Qqyth4WGZhGSHr+Y2/nGVScieUnhu4NsnedQUonosAv+QctfTBKk2C8dOGsQXOl4DFEL50rGuEj4eaOz6igZTuNaRfMX2rbNadvzzHitR3w92InvAbrteck0pzOvmnM6Jr8LQNesP/7dFV8NM/IxjJusapL/Z093ipWcPlUnisHaV7NDdbb90CYV1mVikyfNrx9a2kBelVMkTJ3xD4iAmgdY+d
